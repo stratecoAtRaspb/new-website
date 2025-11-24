@@ -1,0 +1,72 @@
+{
+  "$schema": "https://inlang.com/schema/inlang-message-format",
+  "navigation": {
+    "home": {
+      "self": "Start"
+    },
+    "expertise": {
+      "self": "Expertise",
+      "capabilities": "Capabilities",
+      "clientSegments": "Client Segments",
+      "strategy": "Strategy",
+      "processes": "Processes",
+      "implementation": "Implementation",
+      "people": "People",
+      "technology": "Technology",
+      "financialInstitution": "Financial Institution",
+      "pharmaAndHealthcare": "Pharma & Healthcare",
+      "telecomsMediaAndHighTech": "Telecoms, Media & High-Tech",
+      "travelTransportAndLogistics": "Travel, Transport & Logistics",
+      "other": "Other"
+    },
+    "topics": {
+      "self": "Topics",
+      "aos": "Alignment of Organization to Strategy (AOS)",
+      "financeAndControlling": "Finance & Controlling",
+      "tas": "Transactions Advisory Services (TAS)",
+      "ras": "Risk Advisory Services (RAS)",
+      "cea": "Customer Experience Analytics (CEA)",
+      "marketing": "Marketing"
+    },
+    "blog": {
+      "self": "Blog"
+    },
+    "about": {
+      "self": "About us",
+      "management": "Management",
+      "team": "Team",
+      "customers": "Customers",
+      "partner": "Partners",
+      "career": "Career"
+    },
+    "contact": {
+      "self": "Contact"
+    },
+    "legal": {
+      "self": "Legal Notice"
+    },
+    "privacy": {
+      "self": "Privacy"
+    }
+  },
+  "expertise": {
+    "title": "Our expertise"
+  },
+  "topics": {
+    "title": "Topics",
+    "description": "Our solutions portfolio and our current themes are constantly in motion for you. You can learn more about our firm by looking at our current Topics-Setting. We would be pleased to discuss how these topics relate to your challenges!"
+  },
+  "about": {
+    "title": "About us",
+    "description": "Over the years, the right combination of competence and passion that is what has enabled STRATECO to succeed. Just give us a try. See for yourself!"
+  },
+  "contact": {
+    "title": "Contact"
+  },
+  "legal": {
+    "title": "Legal Notice"
+  },
+  "privacy": {
+    "title": "Privacy"
+  }
+}

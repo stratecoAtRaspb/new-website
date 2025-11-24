@@ -1,0 +1,72 @@
+{
+  "$schema": "https://inlang.com/schema/inlang-message-format",
+  "navigation": {
+    "home": {
+      "self": "Start"
+    },
+    "expertise": {
+      "self": "Kompetenzen",
+      "capabilities": "Nach Kategorie",
+      "clientSegments": "Nach Branchen",
+      "strategy": "Strategie",
+      "processes": "Prozesse",
+      "implementation": "Implementierung",
+      "people": "Menschen",
+      "technology": "Technologie",
+      "financialInstitution": "Financial Institution",
+      "pharmaAndHealthcare": "Pharma & Healthcare",
+      "telecomsMediaAndHighTech": "Telecoms, Media & High-Tech",
+      "travelTransportAndLogistics": "Travel, Transport & Logistics",
+      "other": "Sonstige"
+    },
+    "topics": {
+      "self": "Themen",
+      "aos": "Alignment of Organization to Strategy (AOS)",
+      "financeAndControlling": "Finance & Controlling",
+      "tas": "Transactions Advisory Services (TAS)",
+      "ras": "Risk Advisory Services (RAS)",
+      "cea": "Customer Experience Analytics (CEA)",
+      "marketing": "Marketing"
+    },
+    "blog": {
+      "self": "Blog"
+    },
+    "about": {
+      "self": "Über uns",
+      "management": "Management",
+      "team": "Team",
+      "customers": "Kunden",
+      "partner": "Partner",
+      "career": "Karriere"
+    },
+    "contact": {
+      "self": "Kontakt"
+    },
+    "legal": {
+      "self": "Impressum"
+    },
+    "privacy": {
+      "self": "Datenschutz"
+    }
+  },
+  "expertise": {
+    "title": "Unsere Kompetenz"
+  },
+  "topics": {
+    "title": "Themen",
+    "description": "Unser Lösungsportfolio und unsere aktuellen Themen sind ständig in Bewegung für Sie. Lernen Sie unser Unternehmen besser kennen und werfen Sie einen Blick hinter unser aktuelles Themen-Setting. Gerne stehen wir Ihnen für ein persönliches Gespräch zu Ihren Herausforderungen zur Verfügung!"
+  },
+  "about": {
+    "title": "Über STRATECO",
+    "description": "Die richtige Mischung aus Kompetenz und Leidenschaft - das ist es, was seit vielen Jahren den Erfolg von STRATECO ausmacht. Probieren Sie es doch einfach auch mal aus!"
+  },
+  "contact": {
+    "title": "Kontakt"
+  },
+  "legal": {
+    "title": "Impressum"
+  },
+  "privacy": {
+    "title": "Datenschutz"
+  }
+}

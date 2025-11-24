@@ -1,0 +1,237 @@
+@import url('./fonts/font-collection.css');
+@import 'tailwindcss';
+
+:root {
+  --white: #fefefe;
+  --black: #010101;
+  --very-dark-grey: #212121;
+  --dark-grey: #444444;
+  --medium-grey: #8e8d8d;
+  --light-grey: #fafafa;
+  --dark-blue: #0b3c49;
+  --pale-blue: #449dd1;
+  --decent-blue: #71bce7;
+  --light-blue: #0d99e6;
+  --turquoise: #5fcdc0;
+  --teal: #007388;
+  --green: #42b863;
+  --deep-green: #5fb90a;
+  --orange: #f09819;
+  --yellow: #f4d03f;
+  --wine: #731963;
+  --red: #c93136;
+  --neutral: #3d4451;
+  --info: #3abff8;
+  --success: #6bb900;
+  --warning: #fbbd23;
+  --error: #f87272;
+}
+
+@plugin 'daisyui' {
+  themes:
+    light --default,
+    dark --prefersdark;
+}
+
+@theme {
+  --font-lato: 'Lato', sans-serif;
+  --spacing-fhd: 120rem;
+  --spacing-wqhd: 160rem;
+  --color-darkGrey: var(--dark-grey);
+  --color-mediumGrey: var(--medium-grey);
+  --color-deepGreen: var(--deep-green);
+}
+
+@plugin 'daisyui/theme' {
+  name: 'light';
+  default: true;
+  prefersdark: false;
+  color-scheme: 'light';
+    --color-base-50: oklch(100% 0 0);
+  --color-base-100: oklch(98% 0 0);
+}
+
+@plugin 'daisyui/theme' {
+  name: 'dark';
+  default: false;
+  prefersdark: false;
+  color-scheme: 'dark';
+  --color-base-50: oklch(0.1721 0.0329 293.82);
+  --color-base-100: oklch(25.33% 0.016 252.42);
+}
+
+/* BASICS */
+*:focus,
+*:focus-visible,
+*:focus-within,
+*:active {
+  outline: none;
+}
+
+html,
+body {
+  @apply relative m-0 h-full w-full p-0;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* TYPOGRAPHY */
+p {
+  @apply font-lato text-lg leading-normal font-light;
+  &.add-padding {
+    @apply pb-5;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-lato leading-[1.1] font-bold text-balance;
+}
+h1 {
+  @apply text-4xl md:text-6xl;
+  &.massive {
+    @apply text-6xl md:text-8xl;
+    &.add-padding {
+      @apply pt-3 pb-10;
+    }
+  }
+  &.add-padding {
+    @apply pt-2 pb-8;
+  }
+}
+h2 {
+  @apply text-3xl md:text-4xl;
+  &.add-padding {
+    @apply pt-2 pb-7;
+  }
+}
+h3 {
+  @apply text-xl;
+  &.add-padding {
+    @apply pt-2 pb-6;
+  }
+}
+h4,
+h5,
+h6 {
+  @apply text-lg;
+  &.add-padding {
+    @apply pt-1 pb-6;
+  }
+}
+
+.prose {
+  > p {
+    @apply pb-5;
+  }
+  > h1 {
+    @apply pb-8 pt-2;
+  }
+  > h2 {
+    @apply pb-7 pt-2;
+  }
+  > h3 {
+    @apply pb-6 pt-2;
+  }
+  > h4,
+  > h5,
+  > h6 {
+    @apply pb-5 pt-1;
+  }
+}
+
+a,
+.text-link-button {
+  @apply m-0 cursor-pointer p-0 underline opacity-70 duration-300;
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  height: inherit;
+
+  &.inverted-underline {
+    @apply no-underline;
+    &:hover {
+      @apply underline;
+    }
+    &.active {
+      @apply text-secondary underline;
+    }
+  }
+  &:hover {
+    @apply no-underline;
+  }
+  &.active {
+    @apply text-secondary no-underline;
+  }
+  &.white-link {
+    @apply text-white;
+  }
+}
+
+img,
+picture {
+  @apply block max-w-full;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+textarea:not([rows]) {
+  @apply min-h-40;
+}
+
+:target {
+  scroll-margin-block: 5ex;
+}
+
+/* LAYOUT */
+.wrapper {
+  .global-loading {
+    @apply flex h-dvh w-full items-center justify-center;
+  }
+  main {
+    .inner-box {
+      @apply mx-auto h-full w-full max-w-7xl px-10;
+      &.reduced {
+        @apply max-w-5xl;
+      }
+    }
+  }
+}
+
+/* HELPER */
+.very-tiny-spacer {
+  @apply m-0 h-1 w-full p-0;
+}
+.tiny-spacer {
+  @apply m-0 h-2 w-full p-0;
+}
+.medium-spacer {
+  @apply m-0 h-4 w-full p-0;
+}
+.spacer {
+  @apply m-0 h-8 w-full p-0;
+}
+.big-spacer {
+  @apply m-0 h-12 w-full p-0;
+}
+.massive-spacer {
+  @apply m-0 h-20 w-full p-0;
+}
+.just-a-line {
+  @apply bg-mediumGrey m-0 h-px w-full p-0;
+}
