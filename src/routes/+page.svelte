@@ -1,5 +1,6 @@
 <script lang="ts">
   import { resolve } from '$app/paths';
+  import BasicContentArea from '$lib/components/basic-content-area.svelte';
   import IntroBox from '$lib/components/intro-box.svelte';
   import Section from '$lib/components/section.svelte';
   import Stage from '$lib/components/stage.svelte';
@@ -7,16 +8,14 @@
   import { setLocale, localizeHref, getLocale } from '$lib/paraglide/runtime';
 </script>
 
-
-<Stage style={"front-page"}>
-  <div class="ml-auto w-64 bg-deepGreen/70 h-40 mb-16"></div>
-  <div class="w-full bg-darkGrey/80 h-48"></div>
+<Stage style={'front-page'}>
+  <div class="bg-deepGreen/70 mb-16 ml-auto h-40 w-64"></div>
+  <div class="bg-darkGrey/80 h-48 w-full"></div>
 </Stage>
 
-<Section>
+{#snippet left()}
   <div class="prose">
     <h1>{m['about.title']()}</h1>
-
     <p>
       STRATECO ist eine Unternehmensberatung, die seit mehr als 20 Jahren führende Unternehmen dabei unterstützt, anstehende Herausforderungen zu meistern. Von
       der Strategie über Prozesse bis hin zur Umsetzung erzielen wir Höchstleistungen für unsere Kunden.
@@ -31,4 +30,33 @@
     </p>
     <p>Deswegen haben wir auch das Leistungsversprechen von STRATECO zum Leitsatz gemacht: Unsere Kompetenz ist Ihr Wettbewerbsvorteil!</p>
   </div>
+{/snippet}
+
+{#snippet right()}
+  <div class="card bg-base-100 card-md w-full shadow-sm">
+    <div class="card-body">
+      <h2 class="card-title">Medium Card</h2>
+      <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+      <div class="card-actions justify-end">
+        <button class="btn btn-primary">Buy Now</button>
+      </div>
+    </div>
+  </div>
+  <div class="card bg-base-100 card-md w-full shadow-sm">
+    <div class="card-body">
+      <h2 class="card-title">Medium Card</h2>
+      <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+      <div class="card-actions justify-end">
+        <button class="btn btn-primary">Buy Now</button>
+      </div>
+    </div>
+  </div>
+{/snippet}
+
+<Section>
+  <BasicContentArea {left} {right} hideBreadCrumb={true}/>
 </Section>
+
+<style lang="postcss">
+  @reference '../app.css';
+</style>

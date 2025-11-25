@@ -47,7 +47,7 @@
   default: true;
   prefersdark: false;
   color-scheme: 'light';
-    --color-base-50: oklch(100% 0 0);
+  --color-base-50: oklch(100% 0 0);
   --color-base-100: oklch(98% 0 0);
 }
 
@@ -135,18 +135,18 @@ h6 {
     @apply pb-5;
   }
   > h1 {
-    @apply pb-8 pt-2;
+    @apply pt-2 pb-8;
   }
   > h2 {
-    @apply pb-7 pt-2;
+    @apply pt-2 pb-7;
   }
   > h3 {
-    @apply pb-6 pt-2;
+    @apply pt-2 pb-6;
   }
   > h4,
   > h5,
   > h6 {
-    @apply pb-5 pt-1;
+    @apply pt-1 pb-5;
   }
 }
 
@@ -157,6 +157,10 @@ a,
   font-size: inherit;
   line-height: inherit;
   height: inherit;
+
+  &.solid {
+    @apply opacity-100;
+  }
 
   &.inverted-underline {
     @apply no-underline;
@@ -204,6 +208,7 @@ textarea:not([rows]) {
     @apply flex h-dvh w-full items-center justify-center;
   }
   main {
+    @apply bg-white min-h-[calc(100vh-20rem)];
     .inner-box {
       @apply mx-auto h-full w-full max-w-7xl px-10;
       &.reduced {

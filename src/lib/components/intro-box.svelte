@@ -5,7 +5,7 @@
 
 <div class="intro-box {style}">
   <div class="title">
-    <h2>{title}</h2>
+    <h2 class:oneLiner={title.length < 20}>{title}</h2>
   </div>
   <div class="description">
     <p>{description}</p>
@@ -20,14 +20,17 @@
     .title {
       @apply w-fit pr-6 border-r-2 border-dotted border-white flex justify-center items-center;
       h2 {
-        @apply text-white font-light whitespace-nowrap;
+        @apply text-white font-light;
+        &.oneLiner {
+          @apply  whitespace-nowrap; 
+        }
       }
     }
 
     .description {
       @apply px-6 grow flex justify-center items-center;
       p {
-        @apply text-white leading-normal;
+        @apply text-white text-base leading-snug line-clamp-3;
       }
     }
 

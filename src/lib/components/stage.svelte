@@ -13,7 +13,7 @@
 <style lang="postcss">
   @reference '../../app.css';
   section {
-    @apply flex flex-col justify-start items-center bg-gray-300 -mt-30;
+    @apply flex flex-col justify-start items-center bg-gray-100 -mt-30;
 
     .outer-container {
       @apply w-full max-w-wqhd m-auto bg-cover bg-no-repeat bg-center pt-36;

@@ -68,5 +68,9 @@
   },
   "privacy": {
     "title": "Datenschutz"
+  },
+  "aos": {
+    "title": "Alignment of Organization to Strategy (AOS)",
+    "description": "Just as good strategy is adapted to the environment, good organizational design aligns people, architecture, routines and culture to the strategy"
   }
 }

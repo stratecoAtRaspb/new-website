@@ -90,7 +90,7 @@ export default defineConfig({
           ]
         },
         {
-          pattern: '/privacy/:id',
+          pattern: '/topics/:id',
           localized: [
             ['de', '/de/themen/:id'],
             ['en', '/en/topics/:id']

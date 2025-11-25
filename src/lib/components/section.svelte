@@ -16,7 +16,7 @@
     @apply relative w-full max-w-7xl px-10 m-auto -mt-36;
 
     .inner-container {
-      @apply bg-white rounded-lg shadow-2xl p-12 pt-8;
+      @apply bg-white rounded-tr-md rounded-tl-md shadow-2xl px-12 pt-8 pb-16;
     }
   }
 </style>
