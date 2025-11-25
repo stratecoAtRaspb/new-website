@@ -22,7 +22,7 @@
     </p>
     <p>
       Unsere Strategieberatung umfasst die Analyse Ihrer aktuellen Position, die Definition klarer Ziele und die Entwicklung eines maßgeschneiderten
-      Umsetzungsplans. Wir begleiten Sie auf dem gesamten Weg – von der Vision bis zur Realisierung.
+      Umsetzungsplans. Wir begleiten Sie auf dem gesamten Weg - von der Vision bis zur Realisierung.
     </p>
   </div>
   <a href={localizeHref('/expertise')}>Zurück zu Kompetenzen</a>
@@ -31,13 +31,3 @@
 <Section>
   <BasicContentArea {left} {right} />
 </Section>
-
-<style>
-  .bread-crumb-navigation {
-    width: 100%;
-    background-color: #f9fafb;
-    max-width: 80rem;
-    margin: 0 auto;
-    padding: 0 2.5rem;
-  }
-</style>

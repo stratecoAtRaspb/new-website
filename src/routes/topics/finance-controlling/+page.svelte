@@ -27,13 +27,3 @@
 
   <a href={localizeHref('/topics')}>Zurück zu Themen</a>
 </Section>
-
-<style>
-  .bread-crumb-navigation {
-    width: 100%;
-    background-color: #f9fafb;
-    max-width: 80rem;
-    margin: 0 auto;
-    padding: 0 2.5rem;
-  }
-</style>

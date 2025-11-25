@@ -3,19 +3,23 @@
   import BasicContentArea from '$lib/components/basic-content-area.svelte';
   import IntroBox from '$lib/components/intro-box.svelte';
   import Section from '$lib/components/section.svelte';
+  import StageSlider from '$lib/components/stage-slider.svelte';
   import Stage from '$lib/components/stage.svelte';
   import { m } from '$lib/paraglide/messages';
   import { setLocale, localizeHref, getLocale } from '$lib/paraglide/runtime';
 </script>
 
-<Stage style={'front-page'}>
+
+<StageSlider></StageSlider>
+
+<!-- <Stage style={'front-page'}>
   <div class="bg-deepGreen/70 mb-16 ml-auto h-40 w-64"></div>
   <div class="bg-darkGrey/80 h-48 w-full"></div>
-</Stage>
+</Stage> -->
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['about.title']()}</h1>
+    <h2>{m['about.title']()}</h2>
     <p>
       STRATECO ist eine Unternehmensberatung, die seit mehr als 20 Jahren führende Unternehmen dabei unterstützt, anstehende Herausforderungen zu meistern. Von
       der Strategie über Prozesse bis hin zur Umsetzung erzielen wir Höchstleistungen für unsere Kunden.
@@ -53,7 +57,7 @@
   </div>
 {/snippet}
 
-<Section>
+<Section type={'extended'}>
   <BasicContentArea {left} {right} hideBreadCrumb={true}/>
 </Section>
 

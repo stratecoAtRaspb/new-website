@@ -95,7 +95,7 @@ h3,
 h4,
 h5,
 h6 {
-  @apply font-lato leading-[1.1] font-bold text-balance;
+  @apply font-lato leading-[1.1] font-light text-balance opacity-80;
 }
 h1 {
   @apply text-4xl md:text-6xl;
@@ -182,6 +182,10 @@ a,
   }
 }
 
+.breadcrumbs ul li > a {
+  @apply no-underline text-black hover:underline hover:text-black/80;
+}
+
 img,
 picture {
   @apply block max-w-full;
@@ -208,7 +212,7 @@ textarea:not([rows]) {
     @apply flex h-dvh w-full items-center justify-center;
   }
   main {
-    @apply bg-white min-h-[calc(100vh-20rem)];
+    @apply bg-white min-h-[calc(100vh-20rem)] relative;
     .inner-box {
       @apply mx-auto h-full w-full max-w-7xl px-10;
       &.reduced {
