@@ -94,7 +94,7 @@
             { key: 'processes', label: m['navigation.topics.processes'], href: '/topics/finance-controlling/processes' } as NavItemLink,
             { key: 'architecture', label: m['navigation.topics.architecture'], href: '/topics/finance-controlling/architecture' } as NavItemLink,
             { key: 'reporting', label: m['navigation.topics.reporting'], href: '/topics/finance-controlling/reporting' } as NavItemLink,
-            { key: 'analyses', label: m['navigation.topics.analyses'], href: '/topics/finance-controlling/analyses' } as NavItemLink,
+            { key: 'analysis', label: m['navigation.topics.analysis'], href: '/topics/finance-controlling/analysis' } as NavItemLink,
             {
               key: 'workflows',
               label: m['navigation.topics.workflows'],
@@ -138,10 +138,10 @@
           heading: m['navigation.topics.tas'](),
           items: [
             { key: 'tas', label: m['navigation.topics.tasOverview'], href: '/topics/tas' } as NavItemLink,
-            { key: 'managementCoaching', label: m['navigation.topics.sellSideBuySide'], href: '/topics/tas/management-coaching' } as NavItemLink,
-            { key: 'changeManagement', label: m['navigation.topics.reportingAndAnalyses'], href: '/topics/tas/post-merge-integration' } as NavItemLink,
-            { key: 'postMergeIntegration', label: m['navigation.topics.businessIntelligence'], href: '/topics/tas' } as NavItemLink,
-            { key: 'culturalChangeFacilliation', label: m['navigation.topics.dataManagment'], href: '/topics/tas' } as NavItemLink
+            { key: 'sellSideBuySide', label: m['navigation.topics.sellSideBuySide'], href: '/topics/tas/sell-side-buy-side' } as NavItemLink,
+            { key: 'reportingAndAnalyses', label: m['navigation.topics.reportingAndAnalysis'], href: '/topics/tas/reporting-and-analysis' } as NavItemLink,
+            { key: 'businessIntelligence', label: m['navigation.topics.businessIntelligence'], href: '/topics/tas/business-intelligence' } as NavItemLink,
+            { key: 'dataManagment', label: m['navigation.topics.dataManagment'], href: '/topics/tas/data-managment' } as NavItemLink
           ]
         },
 
