@@ -28,6 +28,9 @@
       .outer-container {
         @apply h-[474px];
         background-image: url('/images/city-bg.jpg');
+        @media (width > 2500px) {
+          mask-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0) 100%);
+        }
       }
     }
 
@@ -35,6 +38,9 @@
       .outer-container {
         @apply flex h-[800px] items-end;
         background-image: url('/images/escalator-bg.jpg');
+        @media (width > 2500px) {
+          mask-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0) 100%);
+        }
         .inner-container {
           @apply my-0 pb-42;
         }

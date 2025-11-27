@@ -1,8 +1,6 @@
 
 <script lang="ts">
-  import { page } from "$app/state";
   import Breadcrumb from "./breadcrumb.svelte";
-
   let { left, right, hideBreadCrumb = false } = $props();
 </script>
 

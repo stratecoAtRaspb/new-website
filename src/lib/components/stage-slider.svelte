@@ -100,11 +100,11 @@
   @reference '../../app.css';
 
   .stage-slider-container {
-    @apply relative -mt-30 h-[948px] w-full overflow-hidden;
+    @apply relative -mt-30 h-[948px] w-full overflow-hidden bg-base-100;
   }
 
   .stage-slider-swiper {
-    @apply h-full w-full;
+    @apply h-full w-full max-w-wqhd mx-auto;
   }
 
   .stage-slider-slide {
@@ -117,10 +117,10 @@
   }
 
   .stage-slider-content {
-    @apply max-w-7xl w-full pl-10 pr-24 pb-36 m-auto z-30;
+    @apply max-w-7xl w-full pl-10 pr-10 pb-36 m-auto z-30;
     .stage-slider-text-area {
 
-      @apply bg-deepGreen/85 ml-auto w-80 md:w-[480px] rounded-md p-4;
+      @apply bg-deepGreen/85 ml-auto w-80 md:w-[490px] rounded-md p-4;
 
       .stage-slider-headline {
         @apply text-xl leading-tight font-medium text-white mb-3;
@@ -132,7 +132,7 @@
   }
 
   .stage-slider-navigation {
-    @apply pointer-events-none absolute top-1/2 flex w-full -translate-y-1/2 justify-between px-[7vw] z-20;
+    @apply pointer-events-none absolute top-1/2 flex w-full -translate-y-1/2 justify-between px-4 z-20;
   }
 
   .stage-slider-nav-btn {

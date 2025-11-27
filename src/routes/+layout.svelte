@@ -1,5 +1,5 @@
 <script lang="ts">
-  import favicon from '$lib/assets/favicon.svg';
+  import favicon from '$lib/assets/favicon.ico';
   import { navigating } from '$app/state';
   import { onMount } from 'svelte';
   import CookieConsentComponent from '$lib/components/cookieconsent.svelte';

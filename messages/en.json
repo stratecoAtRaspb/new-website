@@ -26,7 +26,48 @@
       "tas": "Transactions Advisory Services (TAS)",
       "ras": "Risk Advisory Services (RAS)",
       "cea": "Customer Experience Analytics (CEA)",
-      "marketing": "Marketing"
+      "marketing": "Marketing",
+      "managementCoaching": "Management Coaching",
+      "aosOverview": "Übersicht",
+      "changeManagement": "Change Management",
+      "postMergeIntegration": "Post-Merger Integration",
+      "culturalChangeFacilliation": "Cultural change facilliation",
+      "strategyOptimizationAndImplementation": "Strategy optimization and implementation",
+      "workflowAndBusinessProcessAlignment": "Workflow and business process alignment",
+      "collaborationPlatform": "Collaboration Platform",
+      "financeAndControllingOverview": "Finance and Controlling",
+      "strategy": "Strategie",
+      "processes": "Prozesse",
+      "architecture": "Architektur",
+      "reporting": "Reporting",
+      "analyses": "Analyse",
+      "workflows": "Workflows",
+      "documentManagement": "Dokumenten Managment",
+      "intranet": "Intranet",
+      "businessIntelligence": "Business Intelligence",
+      "dataManagement": "Data Management",
+      "sharepoint": "Sharepoint",
+      "tasOverview": "Overview",
+      "sellSideBuySide": "Sellside / buyside due dilligence",
+      "reportingAndAnalyses": "Reporting, analysis and planning for servicing and valuation",
+      "dataManagment": "Data Management",
+      "rasOverview": "Overview",
+      "kamakuraIntegratedRisk": "Kamakura integrated risk management software (KRM)",
+      "partnershipWithKamakuraCorp": "Partnership with Kamakura Corp.",
+      "ceaOverview": "Overview",
+      "speechAnalytics": "Speech Analytics",
+      "textAnalytics": "Text Analytics",
+      "socialMediaMonitoring": "Social Media Monitoring",
+      "customerFeedback": "Customer Feedback",
+      "customerInteraction": "Customer Interaction",
+      "brandAndLoyalityManagement": "Brand & Loyality Management",
+      "marketingOverview": "Übersicht",
+      "marketingAsAService": "Marketing as a Service",
+      "leadgenerierung": "Leadgenerierung",
+      "leadManagement": "Lead Management",
+      "marketingAutomation": "Marketing Automation",
+      "behaviouralMarketing": "Behavioural Marketing",
+      "customerRelationshipManagement": "Customer Relationship Management"
     },
     "blog": {
       "self": "Blog"
@@ -71,6 +112,9 @@
   },
   "aos": {
     "title": "Alignment of Organization to Strategy (AOS)",
-    "description": "Just as good strategy is adapted to the environment, good organizational design aligns people, architecture, routines and culture to the strategy"
+    "description": "Just as good strategy is adapted to the environment, good organizational design aligns people, architecture, routines and culture to the strategy",
+    "managementCoaching": {
+      "title": "Management Coaching"
+    }
   }
 }

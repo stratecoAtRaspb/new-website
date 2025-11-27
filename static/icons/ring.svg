@@ -1,0 +1,16 @@
+<svg viewBox="0 0 100 100" width="100" height="100"
+     xmlns="http://www.w3.org/2000/svg">
+  <g fill="currentColor" transform="rotate(-90 50 50)" opacity="0.06">
+    <path id="segment"
+      d="M 90.446 30.273
+         A 45 45 0 0 1 90.446 69.727
+         L 74.267 61.836
+         A 27 27 0 0 0 74.267 38.164
+         Z" />
+    <use href="#segment" transform="rotate(60 50 50)" />
+    <use href="#segment" transform="rotate(120 50 50)" />
+    <use href="#segment" transform="rotate(180 50 50)" />
+    <use href="#segment" transform="rotate(240 50 50)" />
+    <use href="#segment" transform="rotate(300 50 50)" />
+  </g>
+</svg>

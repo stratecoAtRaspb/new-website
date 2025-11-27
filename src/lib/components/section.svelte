@@ -30,17 +30,17 @@
 <style lang="postcss">
   @reference '../../app.css';
   section.base-section {
-    @apply relative z-20 m-auto -mt-36 w-full max-w-7xl px-10;
+    @apply relative z-20 m-auto -mt-36 w-full max-w-7xl px-10 grow flex flex-col items-stretch;
 
     .inner-container {
-      @apply rounded-tl-md rounded-tr-md bg-white px-12 pt-8 pb-16 shadow-2xl;
+      @apply rounded-tl-md rounded-tr-md bg-white px-12 pt-8 pb-16 shadow-2xl h-full grow;
     }
   }
   section.master-base-section {
-    @apply relative z-20 m-auto w-full max-w-7xl px-10;
+    @apply relative z-20 m-auto w-full h-full max-w-7xl px-10 grow flex flex-col items-stretch;
 
     .inner-container {
-      @apply rounded-tl-md rounded-tr-md bg-white px-12 pt-8 pb-16 shadow-2xl;
+      @apply rounded-tl-md rounded-tr-md bg-white px-12 pt-8 pb-16 shadow-2xl h-full grow flex justify-center items-center;
     }
   }
 

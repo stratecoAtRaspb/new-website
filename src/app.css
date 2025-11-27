@@ -9,7 +9,7 @@
   --medium-grey: #8e8d8d;
   --light-grey: #fafafa;
   --dark-blue: #0b3c49;
-  --pale-blue: #449dd1;
+  --pale-blue: #30A4D9 ;
   --decent-blue: #71bce7;
   --light-blue: #0d99e6;
   --turquoise: #5fcdc0;
@@ -25,6 +25,7 @@
   --success: #6bb900;
   --warning: #fbbd23;
   --error: #f87272;
+  --special-grey: #394A52;
 }
 
 @plugin 'daisyui' {
@@ -37,9 +38,13 @@
   --font-lato: 'Lato', sans-serif;
   --spacing-fhd: 120rem;
   --spacing-wqhd: 160rem;
+  --breakpoint-wqhd: 160rem;
   --color-darkGrey: var(--dark-grey);
   --color-mediumGrey: var(--medium-grey);
+  --color-specialGrey: var(--special-grey);
   --color-deepGreen: var(--deep-green);
+  --color-specialBlue: var(--pale-blue);
+  --color-specialOrange: var(--orange);
 }
 
 @plugin 'daisyui/theme' {
@@ -116,7 +121,7 @@ h2 {
   }
 }
 h3 {
-  @apply text-xl;
+  @apply text-2xl;
   &.add-padding {
     @apply pt-2 pb-6;
   }
@@ -212,9 +217,9 @@ textarea:not([rows]) {
     @apply flex h-dvh w-full items-center justify-center;
   }
   main {
-    @apply bg-white min-h-[calc(100vh-20rem)] relative;
+    @apply bg-white min-h-[calc(100vh-500px)] relative flex flex-col items-stretch;
     .inner-box {
-      @apply mx-auto h-full w-full max-w-7xl px-10;
+      @apply mx-auto grow h-full w-full max-w-7xl px-10;
       &.reduced {
         @apply max-w-5xl;
       }

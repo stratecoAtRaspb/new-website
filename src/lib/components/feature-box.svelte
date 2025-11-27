@@ -1,44 +1,58 @@
-<script lang="ts">
-  let { style = 'grey' } = $props();
-</script>
+<script>
+  import { goto } from "$app/navigation";
+  import { localizeHref } from "$lib/paraglide/runtime";
 
+</script>
 <div class="feature-box">
-  <div class="feature">
-    <h3>Managed Services</h3>
+  <button class="feature" onclick={() => {goto(localizeHref('/expertise/financial-institution'))}}>
+    <h3 class="managed-services">Managed Services</h3>
     <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, est. Pariatur quidem, rerum ex, numquam odio repudiandae beatae, omnis velit sit ullam
-      iure corrupti voluptas est aspernatur inventore praesentium expedita.
+      Wir helfen Ihnen, mit langjähriger Expertise und innovativen Technologien regulatorische Herausforderungen zu meistern. Fallabschließend bis zur Umsetzung - alles aus einer Hand.
     </p>
-  </div>
-  <div class="feature">
-    <h3>Smart Data Management</h3>
+  </button>
+  <button class="feature" onclick={() => {goto(localizeHref('/topics/finance-controlling'))}}>
+    <h3 class="smart-data-management">Smart Data Management</h3>
     <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, est. Pariatur quidem, rerum ex, numquam odio repudiandae beatae, omnis velit sit ullam
-      iure corrupti voluptas est aspernatur inventore praesentium expedita.
+      Daten sind DER zentrale Erfolgsfaktor in der digitalisierten Welt. Wir konsolidieren Ihre Datensilos und machen „Big Data“ zu „smart, actionable intelligence“!
     </p>
-  </div>
-  <div class="feature">
-    <h3>Risk Management</h3>
+  </button>
+  <button class="feature" onclick={() => {goto(localizeHref('/topics/ras'))}}>
+    <h3 class="risk-management">Risk Management</h3>
     <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, est. Pariatur quidem, rerum ex, numquam odio repudiandae beatae, omnis velit sit ullam
-      iure corrupti voluptas est aspernatur inventore praesentium expedita.
+      Nie war Risikomanagement für Unternehmen wichtiger als heute. STRATECO konzipiert und implementiert integrierte Risikomanagementlösungen für Banken und Finanzdienstleister.
     </p>
-  </div>
+  </button>
 </div>
 
 <style lang="postcss">
   @reference '../../app.css';
   div.feature-box {
-    @apply bg-darkGrey/80 flex min-h-48 w-full flex-row gap-6 rounded-lg;
+    @apply bg-darkGrey/80 flex items-start justify-start min-h-48 w-full flex-row gap-4 rounded-lg px-10 py-6;
 
     .feature {
-      @apply flex-1/3 p-5 text-white/80 hover:text-white cursor-pointer;
+      @apply flex-1/3 text-white/80 hover:text-white text-left cursor-pointer;
 
       h3 {
-        @apply mb-3
+        @apply mb-3 pl-11 relative;
+        &::before {
+          @apply w-8 h-8 bg-white absolute -top-1 left-0  mask-no-repeat mask-center mask-contain;
+          content: '';
+        }
+        &.managed-services::before {
+          mask-image: url(/icons/chart-line-up.svg);
+        }
+        &.smart-data-management::before {
+          mask-image: url(/icons/chart-mixed.svg);
+        }
+        &.risk-management::before {
+          mask-image: url(/icons/user-shield.svg);
+        }
+
+
+
       }
       p {
-        @apply text-base;
+        @apply text-base max-w-[300px];
       }
     }
   }
