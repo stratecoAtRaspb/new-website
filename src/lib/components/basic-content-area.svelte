@@ -18,14 +18,14 @@
 <style lang="postcss">
   @reference '../../app.css';
   .two-col-layout {
-    @apply grid grid-cols-12 gap-10;
+    @apply grid grid-cols-1 gap-10 md:grid-cols-12;
 
     .left {
-      @apply col-span-8;
+      @apply md:col-span-8;
     }
 
     .right {
-      @apply col-span-4 flex flex-col gap-8;
+      @apply flex flex-col gap-8 md:col-span-4;
     }
   }
 </style>

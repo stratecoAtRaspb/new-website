@@ -7,14 +7,22 @@
   import { localizeHref } from '$lib/paraglide/runtime';
 </script>
 
+<svelte:head>
+  <title>{m['topics.financeAndControlling.workflows.title']()}</title>
+  <meta name="description" content={m['topics.financeAndControlling.workflows.title']()} />
+</svelte:head>
+
 <Stage>
   <IntroBox title={m['navigation.topics.workflows']()} description={m['aboutUs.introDescription']()}></IntroBox>
 </Stage>
 
 {#snippet left()}
-<div class="prose">
+  <div class="prose">
     <h1>{m['navigation.topics.workflows']()}</h1>
-<p>Hier kommt ein kurzer Introtext/Beschreibungstext hin...</p> <h3>Headline</h3> <p>Hier kommen noch Inhalte hin...</p> <p>Hier kommen noch Inhalte hin...</p>
+    <p>Hier kommt ein kurzer Introtext/Beschreibungstext hin...</p>
+    <h3>Headline</h3>
+    <p>Hier kommen noch Inhalte hin...</p>
+    <p>Hier kommen noch Inhalte hin...</p>
   </div>
 
   <a href={localizeHref('/topics/finance-controlling')}>Zurück zu Übersicht</a>

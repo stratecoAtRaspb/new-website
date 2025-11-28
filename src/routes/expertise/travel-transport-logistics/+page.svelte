@@ -7,6 +7,11 @@
   import { localizeHref } from '$lib/paraglide/runtime';
 </script>
 
+<svelte:head>
+  <title>{m['expertise.travelTransportAndLogistics.title']()}</title>
+  <meta name="description" content={m['expertise.travelTransportAndLogistics.title']()} />
+</svelte:head>
+
 <Stage>
   <IntroBox title={m['navigation.expertise.travelTransportAndLogistics']()} description={m['aboutUs.introDescription']()}></IntroBox>
 </Stage>

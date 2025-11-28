@@ -20,7 +20,7 @@
     .outer-container {
       @apply max-w-wqhd m-auto w-full bg-cover bg-center bg-no-repeat pt-36;
       .inner-container {
-        @apply m-auto w-full max-w-7xl px-10;
+        @apply m-auto w-full max-w-7xl px-4 md:px-6 xl:px-10;
       }
     }
 

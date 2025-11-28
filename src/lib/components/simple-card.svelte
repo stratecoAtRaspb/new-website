@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { goto } from "$app/navigation";
-  import { localizeHref } from "$lib/paraglide/runtime";
+  import { goto } from '$app/navigation';
+  import { localizeHref } from '$lib/paraglide/runtime';
 
   let {
     headline = 'Awesome Heading',
@@ -15,17 +15,18 @@
   <div class="card-body">
     <h3 class="card-title">{headline}</h3>
     {#if image && image !== ''}
-      <img class="mb-2 w-full rounded-lg" src="{image}" alt="{headline}" />
+      <img class="mb-2 w-full rounded-lg" src={image} alt={headline} />
     {/if}
     <p>{text}</p>
     {#if ctaText && ctaText !== ''}
-    <div class="card-actions mt-2 justify-end">
-      <button
-        class="btn btn-basic"
-        onclick={() => {
-          goto(localizeHref(ctaTarget));
-        }}>{ctaText}</button>
-    </div>
+      <div class="card-actions mt-2 justify-end">
+        <button
+          class="btn btn-basic"
+          onclick={() => {
+            goto(localizeHref(ctaTarget));
+          }}>{ctaText}</button
+        >
+      </div>
     {/if}
   </div>
 </div>

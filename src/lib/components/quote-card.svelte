@@ -32,9 +32,9 @@
       <footer class="mt-6">
         <div class="flex items-center">
           {#if image && image !== ''}
-          <div class="shrink-0">
-            <img class="size-10 rounded-full" src="{image}" alt="{author}" />
-          </div>
+            <div class="shrink-0">
+              <img class="size-10 rounded-full" src={image} alt={author} />
+            </div>
           {/if}
           <div class="ms-4">
             <div class="text-base font-semibold text-gray-800">{author}</div>

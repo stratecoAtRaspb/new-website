@@ -5,6 +5,7 @@
 
   let mobileNavOpen = $state(false);
   let activeMenu = $state<string | null>(null);
+  let mobileExpandedSections = $state<Record<string, boolean>>({});
   let closeTimeout: number | null = null;
 
   // Navigation structure types
@@ -141,7 +142,7 @@
             { key: 'sellSideBuySide', label: m['navigation.topics.sellSideBuySide'], href: '/topics/tas/sell-side-buy-side' } as NavItemLink,
             { key: 'reportingAndAnalyses', label: m['navigation.topics.reportingAndAnalysis'], href: '/topics/tas/reporting-and-analysis' } as NavItemLink,
             { key: 'businessIntelligence', label: m['navigation.topics.businessIntelligence'], href: '/topics/tas/business-intelligence' } as NavItemLink,
-            { key: 'dataManagment', label: m['navigation.topics.dataManagment'], href: '/topics/tas/data-managment' } as NavItemLink
+            { key: 'dataManagment', label: m['navigation.topics.dataManagment'], href: '/topics/tas/data-management' } as NavItemLink
           ]
         },
 
@@ -152,7 +153,7 @@
             { key: 'cea', label: m['navigation.topics.ceaOverview'], href: '/topics/cea' } as NavItemLink,
             { key: 'speechAnalytics', label: m['navigation.topics.speechAnalytics'], href: '/topics/cea/speech-analytics' } as NavItemLink,
             { key: 'textAnalytics', label: m['navigation.topics.textAnalytics'], href: '/topics/cea/text-analytics' } as NavItemLink,
-            { key: 'socialMediaMonitoring', label: m['navigation.topics.postMergeIntegration'], href: '/topics/cea/social-media-monitoring' } as NavItemLink,
+            { key: 'socialMediaMonitoring', label: m['navigation.topics.socialMediaMonitoring'], href: '/topics/cea/social-media-monitoring' } as NavItemLink,
             { key: 'customerFeedback', label: m['navigation.topics.customerFeedback'], href: '/topics/cea/customer-feedback' } as NavItemLink,
             {
               key: 'customerInteraction',
@@ -230,6 +231,19 @@
       closeTimeout = null;
     }
   }
+
+  function toggleMobileNav() {
+    mobileNavOpen = !mobileNavOpen;
+    if (mobileNavOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+  }
+
+  function toggleMobileSection(key: string) {
+    mobileExpandedSections[key] = !mobileExpandedSections[key];
+  }
 </script>
 
 <header>
@@ -238,6 +252,16 @@
       <div class="logo-area">
         <a class="company-logo solid" href={localizeHref('/')} aria-label="STRATECO - Logo"></a>
       </div>
+
+      <!-- Burger Button -->
+      <button class="burger-btn" onclick={toggleMobileNav} aria-label="Menu" aria-expanded={mobileNavOpen}>
+        <div class="burger-icon" class:open={mobileNavOpen}>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </button>
+
       <nav class="navigation">
         <ul class="main-nav">
           <li
@@ -273,7 +297,7 @@
               >
                 <div class="mega-menu-content">
                   <div class="mega-menu-sections">
-                    <h3 class="w-full">{ m['expertise.megaMenuTitle']() }</h3>
+                    <h3 class="w-full">{m['expertise.megaMenuTitle']()}</h3>
                     {#each navigation.expertise.sections as section}
                       <div class="mega-menu-section">
                         {#if section.heading}
@@ -329,7 +353,7 @@
               >
                 <div class="mega-menu-content">
                   <div class="mega-menu-sections">
-                    <h3 class="w-full">{ m['topics.megaMenuTitle']()}</h3>
+                    <h3 class="w-full">{m['topics.megaMenuTitle']()}</h3>
                     {#each navigation.topics.sections as section}
                       <div class="mega-menu-section">
                         {#if section.heading}
@@ -426,6 +450,143 @@
   </div>
 </header>
 
+<!-- Mobile Fullscreen Menu -->
+{#if mobileNavOpen}
+  <div class="mobile-menu-overlay" role="dialog" aria-modal="true">
+    <div class="mobile-menu-header">
+      <a class="company-logo solid" href={localizeHref('/')} onclick={toggleMobileNav} aria-label="STRATECO - Logo"></a>
+      <button class="close-btn" onclick={toggleMobileNav} aria-label="Close Menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+
+    <div class="mobile-menu-content">
+      <div class="mobile-menu-inner-container">
+        <ul class="mobile-nav-list">
+          <!-- Expertise -->
+          <li class="mobile-nav-item">
+            <button class="mobile-nav-link has-submenu" onclick={() => toggleMobileSection('expertise')}>
+              {m['navigation.expertise.self']()}
+              <svg
+                class="chevron"
+                class:rotated={mobileExpandedSections['expertise']}
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg
+              >
+            </button>
+            {#if mobileExpandedSections['expertise']}
+              <div class="mobile-submenu">
+                {#each navigation.expertise.sections as section}
+                  {#if section.heading}
+                    <div class="mobile-section-heading">{section.heading}</div>
+                  {/if}
+                  {#each section.items as item}
+                    <a href={localizeHref(item.href)} class="mobile-sublink" onclick={toggleMobileNav}>
+                      {item.label()}
+                    </a>
+                  {/each}
+                {/each}
+              </div>
+            {/if}
+          </li>
+
+          <!-- Topics -->
+          <li class="mobile-nav-item">
+            <button class="mobile-nav-link has-submenu" onclick={() => toggleMobileSection('topics')}>
+              {m['navigation.topics.self']()}
+              <svg
+                class="chevron"
+                class:rotated={mobileExpandedSections['topics']}
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg
+              >
+            </button>
+            {#if mobileExpandedSections['topics']}
+              <div class="mobile-submenu">
+                {#each navigation.topics.sections as section}
+                  {#if section.heading}
+                    <div class="mobile-section-heading {section.color || ''}">{section.heading}</div>
+                  {/if}
+                  {#each section.items as item}
+                    <a href={localizeHref(item.href)} class="mobile-sublink" onclick={toggleMobileNav}>
+                      {item.label()}
+                    </a>
+                  {/each}
+                {/each}
+              </div>
+            {/if}
+          </li>
+
+          <!-- About Us -->
+          <li class="mobile-nav-item">
+            <button class="mobile-nav-link has-submenu" onclick={() => toggleMobileSection('about')}>
+              {m['navigation.aboutUs.self']()}
+              <svg
+                class="chevron"
+                class:rotated={mobileExpandedSections['about']}
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg
+              >
+            </button>
+            {#if mobileExpandedSections['about']}
+              <div class="mobile-submenu">
+                {#each navigation.aboutUs.sections as section}
+                  {#each section.items as item}
+                    <a href={localizeHref(item.href)} class="mobile-sublink" onclick={toggleMobileNav}>
+                      {item.label()}
+                    </a>
+                  {/each}
+                {/each}
+              </div>
+            {/if}
+          </li>
+
+          <!-- Blog -->
+          <li class="mobile-nav-item">
+            <a href="https://blog.strateco.de/" target="_blank" class="mobile-nav-link">
+              {m['navigation.blog.self']()}
+            </a>
+          </li>
+
+          <!-- Contact -->
+          <li class="mobile-nav-item">
+            <a href={localizeHref('/contact')} class="mobile-nav-link" onclick={toggleMobileNav}>
+              {m['navigation.contact.self']()}
+            </a>
+          </li>
+        </ul>
+
+        <div class="mobile-lang-switch">
+          <button class:active={getLocale() === 'en'} onclick={() => setLocale('en')}>EN</button>
+          <span class="divider">|</span>
+          <button class:active={getLocale() === 'de'} onclick={() => setLocale('de')}>DE</button>
+        </div>
+      </div>
+    </div>
+  </div>
+{/if}
+
 <style lang="postcss">
   @reference '../../app.css';
   header {
@@ -433,20 +594,55 @@
     z-index: 1000;
 
     .inner-box {
-      @apply mx-auto w-full max-w-7xl px-10;
+      @apply mx-auto w-full max-w-7xl px-4 md:px-6 xl:px-10;
 
       .inner-wrapper {
-        @apply bg-darkGrey/70 flex w-full flex-row rounded-xl shadow-md;
+        @apply bg-darkGrey/70 flex min-h-[56px] w-full flex-row items-center justify-between rounded-xl py-0 shadow-md;
         .logo-area {
-          @apply flex w-fit items-center justify-center px-2;
+          @apply flex w-fit items-center justify-center px-4 xl:px-2;
           .company-logo {
-            @apply h-[35px] w-[168px] bg-cover bg-left bg-no-repeat;
+            @apply block h-[35px] w-[168px] bg-cover bg-left bg-no-repeat;
             background-image: url('/images/strateco-logo.png');
           }
         }
 
+        .burger-btn {
+          @apply mr-4 flex h-10 w-10 items-center justify-center rounded-md text-white focus:outline-none lg:hidden;
+
+          .burger-icon {
+            @apply relative h-4 w-6;
+            span {
+              @apply absolute left-0 h-0.5 w-full rounded-full bg-white transition-all duration-300;
+              &:nth-child(1) {
+                top: 0;
+              }
+              &:nth-child(2) {
+                top: 50%;
+                transform: translateY(-50%);
+              }
+              &:nth-child(3) {
+                bottom: 0;
+              }
+            }
+
+            &.open {
+              span:nth-child(1) {
+                top: 50%;
+                transform: translateY(-50%) rotate(45deg);
+              }
+              span:nth-child(2) {
+                opacity: 0;
+              }
+              span:nth-child(3) {
+                bottom: 50%;
+                transform: translateY(50%) rotate(-45deg);
+              }
+            }
+          }
+        }
+
         nav.navigation {
-          @apply flex grow flex-row items-center justify-between pl-6;
+          @apply invisible hidden grow flex-row items-center justify-between pl-6 lg:visible lg:flex;
           ul.main-nav {
             @apply flex flex-row items-center justify-center;
             li {
@@ -649,6 +845,95 @@
     100% {
       opacity: 1;
       transform: translateY(0);
+    }
+  }
+
+  /* Mobile Menu Styles */
+  .mobile-menu-overlay {
+    @apply fixed inset-0 z-[9999] flex flex-col bg-black/72 text-white backdrop-blur-sm;
+    animation: fadeIn 0.3s ease-out;
+
+    .mobile-menu-header {
+      @apply mx-auto flex w-full max-w-7xl items-center justify-between px-4 py-4 md:px-10;
+      .company-logo {
+        @apply mt-7 ml-4 block h-[35px] w-[168px] bg-cover bg-left bg-no-repeat;
+        background-image: url('/images/strateco-logo.png');
+      }
+      .close-btn {
+        @apply mt-7 mr-7 flex h-10 w-10 items-center justify-center rounded-md text-white focus:outline-none;
+      }
+    }
+
+    .mobile-menu-content {
+      @apply mx-auto flex w-full max-w-7xl flex-1 flex-col overflow-y-auto px-6 pb-10 md:px-12;
+
+      .mobile-menu-inner-container {
+        @apply my-auto w-full;
+      }
+
+      .mobile-nav-list {
+        @apply flex flex-col space-y-4;
+
+        .mobile-nav-item {
+          @apply border-b border-white/10 pb-4 last:border-0;
+
+          .mobile-nav-link {
+            @apply flex w-full items-center justify-between text-xl font-light tracking-wide text-white uppercase transition-colors hover:text-white;
+            &.has-submenu {
+              @apply cursor-pointer;
+            }
+
+            .chevron {
+              @apply transition-transform duration-300;
+              &.rotated {
+                @apply rotate-180;
+              }
+            }
+          }
+
+          .mobile-submenu {
+            @apply mt-4 flex flex-col space-y-3 pl-4;
+            animation: slideDown 0.3s ease-out;
+
+            .mobile-section-heading {
+              @apply mt-7 text-sm font-bold tracking-wider text-white/60 uppercase;
+              &.blue {
+                @apply text-blue-400;
+              }
+              &.orange {
+                @apply text-orange-400;
+              }
+            }
+
+            .mobile-sublink {
+              @apply block py-1 text-base text-white/80 transition-colors hover:text-white;
+            }
+          }
+        }
+      }
+
+      .mobile-lang-switch {
+        @apply mt-8 flex items-center justify-center space-x-6 text-lg font-light;
+
+        button {
+          @apply text-white/60 transition-colors hover:text-white;
+          &.active {
+            @apply font-bold text-white underline decoration-2 underline-offset-4;
+          }
+        }
+        .divider {
+          @apply text-white/20;
+        }
+      }
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
     }
   }
 </style>

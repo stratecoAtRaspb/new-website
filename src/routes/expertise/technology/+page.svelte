@@ -1,10 +1,16 @@
 <script lang="ts">
+  import BasicContentArea from '$lib/components/basic-content-area.svelte';
   import IntroBox from '$lib/components/intro-box.svelte';
   import Section from '$lib/components/section.svelte';
   import Stage from '$lib/components/stage.svelte';
   import { m } from '$lib/paraglide/messages';
   import { localizeHref } from '$lib/paraglide/runtime';
 </script>
+
+<svelte:head>
+  <title>{m['expertise.technology.title']()}</title>
+  <meta name="description" content={m['expertise.technology.title']()} />
+</svelte:head>
 
 <Stage>
   <IntroBox title={m['navigation.expertise.technology']()} description={m['aboutUs.introDescription']()}></IntroBox>

@@ -8,6 +8,11 @@
   import { localizeHref } from '$lib/paraglide/runtime';
 </script>
 
+<svelte:head>
+  <title>{m['aboutUs.title']()}</title>
+  <meta name="description" content={m['aboutUs.title']()} />
+</svelte:head>
+
 <Stage>
   <IntroBox title={m['aboutUs.introTitle']()} description={m['aboutUs.introDescription']()}></IntroBox>
 </Stage>
@@ -20,8 +25,7 @@
     </div>
   </div>
 {/snippet}
-{#snippet right()}
-{/snippet}
+{#snippet right()}{/snippet}
 
 <Section>
   <BasicContentArea {left} {right} />

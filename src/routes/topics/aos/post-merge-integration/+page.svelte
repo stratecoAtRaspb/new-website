@@ -7,6 +7,11 @@
   import { localizeHref } from '$lib/paraglide/runtime';
 </script>
 
+<svelte:head>
+  <title>{m['topics.aos.postMergeIntegration.title']()}</title>
+  <meta name="description" content={m['topics.aos.postMergeIntegration.title']()} />
+</svelte:head>
+
 <Stage>
   <IntroBox title={m['navigation.topics.postMergeIntegration']()} description={m['aboutUs.introDescription']()}></IntroBox>
 </Stage>

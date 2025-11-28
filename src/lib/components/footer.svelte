@@ -71,9 +71,9 @@
             <p>Kaiser-Friedrich-Promenade 45</p>
             <p>61348 Bad Homburg v.d.H.</p>
 
-            <p class="mt-4">{ m['footer.phone']() }: +49 (0) 6172 - 99 59 500<span class="px-2"> | </span>Fax: +49 (0) 6172 99 59 599</p>
+            <p class="mt-4">{m['footer.phone']()}: +49 (0) 6172 - 99 59 500<span class="px-2"> | </span>Fax: +49 (0) 6172 99 59 599</p>
             <p>
-              { m['footer.email']() }: <a href="mailto:info@strateco.de">info@strateco.de</a> <span class="px-2">{ m['footer.or']() }</span>
+              {m['footer.email']()}: <a href="mailto:info@strateco.de">info@strateco.de</a> <span class="px-2">{m['footer.or']()}</span>
               <a href="mailto:kontakt@strateco.de">kontakt@strateco.de</a>
             </p>
           </div>
@@ -87,10 +87,10 @@
       <!-- Bottom Bar -->
       <div class="footer-bottom">
         <nav>
-          <a href={localizeHref('/')}>{ m['navigation.home.self']() }</a>
-          <a href={localizeHref('/privacy')}>{ m['navigation.privacy.self']() }</a>
-          <a href={localizeHref('/legal')}>{ m['navigation.legal.self']() }</a>
-          <a href={localizeHref('/contact')}>{ m['navigation.contact.self']() }</a>
+          <a href={localizeHref('/')}>{m['navigation.home.self']()}</a>
+          <a href={localizeHref('/privacy')}>{m['navigation.privacy.self']()}</a>
+          <a href={localizeHref('/legal')}>{m['navigation.legal.self']()}</a>
+          <a href={localizeHref('/contact')}>{m['navigation.contact.self']()}</a>
         </nav>
         <div class="copyright">
           <span>&copy; {currentYear} STRATECO GmbH</span>
@@ -114,23 +114,23 @@
     @apply bg-base-100 w-full;
 
     .inner-box {
-      @apply mx-auto w-full max-w-7xl px-10;
+      @apply mx-auto w-full max-w-7xl px-0 md:px-10;
     }
 
     .inner-wrapper {
-      @apply w-full bg-linear-to-br from-(--dark-grey) to-(--medium-grey) px-16 pt-10 pb-6 text-white shadow-sm;
+      @apply w-full bg-linear-to-br from-(--dark-grey) to-(--medium-grey) px-6 pt-10 pb-6 text-white shadow-sm md:px-16;
 
       .top-row {
-        @apply flex w-full items-center justify-between;
+        @apply flex w-full flex-col items-center justify-between gap-6 md:flex-row md:gap-0;
         .footer-logo {
           @apply block h-[35px] w-[168px] bg-cover bg-left bg-no-repeat;
           background-image: url('/images/strateco-logo.png');
         }
         .line {
-          @apply mx-3 h-0.5 grow bg-white/20;
+          @apply hidden h-0.5 grow bg-white/20 md:mx-3 md:block;
         }
         .social-media-links {
-          @apply ml-2 flex items-center justify-center;
+          @apply ml-0 flex flex-wrap items-center justify-center md:ml-2;
           .social-media-icon {
             @apply mx-1 h-9 w-9 bg-white/90 mask-contain mask-center mask-no-repeat opacity-80;
             &:last-child {
@@ -159,10 +159,10 @@
       }
 
       .content-row {
-        @apply flex flex-col justify-between gap-12 py-8 md:flex-row;
+        @apply flex flex-col justify-between gap-8 py-8 md:flex-row md:gap-12;
 
         .info-col {
-          @apply flex flex-col items-start gap-6;
+          @apply flex flex-col items-center gap-6 text-center md:items-start md:text-left;
 
           .address-details {
             p {
@@ -180,17 +180,17 @@
       }
 
       .footer-bottom {
-        @apply flex flex-col items-center justify-between gap-4 text-sm text-white/70 md:flex-row;
+        @apply flex flex-col items-center justify-between gap-6 text-sm text-white/70 md:flex-row md:gap-4;
 
         nav {
-          @apply flex flex-wrap gap-6;
+          @apply flex flex-wrap justify-center gap-4 md:justify-start md:gap-6;
           a {
             @apply text-white/70 no-underline transition-colors hover:text-white;
           }
         }
 
         .copyright {
-          @apply flex flex-row items-center justify-end;
+          @apply flex flex-row items-center justify-center md:justify-end;
         }
       }
     }

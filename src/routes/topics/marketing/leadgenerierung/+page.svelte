@@ -7,6 +7,11 @@
   import { localizeHref } from '$lib/paraglide/runtime';
 </script>
 
+<svelte:head>
+  <title>{m['topics.marketing.leadgenerierung.title']()}</title>
+  <meta name="description" content={m['topics.marketing.leadgenerierung.title']()} />
+</svelte:head>
+
 <Stage>
   <IntroBox title={m['navigation.topics.leadgenerierung']()} description={m['aboutUs.introDescription']()}></IntroBox>
 </Stage>
@@ -28,15 +33,6 @@
       Strategie zur Leadgenerierung. Im Wesentlichen kommt es hier auf die "richtige Mischung" an, den ausgewogenen Einsatz von Content Marketing, Social Media
       aber auch "echten" Veranstaltungen und Events. Nicht zu vergessen die unendlichen Möglichkeiten im Bereich Displaywerbung und Search Engine Marketing. Wir
       sorgen für einen ausgewogenen Mix der Möglichkeiten - und damit für gute Ergebnisse!
-    </p>
-    <p>
-      <a href="/Frontend/Images/imagesBig/Leadgenerierung_big.jpg" rel="bigImage"
-        ><img
-          style="margin: 17px 0 17px 0;"
-          src="/media/8d2e2cbe-ccf8-4481-94cd-25d26382d29c/Leadgenerierung_small_jpg"
-          data-mce-style="margin: 17px 0 17px 0;"
-        /></a
-      >
     </p>
     <p>
       Dabei haben wir stets den gesamten Prozess im Fokus - denn auch die Balance zwischen Quantität und Qualität muss sichergestellt werden. Viele

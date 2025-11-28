@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['topics.cea.customerFeedback.title']()}</title>
-  <meta name="description" content={m['topics.cea.customerFeedback.title']()} />
+  <title>{m['topics.cea.customerInteraction.title']()}</title>
+  <meta name="description" content={m['topics.cea.customerInteraction.title']()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.topics.customerFeedback']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m['navigation.topics.customerInteraction']()} description={m['aboutUs.introDescription']()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.topics.customerFeedback']()}</h1>
+    <h1>{m['navigation.topics.customerInteraction']()}</h1>
     <p>
       Feedback ist für uns alle wichtig. Ohne das Feedback Ihrer Kunden wissen Sie nicht, wo Sie stehen und wie Sie Produkte und Services verbessern können.
       Haben Sie bereits einen durchgängigen Customer Feedback-Prozess implementiert?

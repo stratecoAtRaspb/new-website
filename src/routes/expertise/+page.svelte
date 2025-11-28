@@ -8,6 +8,11 @@
   import { localizeHref } from '$lib/paraglide/runtime';
 </script>
 
+<svelte:head>
+  <title>{m['expertise.title']()}</title>
+  <meta name="description" content={m['expertise.title']()} />
+</svelte:head>
+
 <Stage>
   <IntroBox title={m['expertise.introTitle']()} description={m['expertise.introDescription']()}></IntroBox>
 </Stage>
@@ -23,8 +28,8 @@
 
   <div class="divider"></div>
 
-  <div class="flex flex-row gap-10 md:gap-20 pt-4">
-    <div class="basis-sm prose">
+  <div class="flex flex-row gap-10 pt-4 md:gap-20">
+    <div class="prose basis-sm">
       <h3>{m['expertise.sectionHeadline1']()}</h3>
       <ul class="linklist">
         <li><a href={localizeHref('/expertise/strategy')}>{m['navigation.expertise.strategy']()}</a></li>
@@ -34,7 +39,7 @@
         <li><a href={localizeHref('/expertise/technology')}>{m['navigation.expertise.technology']()}</a></li>
       </ul>
     </div>
-    <div class="basis-sm prose">
+    <div class="prose basis-sm">
       <h3>{m['expertise.sectionHeadline2']()}</h3>
       <ul class="linklist">
         <li><a href={localizeHref('/expertise/financial-institution')}>{m['navigation.expertise.financialInstitution']()}</a></li>

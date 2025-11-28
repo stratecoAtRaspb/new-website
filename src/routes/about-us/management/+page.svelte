@@ -7,6 +7,11 @@
   import { localizeHref } from '$lib/paraglide/runtime';
 </script>
 
+<svelte:head>
+  <title>{m['aboutUs.management.title']()}</title>
+  <meta name="description" content={m['aboutUs.management.title']()} />
+</svelte:head>
+
 <Stage>
   <IntroBox title={m['aboutUs.management.introTitle']()} description={m['aboutUs.management.introDescription']()}></IntroBox>
 </Stage>
@@ -53,7 +58,7 @@
       <li><span>Risk Advisory Services (RAS)</span></li>
       <li><span>Finance & Controlling</span></li>
     </ul>
-<img src="/images/Laurence.jpg" alt="Jens W. Klemann" class="float-left rounded-lg mt-2 ml-2 mb-4 mr-10"/>
+    <img src="/images/Laurence.jpg" alt="Jens W. Klemann" class="float-left mt-2 mr-10 mb-4 ml-2 rounded-lg" />
     <p>
       Previous to the founding of STRATECO GmbH in Bad Homburg, Mr. Dickler was an associate in Controlling in the section Tax & Legal, Assurance and Business
       Advisory of Arthur Andersen WP/Stb-Gesellschaft and later was engaged as a consultant for the design and implementation of the financial planning platform
@@ -71,7 +76,6 @@
 
     <div class="divider"></div>
 
-
     <h3>Jens W. Klemann</h3>
     <p>
       Jens W. Klemann is Managing Partner of STRATECO, Strategie- and Management-Beratungsgesellschaft mbH located in Bad Homburg. His advisory activities focus
@@ -84,12 +88,18 @@
       <li><span>Marketing Automation</span></li>
     </ul>
 
-    <img src="/images/Jens_Klemann.jpg" alt="Jens W. Klemann" class="float-right rounded-lg mt-1 mr-4 mb-4 ml-12"/>
+    <img src="/images/Jens_Klemann.jpg" alt="Jens W. Klemann" class="float-right mt-1 mr-4 mb-4 ml-12 rounded-lg" />
     <p>
-      As Managing Partner at STRATECO he is responsible for the segments Marketing and Business Development. Special research focus is in the field of Marketing Automation, Customer Experience Analytics and Customer Interaction. He is the author of numerous studies as well as a “Praxis Manual Mobile Marketing”, publisher of “smart-service.com” and Co-Founder of MobileMonday Frankfurt.
+      As Managing Partner at STRATECO he is responsible for the segments Marketing and Business Development. Special research focus is in the field of Marketing
+      Automation, Customer Experience Analytics and Customer Interaction. He is the author of numerous studies as well as a “Praxis Manual Mobile Marketing”,
+      publisher of “smart-service.com” and Co-Founder of MobileMonday Frankfurt.
     </p>
     <p>
-      He graduated with honors in business administration from the Goethe-Universität in Frankfurt and was active as teaching assistant to professors, especially in the field of marketing. He is a certified banking professional (Bankkaufmann) who became an entrepreneur after completing a trainee program and entry into banking at the Deutsche Bank. For Microsoft he developed the MCP-Campus-Promotion program and was co-founder of Logo Communication GmbH, for which he assumed responsibilities as general manager in 1998. In 2000 he became a member of the executive board of Logo Connection Holding where he was responsible for Marketing and IT. 
+      He graduated with honors in business administration from the Goethe-Universität in Frankfurt and was active as teaching assistant to professors,
+      especially in the field of marketing. He is a certified banking professional (Bankkaufmann) who became an entrepreneur after completing a trainee program
+      and entry into banking at the Deutsche Bank. For Microsoft he developed the MCP-Campus-Promotion program and was co-founder of Logo Communication GmbH,
+      for which he assumed responsibilities as general manager in 1998. In 2000 he became a member of the executive board of Logo Connection Holding where he
+      was responsible for Marketing and IT.
     </p>
 
     <blockquote class="relative mt-4 mb-12 ml-4 max-w-4xl">
@@ -111,7 +121,9 @@
       <div class="relative z-10">
         <p class="text-gray-800 sm:text-xl">
           <em
-            >Challenges? They are there to be met! That's what STRATECO is all about. For over 22 years we have met the challenges of our clients. With specialized competence and proven methodologies with a passion and creatively. Our concepts do not consist only of the design of strategy, instead they are complete by specifying performance results. Measure us on the basis of the results we achieve for you!</em
+            >Challenges? They are there to be met! That's what STRATECO is all about. For over 22 years we have met the challenges of our clients. With
+            specialized competence and proven methodologies with a passion and creatively. Our concepts do not consist only of the design of strategy, instead
+            they are complete by specifying performance results. Measure us on the basis of the results we achieve for you!</em
           >
         </p>
       </div>

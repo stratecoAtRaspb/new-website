@@ -17,8 +17,16 @@
         { key: 'changeManagement', label: m['navigation.topics.changeManagement'], href: '/topics/aos/change-management' },
         { key: 'postMergeIntegration', label: m['navigation.topics.postMergeIntegration'], href: '/topics/aos/post-merge-integration' },
         { key: 'culturalChangeFacilliation', label: m['navigation.topics.culturalChangeFacilliation'], href: '/topics/aos/cultural-change-facilliation' },
-        { key: 'strategyOptimizationAndImplementation', label: m['navigation.topics.strategyOptimizationAndImplementation'], href: '/topics/aos/strategy-optimization-and-implementation' },
-        { key: 'workflowAndBusinessProcessAlignment', label: m['navigation.topics.workflowAndBusinessProcessAlignment'], href: '/topics/aos/workflow-and-business-process-alignment' },
+        {
+          key: 'strategyOptimizationAndImplementation',
+          label: m['navigation.topics.strategyOptimizationAndImplementation'],
+          href: '/topics/aos/strategy-optimization-and-implementation'
+        },
+        {
+          key: 'workflowAndBusinessProcessAlignment',
+          label: m['navigation.topics.workflowAndBusinessProcessAlignment'],
+          href: '/topics/aos/workflow-and-business-process-alignment'
+        },
         { key: 'collaborationPlatform', label: m['navigation.topics.collaborationPlatform'], href: '/topics/aos/collaboration-platform' }
       ]
     },
@@ -86,11 +94,20 @@
         { key: 'leadManagement', label: m['navigation.topics.leadManagement'], href: '/topics/marketing/lead-management' },
         { key: 'marketingAutomation', label: m['navigation.topics.marketingAutomation'], href: '/topics/marketing/marketing-automation' },
         { key: 'behaviouralMarketing', label: m['navigation.topics.behaviouralMarketing'], href: '/topics/marketing/behavioural-marketing' },
-        { key: 'customerRelationshipManagement', label: m['navigation.topics.customerRelationshipManagement'], href: '/topics/marketing/customer-relationship-management' }
+        {
+          key: 'customerRelationshipManagement',
+          label: m['navigation.topics.customerRelationshipManagement'],
+          href: '/topics/marketing/customer-relationship-management'
+        }
       ]
     }
   ];
 </script>
+
+<svelte:head>
+  <title>{m['topics.title']()}</title>
+  <meta name="description" content={m['topics.title']()} />
+</svelte:head>
 
 <Stage>
   <IntroBox title={m['topics.introTitle']()} description={m['topics.introDescription']()}></IntroBox>
@@ -100,9 +117,8 @@
   <div class="prose">
     <Breadcrumb />
     <h2>{m['topics.title']()}</h2>
-    <div class="flex justify-center items-center">
-      <img src="/images/SC_Portfolio_Kreis.png" class="w-md h-md m-4 mb-10" alt="Portfolio Kreis"/>
-
+    <div class="flex items-center justify-center">
+      <img src="/images/SC_Portfolio_Kreis.png" class="h-md m-4 mb-10 w-md" alt="Portfolio Kreis" />
     </div>
   </div>
 
@@ -110,7 +126,7 @@
 
   <div class="flex flex-row flex-wrap gap-10 py-4">
     {#each topicsSections as section}
-      <div class="basis-xs grow prose">
+      <div class="prose grow basis-xs">
         <h3 class={section.color ?? 'grey'}>{section.heading}</h3>
         <ul class="linklist">
           {#each section.items as item}

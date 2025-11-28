@@ -7,6 +7,11 @@
   import { m } from '$lib/paraglide/messages';
 </script>
 
+<svelte:head>
+  <title>{m['expertise.strategy.title']()}</title>
+  <meta name="description" content={m['expertise.strategy.title']()} />
+</svelte:head>
+
 <Stage>
   <IntroBox title={m['expertise.strategy.introTitle']()} description={m['expertise.strategy.introDescription']()}></IntroBox>
 </Stage>

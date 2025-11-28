@@ -7,7 +7,7 @@
 <div class="feature-box">
   <button
     class="feature"
-    class:order-1= {getLocale() == 'en'}
+    class:order-1={getLocale() == 'en'}
     onclick={() => {
       goto(localizeHref('/expertise/financial-institution'));
     }}
@@ -17,7 +17,7 @@
   </button>
   <button
     class="feature"
-    class:order-3= {getLocale() == 'en'}
+    class:order-3={getLocale() == 'en'}
     onclick={() => {
       goto(localizeHref('/topics/finance-controlling'));
     }}
@@ -27,7 +27,7 @@
   </button>
   <button
     class="feature"
-    class:order-2= {getLocale() == 'en'}
+    class:order-2={getLocale() == 'en'}
     onclick={() => {
       goto(localizeHref('/topics/ras'));
     }}
@@ -40,10 +40,10 @@
 <style lang="postcss">
   @reference '../../app.css';
   div.feature-box {
-    @apply bg-darkGrey/80 flex min-h-48 w-full flex-row items-start justify-start gap-4 rounded-lg px-10 py-6;
+    @apply bg-darkGrey/80 flex min-h-48 w-full flex-col items-start justify-start gap-8 rounded-lg px-6 py-6 md:flex-row md:gap-4 md:px-10;
 
     .feature {
-      @apply flex-1/3 cursor-pointer text-left text-white/80 hover:text-white;
+      @apply w-full flex-auto cursor-pointer text-left text-white/80 hover:text-white md:w-auto md:flex-1/3;
 
       h3 {
         @apply relative mb-3 pl-11;
@@ -62,7 +62,7 @@
         }
       }
       p {
-        @apply max-w-[300px] text-base;
+        @apply w-full text-base md:max-w-[300px];
       }
     }
   }
