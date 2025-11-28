@@ -2,7 +2,7 @@
   "$schema": "https://inlang.com/schema/inlang-message-format",
   "navigation": {
     "home": {
-      "self": "Start"
+      "self": "Home"
     },
     "expertise": {
       "self": "Expertise",
@@ -36,13 +36,13 @@
       "workflowAndBusinessProcessAlignment": "Workflow and business process alignment",
       "collaborationPlatform": "Collaboration Platform",
       "financeAndControllingOverview": "Finance and Controlling",
-      "strategy": "Strategie",
-      "processes": "Prozesse",
-      "architecture": "Architektur",
+      "strategy": "Strategy",
+      "processes": "Processes",
+      "architecture": "Architecture",
       "reporting": "Reporting",
-      "analysis": "Analyse",
+      "analysis": "Analysis",
       "workflows": "Workflows",
-      "documentManagement": "Dokumenten Managment",
+      "documentManagement": "Document Managment",
       "intranet": "Intranet",
       "businessIntelligence": "Business Intelligence",
       "dataManagement": "Data Management",
@@ -61,9 +61,9 @@
       "customerFeedback": "Customer Feedback",
       "customerInteraction": "Customer Interaction",
       "brandAndLoyalityManagement": "Brand & Loyality Management",
-      "marketingOverview": "Übersicht",
+      "marketingOverview": "Overview",
       "marketingAsAService": "Marketing as a Service",
-      "leadgenerierung": "Leadgenerierung",
+      "leadgenerierung": "Lead Generation",
       "leadManagement": "Lead Management",
       "marketingAutomation": "Marketing Automation",
       "behaviouralMarketing": "Behavioural Marketing",
@@ -91,15 +91,30 @@
     }
   },
   "expertise": {
-    "title": "Our expertise"
+    "megaMenuTitle": "Our expertise",
+    "introTitle": "Expertise",
+    "introDescription": "STRATECO's resources consist of a wide range of competencies.  So that you can learn what you may expect of us, we provide a summarization of the most important capabilities.",
+    "title": "Our competencies for your competitive advantage"
   },
   "topics": {
-    "title": "Topics",
-    "description": "Our solutions portfolio and our current themes are constantly in motion for you. You can learn more about our firm by looking at our current Topics-Setting. We would be pleased to discuss how these topics relate to your challenges!"
+    "megaMenuTitle": "Our topics",
+    "introTitle": "Topics",
+    "introDescription": "Our solutions portfolio and our current themes are constantly in motion for you. You can learn more about our firm by looking at our current Topics-Setting. We would be pleased to discuss how these topics relate to your challenges!",
+    "title": "Our topics are diverse",
+    "aos": {
+      "title": "Competency",
+      "description": "Just as good strategy is adapted to the environment, good organizational design aligns people, architecture, routines and culture to the strategy",
+      "managementCoaching": {
+        "title": "Weil Menschen Entscheidungen treffen...",
+        "introTitle": "Management Coaching",
+        "introDescription": "Die einzigartige Kombination aus fachlicher Branchenexpertise und langjähriger Coaching Erfahrung begründet den Erfolg unserer Coaching Methodik. Wir verwandeln Ihre Herausforderungen in operationale Arbeitspakete!"
+      }
+    }
   },
   "about": {
-    "title": "About us",
-    "description": "Over the years, the right combination of competence and passion that is what has enabled STRATECO to succeed. Just give us a try. See for yourself!"
+    "introTitle": "About us",
+    "introDescription": "Over the years, the right combination of competence and passion that is what has enabled STRATECO to succeed. Just give us a try. See for yourself!",
+    "title": "You are at the right place if you are doing business with us!"
   },
   "contact": {
     "title": "Contact"
@@ -109,12 +124,5 @@
   },
   "privacy": {
     "title": "Privacy"
-  },
-  "aos": {
-    "title": "Alignment of Organization to Strategy (AOS)",
-    "description": "Just as good strategy is adapted to the environment, good organizational design aligns people, architecture, routines and culture to the strategy",
-    "managementCoaching": {
-      "title": "Management Coaching"
-    }
   }
 }

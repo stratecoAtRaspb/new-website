@@ -273,7 +273,7 @@
               >
                 <div class="mega-menu-content">
                   <div class="mega-menu-sections">
-                    <h3 class="w-full">Unsere Kompetenzen</h3>
+                    <h3 class="w-full">{ m['expertise.megaMenuTitle']() }</h3>
                     {#each navigation.expertise.sections as section}
                       <div class="mega-menu-section">
                         {#if section.heading}
@@ -329,7 +329,7 @@
               >
                 <div class="mega-menu-content">
                   <div class="mega-menu-sections">
-                    <h3 class="w-full">Unsere Themen</h3>
+                    <h3 class="w-full">{ m['topics.megaMenuTitle']()}</h3>
                     {#each navigation.topics.sections as section}
                       <div class="mega-menu-section">
                         {#if section.heading}
@@ -406,7 +406,11 @@
               </div>
             {/if}
           </li>
-
+          <li>
+            <a href="https://blog.strateco.de/" target="_blank" class="solid">
+              {m['navigation.blog.self']()}
+            </a>
+          </li>
           <li>
             <a href={localizeHref('/contact')} class="solid" class:active={page.url.pathname == localizeHref('/contact')}>
               {m['navigation.contact.self']()}

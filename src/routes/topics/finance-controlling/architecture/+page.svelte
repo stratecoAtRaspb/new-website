@@ -12,17 +12,9 @@
 </Stage>
 
 {#snippet left()}
-  <div class="prose">
+<div class="prose">
     <h1>{m['navigation.topics.architecture']()}</h1>
-
-    <p>
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-      voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-      voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    </p>
+<p>Hier kommt ein kurzer Introtext/Beschreibungstext hin...</p> <h3>Headline</h3> <p>Hier kommen noch Inhalte hin...</p> <p>Hier kommen noch Inhalte hin...</p>
   </div>
 
   <a href={localizeHref('/topics/finance-controlling')}>Zurück zu Übersicht</a>

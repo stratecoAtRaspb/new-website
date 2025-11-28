@@ -91,15 +91,30 @@
     }
   },
   "expertise": {
-    "title": "Unsere Kompetenz"
+    "megaMenuTitle": "Unsere Kompetenzen",
+    "introTitle": "Kompetenzen",
+    "introDescription": "STRATECO verfügt über vielfältige Kompetenzen. Damit Sie wissen, was Sie von uns erwarten dürfen, haben wir Ihnen die wichtigsten hier zusammengestellt.",
+    "title": "Unsere Kompetenzen für Ihren Wettbewerbsvorteil."
   },
   "topics": {
-    "title": "Themen",
-    "description": "Unser Lösungsportfolio und unsere aktuellen Themen sind ständig in Bewegung für Sie. Lernen Sie unser Unternehmen besser kennen und werfen Sie einen Blick hinter unser aktuelles Themen-Setting. Gerne stehen wir Ihnen für ein persönliches Gespräch zu Ihren Herausforderungen zur Verfügung!"
+    "megaMenuTitle": "Unsere Themen",
+    "introTitle": "Themen",
+    "introDescription": "Unser Lösungsportfolio und unsere aktuellen Themen sind ständig in Bewegung für Sie. Lernen Sie unser Unternehmen besser kennen und werfen Sie einen Blick hinter unser aktuelles Themen-Setting. Gerne stehen wir Ihnen für ein persönliches Gespräch zu Ihren Herausforderungen zur Verfügung!",
+    "title": "Unsere Themen sind vielfältig",
+    "aos": {
+      "title": "Competency",
+      "description": "Just as good strategy is adapted to the environment, good organizational design aligns people, architecture, routines and culture to the strategy",
+      "managementCoaching": {
+        "title": "Weil Menschen Entscheidungen treffen...",
+        "introTitle": "Management Coaching",
+        "introDescription": "Die einzigartige Kombination aus fachlicher Branchenexpertise und langjähriger Coaching Erfahrung begründet den Erfolg unserer Coaching Methodik. Wir verwandeln Ihre Herausforderungen in operationale Arbeitspakete!"
+      }
+    }
   },
   "about": {
-    "title": "Über STRATECO",
-    "description": "Die richtige Mischung aus Kompetenz und Leidenschaft - das ist es, was seit vielen Jahren den Erfolg von STRATECO ausmacht. Probieren Sie es doch einfach auch mal aus!"
+    "introTitle": "Über STRATECO",
+    "introDescription": "Die richtige Mischung aus Kompetenz und Leidenschaft - das ist es, was seit vielen Jahren den Erfolg von STRATECO ausmacht. Probieren Sie es doch einfach auch mal aus!",
+    "title": "Bei uns sind Sie richtig!"
   },
   "contact": {
     "title": "Kontakt"
@@ -109,12 +124,5 @@
   },
   "privacy": {
     "title": "Datenschutz"
-  },
-  "aos": {
-    "title": "Alignment of Organization to Strategy (AOS)",
-    "description": "Just as good strategy is adapted to the environment, good organizational design aligns people, architecture, routines and culture to the strategy",
-    "managementCoaching": {
-      "title": "Management Coaching"
-    }
   }
 }

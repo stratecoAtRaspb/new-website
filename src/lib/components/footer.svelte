@@ -1,5 +1,6 @@
 <script lang="ts">
   import { goto } from '$app/navigation';
+  import { m } from '$lib/paraglide/messages';
   import { localizeHref } from '$lib/paraglide/runtime';
 
   const currentYear = new Date().getFullYear();
@@ -86,10 +87,10 @@
       <!-- Bottom Bar -->
       <div class="footer-bottom">
         <nav>
-          <a href={localizeHref('/')}>Start</a>
-          <a href={localizeHref('/privacy')}>Datenschutz</a>
-          <a href={localizeHref('/legal')}>Impressum</a>
-          <a href={localizeHref('/contact')}>Kontakt</a>
+          <a href={localizeHref('/')}>{ m['navigation.home.self']() }</a>
+          <a href={localizeHref('/privacy')}>{ m['navigation.privacy.self']() }</a>
+          <a href={localizeHref('/legal')}>{ m['navigation.legal.self']() }</a>
+          <a href={localizeHref('/contact')}>{ m['navigation.contact.self']() }</a>
         </nav>
         <div class="copyright">
           <span>&copy; {currentYear} STRATECO GmbH</span>
