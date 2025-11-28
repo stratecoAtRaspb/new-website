@@ -247,11 +247,7 @@
             onmouseenter={() => handleMouseEnter('expertise')}
             onmouseleave={handleMouseLeave}
           >
-            <a
-              href={localizeHref('/expertise')}
-              class="solid nav-link-wrapper"
-              class:active={page.url.pathname == localizeHref('expertise')}
-            >
+            <a href={localizeHref('/expertise')} class="solid nav-link-wrapper" class:active={page.url.pathname == localizeHref('expertise')}>
               <span>{m['navigation.expertise.self']()}</span>
               <svg
                 class="nav-arrow"
@@ -305,12 +301,9 @@
             class:full-width={navigation.topics.layout === 'full'}
             class:compact={navigation.topics.layout === 'compact'}
             onmouseenter={() => handleMouseEnter('topics')}
+            onmouseleave={handleMouseLeave}
           >
-            <a
-              href={localizeHref('/topics')}
-              class="solid nav-link-wrapper"
-              class:active={page.url.pathname == localizeHref('topics')}
-            >
+            <a href={localizeHref('/topics')} class="solid nav-link-wrapper" class:active={page.url.pathname == localizeHref('topics')}>
               <span>{m['navigation.topics.self']()}</span>
               <svg
                 class="nav-arrow"
@@ -326,7 +319,14 @@
               >
             </a>
             {#if activeMenu === 'topics'}
-              <div class="mega-menu" class:compact={navigation.topics.layout === 'compact'} role="menu" tabindex="-1" onmouseenter={cancelClose}>
+              <div
+                class="mega-menu"
+                class:compact={navigation.topics.layout === 'compact'}
+                role="menu"
+                tabindex="-1"
+                onmouseenter={cancelClose}
+                onmouseleave={handleMouseLeave}
+              >
                 <div class="mega-menu-content">
                   <div class="mega-menu-sections">
                     <h3 class="w-full">Unsere Themen</h3>
@@ -359,11 +359,7 @@
             onmouseenter={() => handleMouseEnter('about')}
             onmouseleave={handleMouseLeave}
           >
-            <a
-              href={localizeHref('/about-us')}
-              class="solid nav-link-wrapper"
-              class:active={page.url.pathname == localizeHref('/about-us')}
-            >
+            <a href={localizeHref('/about-us')} class="solid nav-link-wrapper" class:active={page.url.pathname == localizeHref('/about-us')}>
               <span>{m['navigation.about.self']()}</span>
               <svg
                 class="nav-arrow"

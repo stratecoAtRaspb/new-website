@@ -100,11 +100,11 @@
   @reference '../../app.css';
 
   .stage-slider-container {
-    @apply relative -mt-30 h-[948px] w-full overflow-hidden bg-base-100;
+    @apply bg-base-100 relative -mt-30 h-[948px] w-full overflow-hidden;
   }
 
   .stage-slider-swiper {
-    @apply h-full w-full max-w-wqhd mx-auto;
+    @apply max-w-wqhd mx-auto h-full w-full;
   }
 
   .stage-slider-slide {
@@ -117,22 +117,21 @@
   }
 
   .stage-slider-content {
-    @apply max-w-7xl w-full pl-10 pr-10 pb-36 m-auto z-30;
+    @apply z-30 m-auto w-full max-w-7xl pr-10 pb-36 pl-10;
     .stage-slider-text-area {
-
-      @apply bg-deepGreen/85 ml-auto w-80 md:w-[490px] rounded-md p-4;
+      @apply bg-deepGreen/85 ml-auto w-80 rounded-md p-4 md:w-[490px];
 
       .stage-slider-headline {
-        @apply text-xl leading-tight font-medium text-white mb-3;
+        @apply mb-3 text-xl leading-tight font-medium text-white;
       }
       .stage-slider-text {
-        @apply text-base font-medium leading-snug text-white;
+        @apply text-base leading-snug font-medium text-white;
       }
     }
   }
 
   .stage-slider-navigation {
-    @apply pointer-events-none absolute top-1/2 flex w-full -translate-y-1/2 justify-between px-4 z-20;
+    @apply pointer-events-none absolute top-1/2 z-20 flex w-full -translate-y-1/2 justify-between px-4;
   }
 
   .stage-slider-nav-btn {

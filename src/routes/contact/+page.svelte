@@ -1,4 +1,6 @@
 <script lang="ts">
+  import BasicContentArea from '$lib/components/basic-content-area.svelte';
+  import Breadcrumb from '$lib/components/breadcrumb.svelte';
   import IntroBox from '$lib/components/intro-box.svelte';
   import Section from '$lib/components/section.svelte';
   import Stage from '$lib/components/stage.svelte';
@@ -11,6 +13,7 @@
 </Stage>
 
 <Section>
+  <Breadcrumb />
   <div class="prose">
     <h1>{m['contact.title']()}</h1>
 

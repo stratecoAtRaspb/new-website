@@ -16,12 +16,11 @@
     <h1>{m['navigation.expertise.telecomsMediaAndHighTech']()}</h1>
 
     <p>
-      In den schnelllebigen Branchen Telekommunikation, Medien und High-Tech unterstützt STRATECO Unternehmen dabei, 
-      mit dem rasanten Wandel Schritt zu halten und Wettbewerbsvorteile zu sichern.
+      In den schnelllebigen Branchen Telekommunikation, Medien und High-Tech unterstützt STRATECO Unternehmen dabei, mit dem rasanten Wandel Schritt zu halten
+      und Wettbewerbsvorteile zu sichern.
     </p>
     <p>
-      Von Digitalisierungsstrategien über Produktinnovation bis hin zur Kundenzentrierung – wir helfen Ihnen, 
-      in diesen dynamischen Märkten erfolgreich zu sein.
+      Von Digitalisierungsstrategien über Produktinnovation bis hin zur Kundenzentrierung – wir helfen Ihnen, in diesen dynamischen Märkten erfolgreich zu sein.
     </p>
   </div>
 

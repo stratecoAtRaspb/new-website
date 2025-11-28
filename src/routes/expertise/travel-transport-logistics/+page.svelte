@@ -16,12 +16,12 @@
     <h1>{m['navigation.expertise.travelTransportAndLogistics']()}</h1>
 
     <p>
-      Die Branchen Travel, Transport und Logistics stehen vor großen Herausforderungen durch Digitalisierung und 
-      veränderte Kundenbedürfnisse. STRATECO begleitet Sie bei der Transformation.
+      Die Branchen Travel, Transport und Logistics stehen vor großen Herausforderungen durch Digitalisierung und veränderte Kundenbedürfnisse. STRATECO
+      begleitet Sie bei der Transformation.
     </p>
     <p>
-      Von Optimierung der Supply Chain über Customer Journey Design bis hin zur Implementierung digitaler Plattformen – 
-      wir entwickeln Lösungen, die Ihre Wettbewerbsfähigkeit nachhaltig stärken.
+      Von Optimierung der Supply Chain über Customer Journey Design bis hin zur Implementierung digitaler Plattformen – wir entwickeln Lösungen, die Ihre
+      Wettbewerbsfähigkeit nachhaltig stärken.
     </p>
   </div>
 

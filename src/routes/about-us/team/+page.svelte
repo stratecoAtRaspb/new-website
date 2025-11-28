@@ -16,12 +16,12 @@
     <h1>{m['navigation.about.team']()}</h1>
 
     <p>
-      Unser Team ist unser größtes Kapital. Bei STRATECO arbeiten erfahrene Berater, die ihre Expertise aus 
-      verschiedensten Branchen und Projekten mitbringen und täglich mit Leidenschaft für unsere Kunden einsetzen.
+      Unser Team ist unser größtes Kapital. Bei STRATECO arbeiten erfahrene Berater, die ihre Expertise aus verschiedensten Branchen und Projekten mitbringen
+      und täglich mit Leidenschaft für unsere Kunden einsetzen.
     </p>
     <p>
-      Diversität, Teamgeist und kontinuierliche Weiterentwicklung prägen unsere Unternehmenskultur. Gemeinsam 
-      meistern wir die Herausforderungen unserer Kunden und schaffen nachhaltige Lösungen.
+      Diversität, Teamgeist und kontinuierliche Weiterentwicklung prägen unsere Unternehmenskultur. Gemeinsam meistern wir die Herausforderungen unserer Kunden
+      und schaffen nachhaltige Lösungen.
     </p>
   </div>
 

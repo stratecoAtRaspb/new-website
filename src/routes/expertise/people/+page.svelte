@@ -16,12 +16,12 @@
     <h1>{m['navigation.expertise.people']()}</h1>
 
     <p>
-      Menschen sind der Erfolgsfaktor jeder Organisation. STRATECO unterstützt Sie dabei, Ihre Mitarbeiter optimal 
-      zu entwickeln und die richtigen Talente für Ihr Unternehmen zu gewinnen und zu binden.
+      Menschen sind der Erfolgsfaktor jeder Organisation. STRATECO unterstützt Sie dabei, Ihre Mitarbeiter optimal zu entwickeln und die richtigen Talente für
+      Ihr Unternehmen zu gewinnen und zu binden.
     </p>
     <p>
-      Von Change Management über Führungskräfteentwicklung bis hin zur Organisationsentwicklung – wir helfen Ihnen, 
-      eine leistungsstarke und motivierte Organisation aufzubauen.
+      Von Change Management über Führungskräfteentwicklung bis hin zur Organisationsentwicklung – wir helfen Ihnen, eine leistungsstarke und motivierte
+      Organisation aufzubauen.
     </p>
   </div>
 

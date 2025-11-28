@@ -15,12 +15,12 @@
     <h1>{m['navigation.expertise.technology']()}</h1>
 
     <p>
-      Technologie als Enabler für geschäftlichen Erfolg – STRATECO berät Sie bei der Auswahl, Einführung und Optimierung 
-      modernster Technologielösungen für Ihr Unternehmen.
+      Technologie als Enabler für geschäftlichen Erfolg – STRATECO berät Sie bei der Auswahl, Einführung und Optimierung modernster Technologielösungen für Ihr
+      Unternehmen.
     </p>
     <p>
-      Wir verbinden tiefes Technologie-Know-how mit Geschäftsprozess-Expertise, um sicherzustellen, dass IT-Investitionen 
-      echten Mehrwert schaffen und Ihre strategischen Ziele unterstützen.
+      Wir verbinden tiefes Technologie-Know-how mit Geschäftsprozess-Expertise, um sicherzustellen, dass IT-Investitionen echten Mehrwert schaffen und Ihre
+      strategischen Ziele unterstützen.
     </p>
   </div>
 

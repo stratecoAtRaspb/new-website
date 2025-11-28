@@ -16,12 +16,12 @@
     <h1>{m['navigation.expertise.other']()}</h1>
 
     <p>
-      STRATECO verfügt über umfassende Branchenerfahrung in vielen weiteren Sektoren. Unsere Berater bringen 
-      vielseitige Expertise und Best Practices aus unterschiedlichsten Industrien mit.
+      STRATECO verfügt über umfassende Branchenerfahrung in vielen weiteren Sektoren. Unsere Berater bringen vielseitige Expertise und Best Practices aus
+      unterschiedlichsten Industrien mit.
     </p>
     <p>
-      Ganz gleich aus welcher Branche Sie kommen – wir verstehen Ihre spezifischen Herausforderungen und entwickeln 
-      passende Lösungsansätze für Ihren nachhaltigen Erfolg.
+      Ganz gleich aus welcher Branche Sie kommen – wir verstehen Ihre spezifischen Herausforderungen und entwickeln passende Lösungsansätze für Ihren
+      nachhaltigen Erfolg.
     </p>
   </div>
 

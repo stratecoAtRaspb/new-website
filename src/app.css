@@ -9,7 +9,7 @@
   --medium-grey: #8e8d8d;
   --light-grey: #fafafa;
   --dark-blue: #0b3c49;
-  --pale-blue: #30A4D9 ;
+  --pale-blue: #30a4d9;
   --decent-blue: #71bce7;
   --light-blue: #0d99e6;
   --turquoise: #5fcdc0;
@@ -25,7 +25,7 @@
   --success: #6bb900;
   --warning: #fbbd23;
   --error: #f87272;
-  --special-grey: #394A52;
+  --special-grey: #394a52;
 }
 
 @plugin 'daisyui' {
@@ -188,7 +188,7 @@ a,
 }
 
 .breadcrumbs ul li > a {
-  @apply no-underline text-black hover:underline hover:text-black/80;
+  @apply text-black no-underline hover:text-black/80 hover:underline;
 }
 
 img,
@@ -217,9 +217,9 @@ textarea:not([rows]) {
     @apply flex h-dvh w-full items-center justify-center;
   }
   main {
-    @apply bg-white min-h-[calc(100vh-500px)] relative flex flex-col items-stretch;
+    @apply relative flex min-h-[calc(100vh-500px)] flex-col items-stretch bg-white;
     .inner-box {
-      @apply mx-auto grow h-full w-full max-w-7xl px-10;
+      @apply mx-auto h-full w-full max-w-7xl grow px-10;
       &.reduced {
         @apply max-w-5xl;
       }

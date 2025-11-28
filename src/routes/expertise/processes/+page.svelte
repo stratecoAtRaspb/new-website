@@ -16,12 +16,10 @@
     <h1>{m['navigation.expertise.processes']()}</h1>
 
     <p>
-      Effiziente Prozesse sind der Schlüssel zum Erfolg. STRATECO analysiert Ihre bestehenden Abläufe und entwickelt 
-      optimierte Prozesslandschaften, die Ihre Organisation nachhaltig stärken.
+      Effiziente Prozesse sind der Schlüssel zum Erfolg. STRATECO analysiert Ihre bestehenden Abläufe und entwickelt optimierte Prozesslandschaften, die Ihre
+      Organisation nachhaltig stärken.
     </p>
-    <p>
-      Wir kombinieren bewährte Methoden mit innovativen Ansätzen, um Ihre Prozesse schlank, effektiv und zukunftssicher zu gestalten.
-    </p>
+    <p>Wir kombinieren bewährte Methoden mit innovativen Ansätzen, um Ihre Prozesse schlank, effektiv und zukunftssicher zu gestalten.</p>
   </div>
 
   <a href={localizeHref('/expertise')}>Zurück zu Kompetenzen</a>

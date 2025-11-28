@@ -1,6 +1,9 @@
-
 <script lang="ts">
-  let { style = "green", title = "N/A", description = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. " } = $props();
+  let {
+    style = 'green',
+    title = 'N/A',
+    description = 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. '
+  } = $props();
 </script>
 
 <div class="intro-box {style}">
@@ -15,14 +18,14 @@
 <style lang="postcss">
   @reference '../../app.css';
   div.intro-box {
-    @apply w-full flex flex-row py-8 px-6 rounded-xl;
+    @apply flex w-full flex-row rounded-xl px-6 py-8;
 
     .title {
-      @apply w-fit pr-6 border-r-2 border-dotted border-white flex justify-center items-center;
+      @apply flex w-fit items-center justify-center border-r-2 border-dotted border-white pr-6;
       h2 {
-        @apply text-white font-light leading-tight text-3xl;
+        @apply text-3xl leading-tight font-light text-white;
         &.oneLiner {
-          @apply  whitespace-nowrap; 
+          @apply whitespace-nowrap;
         }
         &:not(.oneLiner) {
           @apply line-clamp-2 min-w-[18ch];
@@ -31,15 +34,14 @@
     }
 
     .description {
-      @apply px-6 grow flex justify-center items-center;
+      @apply flex grow items-center justify-center px-6;
       p {
-        @apply text-white text-base leading-snug line-clamp-3;
+        @apply line-clamp-3 text-base leading-snug text-white;
       }
     }
 
     &.green {
       @apply bg-deepGreen/85;
     }
-
   }
 </style>

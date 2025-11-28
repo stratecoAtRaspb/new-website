@@ -16,12 +16,12 @@
     <h1>{m['navigation.expertise.pharmaAndHealthcare']()}</h1>
 
     <p>
-      Im dynamischen Umfeld von Pharma und Healthcare unterstützt STRATECO Unternehmen bei der Navigation durch 
-      komplexe regulatorische Anforderungen und der Erschließung neuer Marktchancen.
+      Im dynamischen Umfeld von Pharma und Healthcare unterstützt STRATECO Unternehmen bei der Navigation durch komplexe regulatorische Anforderungen und der
+      Erschließung neuer Marktchancen.
     </p>
     <p>
-      Unsere Expertise umfasst die gesamte Wertschöpfungskette – von Forschung und Entwicklung über Produktion bis 
-      hin zu Marketing und Vertrieb im Healthcare-Sektor.
+      Unsere Expertise umfasst die gesamte Wertschöpfungskette – von Forschung und Entwicklung über Produktion bis hin zu Marketing und Vertrieb im
+      Healthcare-Sektor.
     </p>
   </div>
 

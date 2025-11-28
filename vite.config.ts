@@ -39,7 +39,7 @@ export default defineConfig({
             ['de', '/de/kontakt/:id'],
             ['en', '/en/contact/:id']
           ]
-        },   
+        },
         {
           pattern: '/expertise',
           localized: [
@@ -67,7 +67,7 @@ export default defineConfig({
             ['de', '/de/impressum/:id'],
             ['en', '/en/legal-notice/:id']
           ]
-        },           
+        },
         {
           pattern: '/privacy',
           localized: [
@@ -81,7 +81,7 @@ export default defineConfig({
             ['de', '/de/datenschutz/:id'],
             ['en', '/en/privacy/:id']
           ]
-        },  
+        },
         {
           pattern: '/topics',
           localized: [
@@ -95,7 +95,7 @@ export default defineConfig({
             ['de', '/de/themen/:id'],
             ['en', '/en/topics/:id']
           ]
-        },  
+        },
         {
           pattern: '/:path(.*)?',
           localized: [

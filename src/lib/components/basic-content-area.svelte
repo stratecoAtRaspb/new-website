@@ -1,13 +1,12 @@
-
 <script lang="ts">
-  import Breadcrumb from "./breadcrumb.svelte";
+  import Breadcrumb from './breadcrumb.svelte';
   let { left, right, hideBreadCrumb = false } = $props();
 </script>
 
 <div class="basic-content-wrapper">
   {#if !hideBreadCrumb}
     <div class="bread-crumb-navigation">
-      <Breadcrumb/>
+      <Breadcrumb />
     </div>
   {/if}
   <div class="two-col-layout">

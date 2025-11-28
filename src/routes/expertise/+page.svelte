@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Breadcrumb from '$lib/components/breadcrumb.svelte';
   import IntroBox from '$lib/components/intro-box.svelte';
   import Section from '$lib/components/section.svelte';
   import Stage from '$lib/components/stage.svelte';
@@ -12,6 +13,7 @@
 
 <Section>
   <div class="prose">
+    <Breadcrumb />
     <h1>{m['expertise.title']()}</h1>
 
     <p>

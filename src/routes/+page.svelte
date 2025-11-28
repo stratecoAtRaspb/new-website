@@ -70,10 +70,15 @@
   <div class="card card-md w-full shadow-sm">
     <div class="card-body">
       <h3 class="card-title">Blueprint für Erfolg</h3>
-      <img class="w-full rounded-lg mb-2" src="/images/sidebar-img.jpg" alt="Blueprint Abstrakt" />
+      <img class="mb-2 w-full rounded-lg" src="/images/sidebar-img.jpg" alt="Blueprint Abstrakt" />
       <p>STRATECO fördert und unterstützt Start-ups. Wir freuen uns auf Ihre Bewerbung!</p>
-      <div class="card-actions justify-end mt-2">
-        <button class="btn btn-basic" onclick={() => {goto(localizeHref('/contact'))}}>sprechen Sie uns an</button>
+      <div class="card-actions mt-2 justify-end">
+        <button
+          class="btn btn-basic"
+          onclick={() => {
+            goto(localizeHref('/contact'));
+          }}>sprechen Sie uns an</button
+        >
       </div>
     </div>
   </div>
@@ -94,5 +99,4 @@
       @apply text-base;
     }
   }
-
 </style>

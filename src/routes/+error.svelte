@@ -10,7 +10,7 @@
 </svelte:head>
 
 <Section type={'master'}>
-  <div class="prose flex flex-col justify-center items-center">
+  <div class="prose flex flex-col items-center justify-center">
     <h1>{page.status}</h1>
     <p>Ein Fehler ist passiert...</p>
     <div class="spacer"></div>
