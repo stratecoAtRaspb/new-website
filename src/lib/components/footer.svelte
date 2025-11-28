@@ -26,7 +26,7 @@
           <button
             class="social-media-icon mail"
             onclick={() => {
-              goto(localizeHref('/contatc'));
+              goto(localizeHref('/contact'));
             }}
             aria-label="Instagram"
           ></button>

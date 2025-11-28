@@ -250,7 +250,7 @@
             <a
               href={localizeHref('/expertise')}
               class="solid nav-link-wrapper"
-              class:active={page.url.pathname.includes('expertise') || page.url.pathname.includes('kompetenzen')}
+              class:active={page.url.pathname == localizeHref('expertise')}
             >
               <span>{m['navigation.expertise.self']()}</span>
               <svg
@@ -286,7 +286,7 @@
                         <ul class="section-links">
                           {#each section.items as item}
                             <li>
-                              <a href={localizeHref(item.href)} class="menu-link" class:active={page.url.pathname.includes(item.href)}>
+                              <a href={localizeHref(item.href)} class="menu-link" class:active={page.url.pathname == localizeHref(item.href)}>
                                 {item.label()}
                               </a>
                             </li>
@@ -309,7 +309,7 @@
             <a
               href={localizeHref('/topics')}
               class="solid nav-link-wrapper"
-              class:active={page.url.pathname.includes('topics') || page.url.pathname.includes('themen')}
+              class:active={page.url.pathname == localizeHref('topics')}
             >
               <span>{m['navigation.topics.self']()}</span>
               <svg
@@ -338,7 +338,7 @@
                         <ul class="section-links">
                           {#each section.items as item}
                             <li>
-                              <a href={localizeHref(item.href)} class="menu-link" class:active={page.url.pathname.includes(item.href)}>
+                              <a href={localizeHref(item.href)} class="menu-link" class:active={page.url.pathname == localizeHref(item.href)}>
                                 {item.label()}
                               </a>
                             </li>
@@ -362,7 +362,7 @@
             <a
               href={localizeHref('/about-us')}
               class="solid nav-link-wrapper"
-              class:active={page.url.pathname.includes('about-us') || page.url.pathname.includes('ueber-uns')}
+              class:active={page.url.pathname == localizeHref('/about-us')}
             >
               <span>{m['navigation.about.self']()}</span>
               <svg
@@ -397,7 +397,7 @@
                         <ul class="section-links">
                           {#each section.items as item}
                             <li>
-                              <a href={localizeHref(item.href)} class="menu-link" class:active={page.url.pathname.includes(item.href)}>
+                              <a href={localizeHref(item.href)} class="menu-link" class:active={page.url.pathname == localizeHref(item.href)}>
                                 {item.label()}
                               </a>
                             </li>
@@ -412,7 +412,7 @@
           </li>
 
           <li>
-            <a href={localizeHref('/contact')} class="solid" class:active={page.url.pathname.includes('contact') || page.url.pathname.includes('kontakt')}>
+            <a href={localizeHref('/contact')} class="solid" class:active={page.url.pathname == localizeHref('/contact')}>
               {m['navigation.contact.self']()}
             </a>
           </li>

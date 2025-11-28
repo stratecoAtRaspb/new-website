@@ -1,4 +1,5 @@
 <script lang="ts">
+  import BasicContentArea from '$lib/components/basic-content-area.svelte';
   import IntroBox from '$lib/components/intro-box.svelte';
   import Section from '$lib/components/section.svelte';
   import Stage from '$lib/components/stage.svelte';
@@ -7,23 +8,24 @@
 </script>
 
 <Stage>
-  <IntroBox title={m['navigation.topics.tas']()} description={m['topics.description']()}></IntroBox>
+  <IntroBox title={m['navigation.topics.tas']()} description={m['about.description']()}></IntroBox>
 </Stage>
 
-<Section>
+{#snippet left()}
   <div class="prose">
     <h1>{m['navigation.topics.tas']()}</h1>
 
     <p>
-      Transactions Advisory Services (TAS) von STRATECO unterstützen Sie bei allen Aspekten von Unternehmenstransaktionen – 
-      von der Due Diligence über Bewertung bis zur Post-Merger-Integration.
+      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
     </p>
     <p>
-      Unsere erfahrenen Berater begleiten Sie durch den gesamten M&A-Prozess und helfen Ihnen, Risiken zu minimieren 
-      und Wertpotenziale zu maximieren. Mit fundierter Analyse und strategischer Expertise sichern wir den Erfolg 
-      Ihrer Transaktionen.
+      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
     </p>
   </div>
 
   <a href={localizeHref('/topics')}>Zurück zu Themen</a>
+{/snippet}
+{#snippet right()}{/snippet}
+<Section>
+  <BasicContentArea {left} {right} />
 </Section>

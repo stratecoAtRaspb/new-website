@@ -10,7 +10,7 @@
   <IntroBox title={m['navigation.expertise.technology']()} description={m['about.description']()}></IntroBox>
 </Stage>
 
-<Section>
+{#snippet left()}
   <div class="prose">
     <h1>{m['navigation.expertise.technology']()}</h1>
 
@@ -25,4 +25,8 @@
   </div>
 
   <a href={localizeHref('/expertise')}>Zurück zu Kompetenzen</a>
+{/snippet}
+{#snippet right()}{/snippet}
+<Section>
+  <BasicContentArea {left} {right} />
 </Section>

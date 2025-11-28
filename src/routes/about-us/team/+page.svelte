@@ -1,4 +1,5 @@
 <script lang="ts">
+  import BasicContentArea from '$lib/components/basic-content-area.svelte';
   import IntroBox from '$lib/components/intro-box.svelte';
   import Section from '$lib/components/section.svelte';
   import Stage from '$lib/components/stage.svelte';
@@ -10,7 +11,7 @@
   <IntroBox title={m['navigation.about.team']()} description={m['about.description']()}></IntroBox>
 </Stage>
 
-<Section>
+{#snippet left()}
   <div class="prose">
     <h1>{m['navigation.about.team']()}</h1>
 
@@ -25,4 +26,8 @@
   </div>
 
   <a href={localizeHref('/about-us')}>Zurück zu Über uns</a>
+{/snippet}
+{#snippet right()}{/snippet}
+<Section>
+  <BasicContentArea {left} {right} />
 </Section>

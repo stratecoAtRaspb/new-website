@@ -1,4 +1,5 @@
 <script lang="ts">
+  import BasicContentArea from '$lib/components/basic-content-area.svelte';
   import IntroBox from '$lib/components/intro-box.svelte';
   import Section from '$lib/components/section.svelte';
   import Stage from '$lib/components/stage.svelte';
@@ -7,22 +8,24 @@
 </script>
 
 <Stage>
-  <IntroBox title={m['navigation.topics.marketing']()} description={m['topics.description']()}></IntroBox>
+  <IntroBox title={m['navigation.topics.marketing']()} description={m['about.description']()}></IntroBox>
 </Stage>
 
-<Section>
+{#snippet left()}
   <div class="prose">
     <h1>{m['navigation.topics.marketing']()}</h1>
 
     <p>
-      Modernes Marketing erfordert die richtige Balance zwischen Kreativität und datengetriebenen Entscheidungen. 
-      STRATECO unterstützt Sie bei der Entwicklung und Umsetzung erfolgreicher Marketingstrategien.
+      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
     </p>
     <p>
-      Von der Markenpositionierung über digitale Marketingkampagnen bis hin zur Marketing-Automation – wir helfen 
-      Ihnen, Ihre Zielgruppen effektiv zu erreichen und messbare Geschäftsergebnisse zu erzielen.
+      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
     </p>
   </div>
 
   <a href={localizeHref('/topics')}>Zurück zu Themen</a>
+{/snippet}
+{#snippet right()}{/snippet}
+<Section>
+  <BasicContentArea {left} {right} />
 </Section>

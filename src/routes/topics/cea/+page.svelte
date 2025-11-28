@@ -1,4 +1,5 @@
 <script lang="ts">
+  import BasicContentArea from '$lib/components/basic-content-area.svelte';
   import IntroBox from '$lib/components/intro-box.svelte';
   import Section from '$lib/components/section.svelte';
   import Stage from '$lib/components/stage.svelte';
@@ -7,23 +8,24 @@
 </script>
 
 <Stage>
-  <IntroBox title={m['navigation.topics.cea']()} description={m['topics.description']()}></IntroBox>
+  <IntroBox title={m['navigation.topics.cea']()} description={m['about.description']()}></IntroBox>
 </Stage>
 
-<Section>
+{#snippet left()}
   <div class="prose">
     <h1>{m['navigation.topics.cea']()}</h1>
 
     <p>
-      Customer Experience Analytics (CEA) ermöglicht es Ihnen, Ihre Kunden besser zu verstehen und ihre Erwartungen 
-      zu übertreffen. STRATECO unterstützt Sie dabei, datengetriebene Einblicke in die Customer Journey zu gewinnen 
-      und daraus konkrete Handlungsempfehlungen abzuleiten.
+      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
     </p>
     <p>
-      Mit modernen Analytics-Tools und bewährten Methoden helfen wir Ihnen, Customer Touchpoints zu optimieren, 
-      die Kundenzufriedenheit zu steigern und langfristige Kundenbeziehungen aufzubauen.
+      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
     </p>
   </div>
 
   <a href={localizeHref('/topics')}>Zurück zu Themen</a>
+{/snippet}
+{#snippet right()}{/snippet}
+<Section>
+  <BasicContentArea {left} {right} />
 </Section>

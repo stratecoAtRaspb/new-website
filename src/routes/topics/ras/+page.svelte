@@ -1,4 +1,5 @@
 <script lang="ts">
+  import BasicContentArea from '$lib/components/basic-content-area.svelte';
   import IntroBox from '$lib/components/intro-box.svelte';
   import Section from '$lib/components/section.svelte';
   import Stage from '$lib/components/stage.svelte';
@@ -7,24 +8,24 @@
 </script>
 
 <Stage>
-  <IntroBox title={m['navigation.topics.ras']()} description={m['topics.description']()}></IntroBox>
+  <IntroBox title={m['navigation.topics.ras']()} description={m['about.description']()}></IntroBox>
 </Stage>
 
-<Section>
+{#snippet left()}
   <div class="prose">
     <h1>{m['navigation.topics.ras']()}</h1>
 
     <p>
-      Risk Advisory Services (RAS) von STRATECO helfen Ihnen, Risiken frühzeitig zu identifizieren, zu bewerten 
-      und effektiv zu managen. In einer zunehmend komplexen Geschäftswelt ist professionelles Risikomanagement 
-      unverzichtbar.
+      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
     </p>
     <p>
-      Wir unterstützen Sie bei der Entwicklung und Implementierung ganzheitlicher Risk-Management-Frameworks, 
-      der Identifikation von Compliance-Risiken und der Etablierung wirksamer Kontrollsysteme für nachhaltigen 
-      Unternehmenserfolg.
+      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
     </p>
   </div>
 
   <a href={localizeHref('/topics')}>Zurück zu Themen</a>
+{/snippet}
+{#snippet right()}{/snippet}
+<Section>
+  <BasicContentArea {left} {right} />
 </Section>
