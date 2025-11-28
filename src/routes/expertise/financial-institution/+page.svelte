@@ -18,7 +18,7 @@
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.expertise.financialInstitution']()}</h1>
+    <h2>{m['navigation.expertise.financialInstitution']()}</h2>
 
     <p>
       STRATECO verfügt über tiefgreifende Expertise im Finanzsektor. Wir unterstützen Banken, Versicherungen und andere Finanzdienstleister bei der Bewältigung

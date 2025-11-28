@@ -18,7 +18,7 @@
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.topics.behaviouralMarketing']()}</h1>
+    <h2>{m['navigation.topics.behaviouralMarketing']()}</h2>
     <p>
       Traditionelle Kampagnen - auch wenn Sie segmentiert angesteuert werden - sind stets "push"-Aktivitäten. Erhöhen Sie die Relevanz Ihrer Kommunikation,
       indem Sie den Kunden über den besten Zeitpunkt bestimmen lassen!<br />

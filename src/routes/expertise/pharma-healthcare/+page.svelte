@@ -18,7 +18,7 @@
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.expertise.pharmaAndHealthcare']()}</h1>
+    <h2>{m['navigation.expertise.pharmaAndHealthcare']()}</h2>
 
     <p>
       Im dynamischen Umfeld von Pharma und Healthcare unterstützt STRATECO Unternehmen bei der Navigation durch komplexe regulatorische Anforderungen und der

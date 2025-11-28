@@ -18,7 +18,7 @@
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.expertise.implementation']()}</h1>
+    <h2>{m['navigation.expertise.implementation']()}</h2>
 
     <p>
       Von der Konzeption zur erfolgreichen Umsetzung – STRATECO begleitet Sie bei der Implementierung Ihrer Projekte. Wir sorgen dafür, dass Strategien und

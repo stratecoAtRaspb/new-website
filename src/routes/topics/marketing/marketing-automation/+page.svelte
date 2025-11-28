@@ -18,7 +18,7 @@
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.topics.marketingAutomation']()}</h1>
+    <h2>{m['navigation.topics.marketingAutomation']()}</h2>
     <p>
       Ob Sie neue Leads generieren oder bestehende weiter qualifizieren möchten - hier liegt viel Potenzial für effiziente Prozesse.<br /> Wir zeigen Ihnen neue
       Möglichkeiten mit "Marketing Automation"!

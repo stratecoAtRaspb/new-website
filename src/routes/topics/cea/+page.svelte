@@ -18,7 +18,7 @@
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.topics.cea']()}</h1>
+    <h2>{m['navigation.topics.cea']()}</h2>
     <p>
       Produkte und Dienstleistungen werden immer austauschbarer. Deswegen wird eine gute "Customer Experience" zum wichtigsten Unterscheidungsmerkmal für
       Unternehmen!

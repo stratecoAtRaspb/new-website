@@ -18,7 +18,7 @@
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.topics.aos']()}</h1>
+    <h2>{m['navigation.topics.aos']()}</h2>
     <p>Just as good strategy is adapted to the environment, good organizational design aligns people, architecture, routines and culture to the strategy</p>
     <h3>Competency</h3>
     <ul>

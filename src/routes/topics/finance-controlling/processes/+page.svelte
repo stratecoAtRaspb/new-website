@@ -18,7 +18,7 @@
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.topics.processes']()}</h1>
+    <h2>{m['navigation.topics.processes']()}</h2>
     <h3>Kompetenz</h3>
     <p>
       STRATECO verbindet funktionale Expertise mit technischer und praktischer Erfahrung. Mit unseren<br /> spezialisierten Methoden und technischem Wissen helfen

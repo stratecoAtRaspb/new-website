@@ -18,8 +18,8 @@
 
 <Section>
   <Breadcrumb />
-  <div class="prose">
-    <h1>{m['privacy.title']()}</h1>
+  <div class="prose mt-4">
+    <h2>{m['privacy.title']()}</h2>
 
     <p>
       STRATECO ist eine Unternehmensberatung, die seit mehr als 20 Jahren führende Unternehmen dabei unterstützt, anstehende Herausforderungen zu meistern. Von

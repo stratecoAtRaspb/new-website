@@ -18,7 +18,7 @@
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.topics.customerRelationshipManagement']()}</h1>
+    <h2>{m['navigation.topics.customerRelationshipManagement']()}</h2>
     <p>
       Erfolgreiches Customer Relationship Management (CRM) ist kein Zufallsprodukt - sondern bedarf einer konsequenten Strategie, die mit den richtigen
       Werkzeugen umgesetzt wird. Wie genau, das entwickeln wir gerne gemeinsam mit Ihnen!

@@ -18,7 +18,7 @@
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.topics.dataManagement']()}</h1>
+    <h2>{m['navigation.topics.dataManagement']()}</h2>
     <h3>Competency</h3>
     <p>
       Using standard-technology for business intelligence solutions STRATECO closes this gap by trans-forming Output data from various Kamakura Risk Manager

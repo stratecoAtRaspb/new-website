@@ -18,7 +18,7 @@
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.topics.ras']()}</h1>
+    <h2>{m['navigation.topics.ras']()}</h2>
     <h3>Competency</h3>
     <ul>
       <li>Planning and implementing Kamakura Risk Manager (KRM) integrated risk management software applications</li>

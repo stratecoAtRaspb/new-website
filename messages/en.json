@@ -32,7 +32,7 @@
       "aosOverview": "Übersicht",
       "changeManagement": "Change Management",
       "postMergeIntegration": "Post-Merger Integration",
-      "culturalChangeFacilliation": "Cultural change facilliation",
+      "culturalChangeFacilliation": "Cultural Change Facilitation",
       "strategyOptimizationAndImplementation": "Strategy optimization and implementation",
       "workflowAndBusinessProcessAlignment": "Workflow and business process alignment",
       "collaborationPlatform": "Collaboration Platform",
@@ -43,13 +43,13 @@
       "reporting": "Reporting",
       "analysis": "Analysis",
       "workflows": "Workflows",
-      "documentManagement": "Document Managment",
+      "documentManagement": "Document Management",
       "intranet": "Intranet",
       "businessIntelligence": "Business Intelligence",
       "dataManagement": "Data Management",
       "sharepoint": "Sharepoint",
       "tasOverview": "Overview",
-      "sellSideBuySide": "Sellside / buyside due dilligence",
+      "sellSideBuySide": "Sellside / Buyside Due Diligence",
       "reportingAndAnalysis": "Reporting, analysis and planning for servicing and valuation",
       "dataManagment": "Data Management",
       "rasOverview": "Overview",
@@ -61,7 +61,7 @@
       "socialMediaMonitoring": "Social Media Monitoring",
       "customerFeedback": "Customer Feedback",
       "customerInteraction": "Customer Interaction",
-      "brandAndLoyalityManagement": "Brand & Loyality Management",
+      "brandAndLoyalityManagement": "Brand & Loyalty Management",
       "marketingOverview": "Overview",
       "marketingAsAService": "Marketing as a Service",
       "leadgenerierung": "Lead Generation",
@@ -93,7 +93,7 @@
   },
   "home": {
     "title": "About STRATECO",
-    "text": "<p>Established over 20 years ago STRATECO is a consultancy which has a proven track record of supporting market leaders in their efforts to meet the challenges of their business environment by helping to design and execute successful strategies. From the strategy to the processes and implementation, we have demonstrated outstanding capabilities to meet special needs our clients in a timely, reliable and cost effective way.</p><p>In more than 400 projects in the fields of Marketing and Sales, Finance and Controlling, we have committed ourselves to the same goal for over 80 firms engaged in many different branches of business activity: achieve excellent results. Your objectives are always our objectives; your success is what we strive for.</p><p>How do we achieve this? With the teams of exceptional people which deliver what STRATECO aspires to achieve. With a unique combination of passion and technical competence. With experience and proven methodologies. From these capabilities we form customized solutions for our clients!</p><p>For this reason we have made the performance promise of STRATECO our company motto: Our competence is your competitive advantage!</p>",
+    "text": "<p>Established over 20 years ago STRATECO is a consultancy which has a proven track record of supporting market leaders in their efforts to meet the challenges of their business environment by helping to design and execute successful strategies. From the strategy to the processes and implementation, we have demonstrated outstanding capabilities to meet the special needs of our clients in a timely, reliable and cost effective way.</p><p>In more than 400 projects in the fields of Marketing and Sales, Finance and Controlling, we have committed ourselves to the same goal for over 80 firms engaged in many different branches of business activity: achieve excellent results. Your objectives are always our objectives; your success is what we strive for.</p><p>How do we achieve this? With the teams of exceptional people which deliver what STRATECO aspires to achieve. With a unique combination of passion and technical competence. With experience and proven methodologies. From these capabilities we form customized solutions for our clients!</p><p>For this reason we have made the performance promise of STRATECO our company motto: Our competence is your competitive advantage!</p>",
     "quote": {
       "text": "The extraordinary does not happen along the usual and familiar paths.",
       "author": "Johann Wolfgang von Goethe",
@@ -101,31 +101,45 @@
     },
     "sideBarCard": {
       "title": "Blueprint for success",
-      "text": "STRATECO promotes and supports Start-ups.  We welcome your inquiries and requests",
-      "ctaText": "come and talk to us!"
+      "text": "STRATECO promotes and supports Start-ups.  We welcome your inquiries and requests.",
+      "ctaText": "Come and talk to us!"
     }
   },
   "aboutUs": {
     "introTitle": "About us",
-    "introDescription": "Over the years, the right combination of competence and passion that is what has enabled STRATECO to succeed. Just give us a try. See for yourself!",
+    "introDescription": "Over the years, the right combination of competence and passion is what has enabled STRATECO to succeed. Just give us a try. See for yourself!",
     "title": "You are at the right place if you are doing business with us!",
-    "text": "<p>When we started STRATECO 17 years ago, we were inspired by a powerful mission: Our competence is your competitive advantage. We have always acted in this spirit. In the mean time, we have successfully completed over 400 projects for customers who are globally present in diverse branches. We have established a proven track record of delivering on promised results, so that we have established long-standing ties with many clients who value our support to achieve sustainably successful performance.</p><p>We make your goals our goals. Ensuring your success is our aspiration. We constantly deliver highest performance for you – from the strategy to the processes and finally to implementation. We deliver, and we practice what we preach. Our concepts are complete only when the successful results are achieved.</p><p>Our recipe for success consists of the highly talented, special people who stand behind STRATECO. They represent a unique combination of passion and competency. They have relevant experience, and they have expert command of proven methodologies. From these basics we design and implement tailor made solutions for our customers!</p>",
+    "text": "<p>When we started STRATECO 17 years ago, we were inspired by a powerful mission: Our competence is your competitive advantage. We have always acted in this spirit. In the meantime, we have successfully completed over 400 projects for customers who are globally present in diverse branches. We have established a proven track record of delivering on promised results, so that we have established long-standing ties with many clients who value our support to achieve sustainably successful performance.</p><p>We make your goals our goals. Ensuring your success is our aspiration. We constantly deliver highest performance for you – from the strategy to the processes and finally to implementation. We deliver, and we practice what we preach. Our concepts are complete only when the successful results are achieved.</p><p>Our recipe for success consists of the highly talented, special people who stand behind STRATECO. They represent a unique combination of passion and competency. They have relevant experience, and they have expert command of proven methodologies. From these basics we design and implement tailor made solutions for our customers!</p>",
     "management": {
       "introTitle": "Management",
-      "introDescription": "When we developed the Business Plan for STRATECO more than 17 years ago, we were guided by a central vision: We empower our customers to achieve highest performance. That vision has lead to the successful strategy to which we have been committed to this day.",
+      "introDescription": "When we developed the Business Plan for STRATECO more than 17 years ago, we were guided by a central vision: We empower our customers to achieve highest performance. That vision has led to the successful strategy to which we have been committed to this day.",
       "title": "Your success matters to us"
     },
     "career": {
       "title": "Career"
     },
     "customers": {
-      "title": "Customers"
+      "title": "Become part of our success story!",
+      "introTitle": "Customers",
+      "introDescription": "Excellent results stem from competence and passion. True passion can only develop when there is a good fit. Are we a good match?",
+      "text": "<p>You are in good hands with STRATECO. We share with you the experience gained from over 500 projects, with just one goal in mind: your complete satisfaction. Everyone at STRATECO is committed to this – with professional expertise, methodology, passion, and creativity.</p><p>We would be happy to show you examples of our work in a personal meeting and provide you with significant references upon request. Please contact us.</p><p>Here you will find a selection of our clients for whom we have successfully accepted projects over the past 22 years:</p>",
+      "footer": "<p class='font-bold mt-4'>To be continued!</p><p>If you cannot find your company on the list above, please contact STRATECO – we would be happy to change that together.</p>"
     },
     "partner": {
-      "title": "Partners"
+      "title": "Our Partners",
+      "introTitle": "Partners",
+      "introDescription": "Nothing is as constant as change, especially in technology. That's why STRATECO maintains a broad network of technology partners.",
+      "text": "<h3>Success has many fathers</h3><p>Strong partnerships have been a key pillar of STRATECO's success since its founding, enabling better services for our clients. STRATECO works with many well-known technology suppliers to always offer suitable solutions. Some of these partners are presented here as examples.</p><p>STRATECO maintains partnerships with the following technology partners, among others:</p><ul><li>Microsoft – STRATECO is a Microsoft Partner.</li><li>Verint.</li><li>Silverpop.</li><li>Kamakura.</li></ul>"
     },
     "team": {
-      "title": "Team"
+      "title": "Together we are strong!",
+      "introTitle": "Team",
+      "introDescription": "Our recipe for success? The people behind STRATECO! Our employees combine professional competence, methodology and experience – and are thus the key to success.",
+      "text": "<p>Only special people are capable of achieving special results. That's why STRATECO is not satisfied with the standard, but relies on exceptional personalities.</p><p>Just like a rough diamond, this specialness must first be recognized and then targetedly promoted. The strengths of employees are supported by targeted personnel development.</p><p>Professional skills are just as important as personality and entrepreneurial action. Thus, client projects are led to success cooperatively and creatively – with a clear performance promise.</p><p>STRATECO has a unique corporate culture and lived values that have a positive effect on employees and clients. This makes the company a special employer and makes a significant contribution to the success story.</p>",
+      "quote": {
+        "text": "The key to success is not information. It's people.",
+        "author": "Lee Iacocca"
+      }
     }
   },
   "expertise": {
@@ -133,7 +147,7 @@
     "introTitle": "Expertise",
     "introDescription": "STRATECO's resources consist of a wide range of competencies.  So that you can learn what you may expect of us, we provide a summarization of the most important capabilities.",
     "title": "Our competencies for your competitive advantage",
-    "text": "<p>Our competencies focus on the key managerial responsibilities of our clients. Our engagement is always results-oriented, and it always takes a holistic approach to every line of business and functional area. We deploy state-of-the-art methods and technologies, which we adapt and enchance according to the scope of work of our mandates. You profit from a team of specialists in various disciplines, whose strengths are derived from their proven ability to deliver consistently practical results based on powerful theoretical insights which have been tested by hands-on experience.</p><p><strong>That is what is meant by our established reputation for “lived competency”.</strong></p>",
+    "text": "<p>Our competencies focus on the key managerial responsibilities of our clients. Our engagement is always results-oriented, and it always takes a holistic approach to every line of business and functional area. We deploy state-of-the-art methods and technologies, which we adapt and enhance according to the scope of work of our mandates. You profit from a team of specialists in various disciplines, whose strengths are derived from their proven ability to deliver consistently practical results based on powerful theoretical insights which have been tested by hands-on experience.</p><p><strong>That is what is meant by our established reputation for “lived competency”.</strong></p>",
     "sectionHeadline1": "Expertise by capability",
     "sectionHeadline2": "Expertise by client segment",
     "strategy": {
@@ -201,7 +215,7 @@
         "title": "Collaboration Platform"
       },
       "culturalChangeFacilliation": {
-        "title": "Cultural change facilliation"
+        "title": "Cultural Change Facilitation"
       },
       "digitalTransformation": {
         "title": "Digital Transformation"
@@ -219,7 +233,7 @@
     "cea": {
       "title": "Customer Experience Analytics (CEA)",
       "brandAndLoyalityManagement": {
-        "title": "Brand & Loyality Management"
+        "title": "Brand & Loyalty Management"
       },
       "businessIntelligence": {
         "title": "Business Intelligence"
@@ -261,7 +275,7 @@
         "title": "Data Management"
       },
       "documentManagement": {
-        "title": "Document Managment"
+        "title": "Document Management"
       },
       "intranet": {
         "title": "Intranet"
@@ -330,7 +344,7 @@
         "title": "Reporting, analysis and planning for servicing and valuation"
       },
       "sellSideBuySide": {
-        "title": "Sellside / buyside due dilligence"
+        "title": "Sellside / Buyside Due Diligence"
       }
     }
   },
@@ -361,7 +375,7 @@
     },
     "feature2": {
       "headline": "Smart Data Management",
-      "text": "Data is the key success factor in the digitalised world. We consolidate your data silos and turn „big data“ into „smart actionable intelligence“!"
+      "text": "Data is the key success factor in the digitalised world. We consolidate your data silos and turn \"Big Data\" into \"smart actionable intelligence\"!"
     },
     "feature3": {
       "headline": "Risk Management",

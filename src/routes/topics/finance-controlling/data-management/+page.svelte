@@ -18,7 +18,7 @@
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.topics.dataManagement']()}</h1>
+    <h2>{m['navigation.topics.dataManagement']()}</h2>
     <h3>Kompetenz</h3>
     <p>
       STRATECO Data Management Lösungen helfen dem Kunden sichere Entscheidungen aufgrund von zuverlässigen Informationen zu treffen, um sich im internationalen

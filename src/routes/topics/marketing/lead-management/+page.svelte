@@ -18,7 +18,7 @@
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.topics.leadManagement']()}</h1>
+    <h2>{m['navigation.topics.leadManagement']()}</h2>
     <p>
       Leads generieren ist nicht kompliziert, den Prozess zum erfolgreichen Abschluss zu bringen hingegen schon. Effizientes Leadmanagement verringern die Zahl
       notwendiger Kontaktversuche und reduziert die Zahl verlorerer Leads!<br />

@@ -18,7 +18,7 @@
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.expertise.technology']()}</h1>
+    <h2>{m['navigation.expertise.technology']()}</h2>
 
     <p>
       Technologie als Enabler für geschäftlichen Erfolg – STRATECO berät Sie bei der Auswahl, Einführung und Optimierung modernster Technologielösungen für Ihr

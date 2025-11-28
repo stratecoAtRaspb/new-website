@@ -1,5 +1,6 @@
 <script lang="ts">
   import BasicContentArea from '$lib/components/basic-content-area.svelte';
+  import Breadcrumb from '$lib/components/breadcrumb.svelte';
   import IntroBox from '$lib/components/intro-box.svelte';
   import Section from '$lib/components/section.svelte';
   import Stage from '$lib/components/stage.svelte';
@@ -17,7 +18,8 @@
 </Stage>
 
 <Section>
-  <div class="prose">
+  <Breadcrumb/>
+  <div class="prose mt-4">
     <h2>{m['aboutUs.management.title']()}</h2>
     <blockquote class="relative mt-2 mb-12 ml-4 max-w-4xl">
       <svg

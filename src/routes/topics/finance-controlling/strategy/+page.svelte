@@ -18,7 +18,7 @@
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.topics.strategy']()}</h1>
+    <h2>{m['navigation.topics.strategy']()}</h2>
     <h3>Kompetenz</h3>
     <p>
       STRATECO hilft dem Kunden, sich durch innovative Finanzprodukte im Markt erfolgreich zu positionieren und unterstützt Sie darüber hinaus auch bei der

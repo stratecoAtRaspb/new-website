@@ -18,7 +18,7 @@
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.expertise.travelTransportAndLogistics']()}</h1>
+    <h2>{m['navigation.expertise.travelTransportAndLogistics']()}</h2>
 
     <p>
       Die Branchen Travel, Transport und Logistics stehen vor großen Herausforderungen durch Digitalisierung und veränderte Kundenbedürfnisse. STRATECO

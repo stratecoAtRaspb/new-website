@@ -18,7 +18,7 @@
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.topics.tas']()}</h1>
+    <h2>{m['navigation.topics.tas']()}</h2>
     <h3>Competency</h3>
     <ul>
       <li>

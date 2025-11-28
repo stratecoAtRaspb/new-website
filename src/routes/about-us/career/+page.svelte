@@ -18,7 +18,7 @@
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.aboutUs.career']()}</h1>
+    <h2>{m['navigation.aboutUs.career']()}</h2>
 
     <p>
       STRATECO bietet ambitionierten Talenten vielfältige Karrieremöglichkeiten in einem dynamischen Umfeld. Bei uns können Sie an spannenden Projekten

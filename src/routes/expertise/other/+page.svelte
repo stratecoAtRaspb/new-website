@@ -18,7 +18,7 @@
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.expertise.other']()}</h1>
+    <h2>{m['navigation.expertise.other']()}</h2>
 
     <p>
       STRATECO verfügt über umfassende Branchenerfahrung in vielen weiteren Sektoren. Unsere Berater bringen vielseitige Expertise und Best Practices aus

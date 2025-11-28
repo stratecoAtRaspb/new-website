@@ -18,7 +18,7 @@
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.topics.socialMediaMonitoring']()}</h1>
+    <h2>{m['navigation.topics.socialMediaMonitoring']()}</h2>
     <p>
       Das "Social Web" eröffnet zahlreiche neue Chancen für Unternehmen, bringt aber auch neue Risiken mit sich. Wir helfen Ihnen dabei, einen Wissensvorsprung
       zu erzielen und Fehler zu vermeiden!<br />

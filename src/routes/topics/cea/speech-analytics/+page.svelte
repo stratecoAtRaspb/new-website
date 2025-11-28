@@ -18,7 +18,7 @@
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.topics.speechAnalytics']()}</h1>
+    <h2>{m['navigation.topics.speechAnalytics']()}</h2>
     <p>
       Nichts liefert Ihnen ein ehrlicheres Feedback zu Ihrem Business als die Stimme Ihrer Kunden. Wir helfen Ihnen, die Informationen aus Kundengesprächen
       systematisch zu analysieren und zur Optimierung Ihres Busienss zu nutzen!<br />

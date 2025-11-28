@@ -201,8 +201,8 @@
             { key: 'management', label: m['navigation.aboutUs.management'], href: '/about-us/management' } as NavItemLink,
             { key: 'team', label: m['navigation.aboutUs.team'], href: '/about-us/team' } as NavItemLink,
             { key: 'customers', label: m['navigation.aboutUs.customers'], href: '/about-us/customers' } as NavItemLink,
-            { key: 'partner', label: m['navigation.aboutUs.partner'], href: '/about-us/partner' } as NavItemLink,
-            { key: 'career', label: m['navigation.aboutUs.career'], href: '/about-us/career' } as NavItemLink
+            { key: 'partner', label: m['navigation.aboutUs.partner'], href: '/about-us/partner' } as NavItemLink
+            // { key: 'career', label: m['navigation.aboutUs.career'], href: '/about-us/career' } as NavItemLink
           ]
         }
       ]
@@ -422,6 +422,11 @@
                               </a>
                             </li>
                           {/each}
+                          <li>
+                            <a href="https://www.strateco.group/karriere" target="_blank" class="menu-link">
+                              {m['navigation.aboutUs.career']()}
+                            </a>
+                          </li>
                         </ul>
                       </div>
                     {/each}
@@ -562,6 +567,12 @@
             {/if}
           </li>
 
+          <!-- Career -->
+          <li class="mobile-nav-item">
+            <a href="https://www.strateco.group/karriere" target="_blank" class="mobile-nav-link">
+              {m['navigation.aboutUs.career']()}
+            </a>
+          </li>
           <!-- Blog -->
           <li class="mobile-nav-item">
             <a href="https://blog.strateco.de/" target="_blank" class="mobile-nav-link">

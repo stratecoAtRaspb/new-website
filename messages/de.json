@@ -32,7 +32,7 @@
       "aosOverview": "Übersicht",
       "changeManagement": "Change Management",
       "postMergeIntegration": "Post-Merger Integration",
-      "culturalChangeFacilliation": "Cultural change facilliation",
+      "culturalChangeFacilliation": "Cultural Change Facilitation",
       "strategyOptimizationAndImplementation": "Strategy optimization and implementation",
       "workflowAndBusinessProcessAlignment": "Workflow and business process alignment",
       "collaborationPlatform": "Collaboration Platform",
@@ -43,13 +43,13 @@
       "reporting": "Reporting",
       "analysis": "Analyse",
       "workflows": "Workflows",
-      "documentManagement": "Dokumenten Managment",
+      "documentManagement": "Dokumenten Management",
       "intranet": "Intranet",
       "businessIntelligence": "Business Intelligence",
       "dataManagement": "Data Management",
       "sharepoint": "Sharepoint",
       "tasOverview": "Übersicht",
-      "sellSideBuySide": "Sellside / buyside due dilligence",
+      "sellSideBuySide": "Sellside / buyside due diligence",
       "reportingAndAnalysis": "Reporting, analysis and planning for servicing and valuation",
       "dataManagment": "Data Management",
       "rasOverview": "Übersicht",
@@ -61,7 +61,7 @@
       "socialMediaMonitoring": "Social Media Monitoring",
       "customerFeedback": "Customer Feedback",
       "customerInteraction": "Customer Interaction",
-      "brandAndLoyalityManagement": "Brand & Loyality Management",
+      "brandAndLoyalityManagement": "Brand & Loyalty Management",
       "marketingOverview": "Übersicht",
       "marketingAsAService": "Marketing as a Service",
       "leadgenerierung": "Leadgenerierung",
@@ -109,11 +109,34 @@
     "introTitle": "Über STRATECO",
     "introDescription": "Die richtige Mischung aus Kompetenz und Leidenschaft - das ist es, was seit vielen Jahren den Erfolg von STRATECO ausmacht. Probieren Sie es doch einfach auch mal aus!",
     "title": "Bei uns sind Sie richtig!",
-    "text": "<p>Als wir vor über 20 Jahren STRATECO gegründet haben, formte sich ein starker Leitsatz: Unsere Kompetenz ist Ihr Wettbewerbsvorteil. Danach haben wir stets gehandelt. In mittlerweile mehr als 500 Projekten haben wir es geschafft, global agierende Kunden aus verschiedensten Branchen durch überzeugende Resultate an unser Unternehmen zu binden und sie nachhaltig erfolgreicher zu machen.</p><p>Wir machen Ihre Ziele zu unseren Zielen. Ihr Erfolg ist unserem Ansporn. Wir erzielen stets Höchstleistungen für Sie - von der Strategie über Prozesse bis hin zur Umsetzung. Wir packen an, statt nur darüber zu reden. Unsere Konzepte enden erst bei einem erfolgreichen Ergebnis.</p><p>Unser Erfolgsrezept dabei sind die besonderen Menschen, die hinter STRATECO stehen. Mit einer einzigartigen Mischung aus Leidenschaft und Fachkompetenz. Mit Erfahrung und erprobter Methodik. Daraus formen wir maßgeschneiderte Lösungen für unsere Kunden!</p>",
+    "text": "<p>Als wir vor über 20 Jahren STRATECO gegründet haben, formte sich ein starker Leitsatz: Unsere Kompetenz ist Ihr Wettbewerbsvorteil. Danach haben wir stets gehandelt. In mittlerweile mehr als 500 Projekten haben wir es geschafft, global agierende Kunden aus verschiedensten Branchen durch überzeugende Resultate an unser Unternehmen zu binden und sie nachhaltig erfolgreicher zu machen.</p><p>Wir machen Ihre Ziele zu unseren Zielen. Ihr Erfolg ist unser Ansporn. Wir erzielen stets Höchstleistungen für Sie - von der Strategie über Prozesse bis hin zur Umsetzung. Wir packen an, statt nur darüber zu reden. Unsere Konzepte enden erst bei einem erfolgreichen Ergebnis.</p><p>Unser Erfolgsrezept dabei sind die besonderen Menschen, die hinter STRATECO stehen. Mit einer einzigartigen Mischung aus Leidenschaft und Fachkompetenz. Mit Erfahrung und erprobter Methodik. Daraus formen wir maßgeschneiderte Lösungen für unsere Kunden!</p>",
     "management": {
       "introTitle": "Management",
-      "introDescription": "Als wir vor mehr als 20 Jahren den Business Plan von STRATECO entwickelten, hatten wir eine zentrale Vision: Höchstleistungen für unsere Kunden zu erzielen. Daraus wurde eine Erfolgsrezept, dem wir bis heute treu geblieben sind.",
+      "introDescription": "Als wir vor mehr als 20 Jahren den Business Plan von STRATECO entwickelten, hatten wir eine zentrale Vision: Höchstleistungen für unsere Kunden zu erzielen. Daraus wurde ein Erfolgsrezept, dem wir bis heute treu geblieben sind.",
       "title": "Ihr Erfolg ist unser Anliegen"
+    },
+    "team": {
+      "introTitle": "Team",
+      "introDescription": "Unser Erfolgsrezept? Die Menschen hinter STRATECO! Unsere Mitarbeiter vereinen Fachkompetenz, Methodik und Erfahrung – und sind damit der Schlüssel zum Erfolg.",
+      "title": "Gemeinsam sind wir stark!",
+      "text": "<p>Nur besondere Menschen sind in der Lage, besondere Ergebnisse zu erzielen. Deswegen gibt STRATECO sich nicht mit dem Standard zufrieden, sondern setzt auf außergewöhnliche Persönlichkeiten.</p><p>Wie bei einem Rohdiamanten muss man diese Besonderheit zunächst erkennen und dann gezielt fördern. Die Stärken der Mitarbeitenden werden durch gezielte Personalentwicklung unterstützt.</p><p>Fachliche Skills sind ebenso wichtig wie Persönlichkeit und unternehmerisches Handeln. So werden Kundenprojekte kooperativ und kreativ zum Erfolg geführt – mit einem klaren Leistungsversprechen.</p><p>STRATECO verfügt über eine einzigartige Unternehmenskultur und gelebte Werte, die sich positiv auf Mitarbeitende und Kunden auswirken. Das macht das Unternehmen zu einem besonderen Arbeitgeber und leistet einen wesentlichen Beitrag zur Erfolgsgeschichte.</p>",
+      "quote": {
+        "text": "Der Schlüssel zum Erfolg sind nicht Informationen. Das sind Menschen.",
+        "author": "Lee Iacocca"
+      }
+    },
+    "customers": {
+      "introTitle": "Kunden",
+      "introDescription": "Exzellente Ergebnisse entstehen durch Kompetenz und Leidenschaft. Wahre Leidenschaft kann sich nur entwickeln, wenn man zueinander passt. Passen Sie zu uns?",
+      "title": "Werden auch Sie Teil unserer Erfolgsgeschichte!",
+      "text": "<p>Bei STRATECO sind Sie bestens aufgehoben. Wir teilen mit Ihnen die Erfahrung aus über 500 Projekten, und haben dabei nur ein Ziel: Dass Sie mehr als zufrieden sind. Dafür stehen alle Menschen bei STRATECO ein – mit Fachkompetenz, Methodik, Leidenschaft und Kreativität.</p><p>Gerne zeigen wir Ihnen im persönlichen Gespräch Beispiele unserer Arbeit auf und vermitteln Ihnen auf Wunsch aussagekräftige Referenzen. Bitte kontaktieren Sie uns.</p><p>Einen Auszug unserer Kunden, für die in den letzten 22 Jahren erfolgreich Projekte realisiert wurden, finden Sie hier:</p>",
+      "footer": "<p class='font-bold mt-4'>To be continued!</p><p>Sollten Sie Ihr Unternehmen in der obenstehenden Liste nicht finden, kontaktieren Sie STRATECO bitte – das soll gerne gemeinsam geändert werden.</p>"
+    },
+    "partner": {
+      "introTitle": "Partner",
+      "introDescription": "Nichts ist so beständig wie der Wandel, insbesondere bei Technologien. Deswegen pflegt STRATECO ein breites Netzwerk an Technologiepartnern.",
+      "title": "Unsere Partner",
+      "text": "<h3>Der Erfolg hat viele Väter</h3><p>Starke Partnerschaften bilden seit der Gründung eine wichtige Säule des Erfolges von STRATECO und ermöglichen bessere Leistungen für die Kunden. STRATECO arbeitet mit vielen namhaften Technologielieferanten zusammen, um stets passende Lösungen anbieten zu können. Einige dieser Partner werden auf der Seite exemplarisch vorgestellt.</p><p>Partnerschaftliche Beziehungen pflegt STRATECO unter anderem zu folgenden Technologie-Partnern:</p><ul><li>Microsoft – STRATECO ist Microsoft-Partner.</li><li>Verint.</li><li>Silverpop.</li><li>Kamakura.</li></ul>"
     }
   },
   "expertise": {
@@ -121,14 +144,14 @@
     "introTitle": "Kompetenzen",
     "introDescription": "STRATECO verfügt über vielfältige Kompetenzen. Damit Sie wissen, was Sie von uns erwarten dürfen, haben wir Ihnen die wichtigsten hier zusammengestellt.",
     "title": "Unsere Kompetenzen für Ihren Wettbewerbsvorteil.",
-    "text": "<p>Unsere Kompetenzen fokussieren auf die wesentlichen Management-Bereiche unserer Klienten.</p><p>Wir arbeiten ergebnisorientiert mit einem ganzheitlichen Blick über alle Unternehmensbereiche. Dabei bedienen wir uns aktuellster Methoden und Technologien, die wir für die Bedürfnisse unsere Mandanten immer weiter entwickeln.</p><p>Sie profitieren von einem Team von Spezialisten in den einzelnen Disziplinen, deren Stärke darin liegt, theoretische Ergebnisse in praktische Resultate umzusetzen.</p><p><strong>Das verstehen wir als gelebte Kompetenz.</strong></p>",
+    "text": "<p>Unsere Kompetenzen fokussieren auf die wesentlichen Management-Bereiche unserer Klienten.</p><p>Wir arbeiten ergebnisorientiert mit einem ganzheitlichen Blick über alle Unternehmensbereiche. Dabei bedienen wir uns aktuellster Methoden und Technologien, die wir für die Bedürfnisse unserer Mandanten immer weiter entwickeln.</p><p>Sie profitieren von einem Team von Spezialisten in den einzelnen Disziplinen, deren Stärke darin liegt, theoretische Ergebnisse in praktische Resultate umzusetzen.</p><p><strong>Das verstehen wir als gelebte Kompetenz.</strong></p>",
     "sectionHeadline1": "Kompetenzen nach Kategorie",
     "sectionHeadline2": "Kompetenzen nach Branche",
     "strategy": {
       "introTitle": "Strategie",
       "introDescription": "Die Strategie ist der Schlüssel zum Erfolg.",
-      "title": "Wir entwickeln die richtige Strategie für ihre Herausforderung",
-      "text": "<p>Wir entwickeln für unsere Klienten aus den Branchen Telekommunikation, Banking und Finance, Konsumgüter und Travel seit über 18 Jahren nachhaltige Strategien, die nicht nur Erfolg versprechen, sondern konkrete (messbare) Resultate bringen.</p><p>Dabei betrachten wir einzelne Geschäfts- oder Management-Bereiche ebenso wie die ganzheitliche Unternehmensstrategie. Unsere Berater agieren unternehmerisch und mit dem Blick auf das große Ganze.</p><p>Wir definieren mit unseren Klienten gemeinsame Ziele, diese zu übertreffen unser Erfolgsversprechen ist.</p>"
+      "title": "Wir entwickeln die richtige Strategie für Ihre Herausforderung",
+      "text": "<p>Wir entwickeln für unsere Klienten aus den Branchen Telekommunikation, Banking und Finance, Konsumgüter und Travel seit über 18 Jahren nachhaltige Strategien, die nicht nur Erfolg versprechen, sondern konkrete (messbare) Resultate bringen.</p><p>Dabei betrachten wir einzelne Geschäfts- oder Management-Bereiche ebenso wie die ganzheitliche Unternehmensstrategie. Unsere Berater agieren unternehmerisch und mit dem Blick auf das große Ganze.</p><p>Wir definieren mit unseren Klienten gemeinsame Ziele; diese zu übertreffen, ist unser Erfolgsversprechen.</p>"
     }
   },
   "topics": {
@@ -205,11 +228,11 @@
     },
     "slide4": {
       "headline": "Bis zur Unendlichkeit und noch weiter...",
-      "text": "Streben Sie nach den Unerreichbaren? Wir helfen Ihnen dabei, ganz dicht an Ihr Zile zu kommen."
+      "text": "Streben Sie nach dem Unerreichbaren? Wir helfen Ihnen dabei, ganz dicht an Ihr Ziel zu kommen."
     },
     "slide5": {
       "headline": "Unsere Kompetenz ist Ihr Wettbewerbsvorteil",
-      "text": "Mit Leidenschaft (er)finden wir uns seit mehr als 20 Jahren die erfolgreichsten Startegien und Lösungen für unsere Klienten."
+      "text": "Mit Leidenschaft (er)finden wir seit mehr als 20 Jahren die erfolgreichsten Strategien und Lösungen für unsere Klienten."
     }
   }
 }

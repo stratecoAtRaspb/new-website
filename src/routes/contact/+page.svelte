@@ -17,10 +17,9 @@
   <IntroBox title={m['contact.introTitle']()} description={m['aboutUs.introDescription']()}></IntroBox>
 </Stage>
 
-<Section>
-  <Breadcrumb />
+{#snippet left()}
   <div class="prose">
-    <h1>{m['contact.title']()}</h1>
+    <h2>{m['contact.title']()}</h2>
 
     <p>
       STRATECO ist eine Unternehmensberatung, die seit mehr als 20 Jahren führende Unternehmen dabei unterstützt, anstehende Herausforderungen zu meistern. Von
@@ -36,6 +35,8 @@
     </p>
     <p>Deswegen haben wir auch das Leistungsversprechen von STRATECO zum Leitsatz gemacht: Unsere Kompetenz ist Ihr Wettbewerbsvorteil!</p>
   </div>
-
-  <a href={localizeHref('/')}>Zurück</a>
+{/snippet}
+{#snippet right()}{/snippet}
+<Section>
+  <BasicContentArea {left} {right} />
 </Section>

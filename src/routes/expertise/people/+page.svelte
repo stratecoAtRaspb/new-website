@@ -18,7 +18,7 @@
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.expertise.people']()}</h1>
+    <h2>{m['navigation.expertise.people']()}</h2>
 
     <p>
       Menschen sind der Erfolgsfaktor jeder Organisation. STRATECO unterstützt Sie dabei, Ihre Mitarbeiter optimal zu entwickeln und die richtigen Talente für

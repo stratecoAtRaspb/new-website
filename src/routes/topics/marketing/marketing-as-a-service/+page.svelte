@@ -18,7 +18,7 @@
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.topics.marketingAsAService']()}</h1>
+    <h2>{m['navigation.topics.marketingAsAService']()}</h2>
     <p>
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus vel quasi dolores, aliquid impedit a. Possimus, optio adipisci, cupiditate explicabo
       nisi rerum, amet itaque vel ab qui iste asperiores nesciunt.

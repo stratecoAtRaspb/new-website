@@ -114,8 +114,8 @@
 </Stage>
 
 <Section>
+  <Breadcrumb />
   <div class="prose">
-    <Breadcrumb />
     <h2>{m['topics.title']()}</h2>
     <div class="flex items-center justify-center">
       <img src="/images/SC_Portfolio_Kreis.png" class="h-md m-4 mb-10 w-md" alt="Portfolio Kreis" />

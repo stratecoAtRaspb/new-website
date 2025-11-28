@@ -18,7 +18,7 @@
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.topics.textAnalytics']()}</h1>
+    <h2>{m['navigation.topics.textAnalytics']()}</h2>
     <p>
       Egal ob Social Media, aus Feedback-Prozessen oder internen Quellen - überall im Unternehmen stehen große Textmengen zur Verfügung. Wir helfen Ihnen,
       diesen unstrukturierten Text in strukturierte Informationen &amp; "Insights" zu verwandeln!<br />

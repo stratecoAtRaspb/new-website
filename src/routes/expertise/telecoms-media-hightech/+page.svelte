@@ -18,7 +18,7 @@
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.expertise.telecomsMediaAndHighTech']()}</h1>
+    <h2>{m['navigation.expertise.telecomsMediaAndHighTech']()}</h2>
 
     <p>
       In den schnelllebigen Branchen Telekommunikation, Medien und High-Tech unterstützt STRATECO Unternehmen dabei, mit dem rasanten Wandel Schritt zu halten

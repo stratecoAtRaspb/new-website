@@ -18,7 +18,7 @@
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.topics.leadgenerierung']()}</h1>
+    <h2>{m['navigation.topics.leadgenerierung']()}</h2>
     <p>
       Die Generierung von Leads zählt im Marketing zu den wichtigsten, aber zugleich auch zu den schwierigsten Aufgaben. Profitieren Sie von STRATECO, wenn es
       darum geht, Ihr Budget dabei bestmöglich einzusetzen!<br />

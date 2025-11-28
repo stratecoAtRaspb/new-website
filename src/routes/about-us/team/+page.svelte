@@ -1,6 +1,7 @@
 <script lang="ts">
   import BasicContentArea from '$lib/components/basic-content-area.svelte';
   import IntroBox from '$lib/components/intro-box.svelte';
+  import QuoteCard from '$lib/components/quote-card.svelte';
   import Section from '$lib/components/section.svelte';
   import Stage from '$lib/components/stage.svelte';
   import { m } from '$lib/paraglide/messages';
@@ -13,26 +14,20 @@
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.aboutUs.team']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m['aboutUs.team.introTitle']()} description={m['aboutUs.team.introDescription']()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.aboutUs.team']()}</h1>
-
-    <p>
-      Unser Team ist unser größtes Kapital. Bei STRATECO arbeiten erfahrene Berater, die ihre Expertise aus verschiedensten Branchen und Projekten mitbringen
-      und täglich mit Leidenschaft für unsere Kunden einsetzen.
-    </p>
-    <p>
-      Diversität, Teamgeist und kontinuierliche Weiterentwicklung prägen unsere Unternehmenskultur. Gemeinsam meistern wir die Herausforderungen unserer Kunden
-      und schaffen nachhaltige Lösungen.
-    </p>
+    <h2>{m['aboutUs.team.title']()}</h2>
+    {@html m['aboutUs.team.text']()}
   </div>
-
-  <a href={localizeHref('/about-us')}>Zurück zu Über uns</a>
 {/snippet}
-{#snippet right()}{/snippet}
+
+{#snippet right()}
+  <QuoteCard quote={m['aboutUs.team.quote.text']()} author={m['aboutUs.team.quote.author']()} />
+{/snippet}
+
 <Section>
   <BasicContentArea {left} {right} />
 </Section>

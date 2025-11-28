@@ -1,5 +1,6 @@
 <script lang="ts">
   import BasicContentArea from '$lib/components/basic-content-area.svelte';
+  import Breadcrumb from '$lib/components/breadcrumb.svelte';
   import IntroBox from '$lib/components/intro-box.svelte';
   import Section from '$lib/components/section.svelte';
   import Stage from '$lib/components/stage.svelte';
@@ -13,23 +14,14 @@
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.aboutUs.partner']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m['aboutUs.partner.title']()} description={m['aboutUs.partner.introDescription']()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.aboutUs.partner']()}</h1>
-
-    <p>
-      STRATECO bietet ambitionierten Talenten vielfältige Karrieremöglichkeiten in einem dynamischen Umfeld. Bei uns können Sie an spannenden Projekten
-      arbeiten, von erfahrenen Kollegen lernen und Ihre Karriere aktiv gestalten.
-    </p>
-    <p>
-      Wir suchen Menschen mit Begeisterung für Beratung, analytischem Denkvermögen und dem Willen, gemeinsam Außergewöhnliches zu leisten. Werden Sie Teil
-      unseres Teams und gestalten Sie die Zukunft mit uns!
-    </p>
+    <h2>{m['aboutUs.partner.title']()}</h2>
+    {@html m['aboutUs.partner.text']()}
   </div>
-  <a href={localizeHref('/about-us')}>Zurück zu Kompetenzen</a>
 {/snippet}
 {#snippet right()}{/snippet}
 <Section>

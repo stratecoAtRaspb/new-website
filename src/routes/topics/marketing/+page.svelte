@@ -18,7 +18,7 @@
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.topics.marketing']()}</h1>
+    <h2>{m['navigation.topics.marketing']()}</h2>
     <p>
       Das Marketing in Unternehmen befindet sich vollständig im Wandel.<br /> Die neue Marketingwelt ist digital. Konsumenten haben die Macht.<br /> Wir helfen Ihnen,
       damit richtig umzugehen.

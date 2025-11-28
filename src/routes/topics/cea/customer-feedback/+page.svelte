@@ -18,7 +18,7 @@
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.topics.customerFeedback']()}</h1>
+    <h2>{m['navigation.topics.customerFeedback']()}</h2>
     <p>
       Feedback ist für uns alle wichtig. Ohne das Feedback Ihrer Kunden wissen Sie nicht, wo Sie stehen und wie Sie Produkte und Services verbessern können.
       Haben Sie bereits einen durchgängigen Customer Feedback-Prozess implementiert?

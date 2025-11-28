@@ -18,7 +18,7 @@
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['topics.aos.managementCoaching.title']()}</h1>
+    <h2>{m['topics.aos.managementCoaching.title']()}</h2>
     <p>
       Die einzigartige Kombination aus fachlicher Branchenexpertise und langjähriger Coaching Erfahrung begründet den Erfolg unserer Coaching Methodik.<br /> Wir
       verwandeln Ihre Herausforderungen in operationale Arbeitspakete!

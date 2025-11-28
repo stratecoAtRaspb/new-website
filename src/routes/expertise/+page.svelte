@@ -18,8 +18,8 @@
 </Stage>
 
 <Section>
+  <Breadcrumb />
   <div class="prose">
-    <Breadcrumb />
     <h2>{m['expertise.title']()}</h2>
     <div class="prose">
       {@html m['expertise.text']()}

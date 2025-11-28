@@ -18,7 +18,7 @@
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.topics.intranet']()}</h1>
+    <h2>{m['navigation.topics.intranet']()}</h2>
     <p>Hier kommt ein kurzer Introtext/Beschreibungstext hin...</p>
     <h3>Headline</h3>
     <p>Hier kommen noch Inhalte hin...</p>

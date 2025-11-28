@@ -17,15 +17,17 @@
 
 <style lang="postcss">
   @reference '../../app.css';
-  .two-col-layout {
-    @apply grid grid-cols-1 gap-10 md:grid-cols-12;
+  .basic-content-wrapper {
+    .two-col-layout {
+      @apply grid grid-cols-1 gap-10 md:grid-cols-12 mt-4;
 
-    .left {
-      @apply md:col-span-8;
-    }
+      .left {
+        @apply md:col-span-8;
+      }
 
-    .right {
-      @apply flex flex-col gap-8 md:col-span-4;
+      .right {
+        @apply flex flex-col gap-8 md:col-span-4;
+      }
     }
   }
 </style>
