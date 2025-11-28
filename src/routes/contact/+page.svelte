@@ -9,7 +9,7 @@
 </script>
 
 <Stage>
-  <IntroBox title={m['contact.title']()} description={m['about.description']()}></IntroBox>
+  <IntroBox title={m['contact.introTitle']()} description={m['aboutUs.introDescription']()}></IntroBox>
 </Stage>
 
 <Section>

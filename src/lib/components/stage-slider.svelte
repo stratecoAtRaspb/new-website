@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { m } from '$lib/paraglide/messages';
   import { onMount } from 'svelte';
   import { register } from 'swiper/element/bundle';
 
@@ -33,28 +34,28 @@
   let slides = [
     {
       image: '/images/slides/glass-building.jpg',
-      headline: 'Sie wollen hoch hinaus?',
-      text: 'Unser Know-how und unsere Lösungen schaffen ein solides Fundament für Ihr Wachstum.'
+      headline: m['slider.slide1.headline'](),
+      text: m['slider.slide1.text']()
     },
     {
       image: '/images/slides/ideen.jpg',
-      headline: 'Unserer Ergebnisse stechen heraus?',
-      text: 'Wir sind eine Idee einfallsreicher und dabei hochprofessionell in der Umsetzung.'
+      headline: m['slider.slide2.headline'](),
+      text: m['slider.slide2.text']()
     },
     {
       image: '/images/slides/hoch-hinaus-1.jpg',
-      headline: 'Schritt für Schritt erklimmen wir die nächste Stufe',
-      text: 'Wir sind Ihr zuverlässiger Partner, wenn es um das Meistern Ihrer Herausforderungen geht!'
+      headline: m['slider.slide3.headline'](),
+      text: m['slider.slide3.text']()
     },
     {
       image: '/images/slides/sky.jpg',
-      headline: 'Bis zur Unendlichkeit und noch weiter...',
-      text: 'Streben Sie nach den Unerreichbaren? Wir helfen Ihnen dabei, ganz dicht an Ihr Zile zu kommen.'
+      headline: m['slider.slide4.headline'](),
+      text: m['slider.slide4.text']()
     },
     {
       image: '/images/slides/escalator.jpg',
-      headline: 'Unsere Kompetenz ist Ihr Wettbewerbsvorteil',
-      text: 'Mit Leidenschaft (er)finden wir uns seit mehr als 20 Jahren die erfolgreichsten Startegien und Lösungen für unsere Klienten.'
+      headline: m['slider.slide5.headline'](),
+      text: m['slider.slide5.text']()
     }
   ];
 

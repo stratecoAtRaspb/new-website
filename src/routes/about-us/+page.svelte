@@ -9,22 +9,20 @@
 </script>
 
 <Stage>
-  <IntroBox title={m['about.title']()} description={m['about.description']()}></IntroBox>
+  <IntroBox title={m['aboutUs.introTitle']()} description={m['aboutUs.introDescription']()}></IntroBox>
 </Stage>
 
-<Section>
-  <Breadcrumb />
+{#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.about.team']()}</h1>
-
-    <p>
-      STRATECO bietet ambitionierten Talenten vielfältige Karrieremöglichkeiten in einem dynamischen Umfeld. Bei uns können Sie an spannenden Projekten
-      arbeiten, von erfahrenen Kollegen lernen und Ihre Karriere aktiv gestalten.
-    </p>
-    <p>
-      Wir suchen Menschen mit Begeisterung für Beratung, analytischem Denkvermögen und dem Willen, gemeinsam Außergewöhnliches zu leisten. Werden Sie Teil
-      unseres Teams und gestalten Sie die Zukunft mit uns!
-    </p>
+    <h2>{m['aboutUs.title']()}</h2>
+    <div class="prose">
+      {@html m['aboutUs.text']()}
+    </div>
   </div>
-  <a href={localizeHref('/about-us')}>Zurück zu Kompetenzen</a>
+{/snippet}
+{#snippet right()}
+{/snippet}
+
+<Section>
+  <BasicContentArea {left} {right} />
 </Section>

@@ -8,12 +8,12 @@
 </script>
 
 <Stage>
-  <IntroBox title={m['navigation.topics.dataManagement']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m['topics.digitalTransformation.introTitle']()} description={m['topics.digitalTransformation.introDescription']()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.topics.dataManagement']()}</h1>
+    <h1>{m['topics.digitalTransformation.title']()}</h1>
 
     <p>
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
@@ -25,7 +25,7 @@
     </p>
   </div>
 
-  <a href={localizeHref('/topics/tas')}>Zurück zu Übersicht</a>
+  <a href={localizeHref('/topics/aos')}>Zurück zu Übersicht</a>
 {/snippet}
 {#snippet right()}{/snippet}
 <Section>

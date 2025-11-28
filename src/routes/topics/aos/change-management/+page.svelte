@@ -8,12 +8,12 @@
 </script>
 
 <Stage>
-  <IntroBox title={m['navigation.topics.changeManagement']()} description={m['about.description']()}></IntroBox>
+  <IntroBox title={m['topics.aos.changeManagement.introTitle']()} description={m['topics.aos.changeManagement.introDescription']()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.topics.changeManagement']()}</h1>
+    <h1>{m['topics.aos.changeManagement.title']()}</h1>
 
     <p>
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam

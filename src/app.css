@@ -101,6 +101,15 @@ h4,
 h5,
 h6 {
   @apply font-lato leading-[1.1] font-light text-balance opacity-80;
+  &.orange {
+    @apply text-specialOrange;
+  }
+  &.grey {
+    @apply text-specialGrey;
+  }
+  &.blue {
+    @apply text-specialBlue;
+  }
 }
 h1 {
   @apply text-4xl md:text-6xl;
@@ -157,7 +166,7 @@ h6 {
 
 a,
 .text-link-button {
-  @apply m-0 cursor-pointer p-0 underline opacity-70 duration-300;
+  @apply m-0 cursor-pointer p-0 no-underline opacity-70 duration-300;
   color: inherit;
   font-size: inherit;
   line-height: inherit;
@@ -177,7 +186,7 @@ a,
     }
   }
   &:hover {
-    @apply no-underline;
+    @apply underline;
   }
   &.active {
     @apply text-secondary no-underline;
@@ -186,6 +195,24 @@ a,
     @apply text-white;
   }
 }
+
+ul.checklist {
+  @apply ml-6 mb-8;
+  list-style-image: url('/images/check.gif');
+  li {
+    @apply font-lato text-lg leading-normal font-light p-1 relative;
+    span {
+      @apply absolute top-[3px];
+    }
+  }
+}
+
+ul.linklist {
+  li {
+    @apply font-lato text-lg leading-normal font-light px-1 py-2 border-b border-b-black/30 border-dotted;
+  }
+}
+
 
 .breadcrumbs ul li > a {
   @apply text-black no-underline hover:text-black/80 hover:underline;

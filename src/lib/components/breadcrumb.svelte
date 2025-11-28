@@ -10,8 +10,8 @@
     kompetenzen: m['navigation.expertise.self'](),
     topics: m['navigation.topics.self'](),
     themen: m['navigation.topics.self'](),
-    'about-us': m['navigation.about.self'](),
-    'ueber-uns': m['navigation.about.self'](),
+    'about-us': m['navigation.aboutUs.self'](),
+    'ueber-uns': m['navigation.aboutUs.self'](),
     contact: m['navigation.contact.self'](),
     kontakt: m['navigation.contact.self'](),
     legal: m['navigation.legal.self'](),
@@ -89,13 +89,13 @@
     'sell-side-buy-side': m['navigation.topics.sellSideBuySide'](),
 
     // About sub-pages
-    management: m['navigation.about.management'](),
-    team: m['navigation.about.team'](),
-    customers: m['navigation.about.customers'](),
-    kunden: m['navigation.about.customers'](),
-    partner: m['navigation.about.partner'](),
-    career: m['navigation.about.career'](),
-    karriere: m['navigation.about.career']()
+    management: m['navigation.aboutUs.management'](),
+    team: m['navigation.aboutUs.team'](),
+    customers: m['navigation.aboutUs.customers'](),
+    kunden: m['navigation.aboutUs.customers'](),
+    partner: m['navigation.aboutUs.partner'](),
+    career: m['navigation.aboutUs.career'](),
+    karriere: m['navigation.aboutUs.career']()
   };
 
   interface BreadcrumbItem {

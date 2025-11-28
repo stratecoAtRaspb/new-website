@@ -8,7 +8,7 @@
 </script>
 
 <Stage>
-  <IntroBox title={m['navigation.expertise.implementation']()} description={m['about.description']()}></IntroBox>
+  <IntroBox title={m['navigation.expertise.implementation']()} description={m['aboutUs.introDescription']()}></IntroBox>
 </Stage>
 
 {#snippet left()}

@@ -34,7 +34,7 @@
     }
 
     .description {
-      @apply flex grow items-center justify-center px-6;
+      @apply flex grow items-center justify-start px-6;
       p {
         @apply line-clamp-3 text-base leading-snug text-white;
       }

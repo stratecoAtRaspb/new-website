@@ -8,7 +8,7 @@
 </script>
 
 <Stage>
-  <IntroBox title={m['legal.title']()} description={m['about.description']()}></IntroBox>
+  <IntroBox title={m['legal.title']()} description={m['aboutUs.introDescription']()}></IntroBox>
 </Stage>
 
 <Section>

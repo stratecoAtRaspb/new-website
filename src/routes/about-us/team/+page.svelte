@@ -8,12 +8,12 @@
 </script>
 
 <Stage>
-  <IntroBox title={m['navigation.about.team']()} description={m['about.description']()}></IntroBox>
+  <IntroBox title={m['navigation.aboutUs.team']()} description={m['aboutUs.introDescription']()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.about.team']()}</h1>
+    <h1>{m['navigation.aboutUs.team']()}</h1>
 
     <p>
       Unser Team ist unser größtes Kapital. Bei STRATECO arbeiten erfahrene Berater, die ihre Expertise aus verschiedensten Branchen und Projekten mitbringen

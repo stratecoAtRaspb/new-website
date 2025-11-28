@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { goto } from '$app/navigation';
   import { page } from '$app/state';
   import { m } from '$lib/paraglide/messages';
   import { getLocale, localizeHref, setLocale } from '$lib/paraglide/runtime';
@@ -59,8 +58,9 @@
           color: 'blue',
           items: [
             { key: 'aos', label: m['navigation.topics.aosOverview'], href: '/topics/aos' } as NavItemLink,
+            { key: 'digitalTransformation', label: m['navigation.topics.digitalTransformation'], href: '/topics/aos/digital-transformation' } as NavItemLink,
             { key: 'managementCoaching', label: m['navigation.topics.managementCoaching'], href: '/topics/aos/management-coaching' } as NavItemLink,
-            { key: 'changeManagement', label: m['navigation.topics.changeManagement'], href: '/topics/aos/post-merge-integration' } as NavItemLink,
+            { key: 'changeManagement', label: m['navigation.topics.changeManagement'], href: '/topics/aos/change-management' } as NavItemLink,
             { key: 'postMergeIntegration', label: m['navigation.topics.postMergeIntegration'], href: '/topics/aos/post-merge-integration' } as NavItemLink,
             {
               key: 'culturalChangeFacilliation',
@@ -192,16 +192,16 @@
         }
       ]
     },
-    about: {
+    aboutUs: {
       layout: 'compact',
       sections: [
         {
           items: [
-            { key: 'management', label: m['navigation.about.management'], href: '/about-us/management' } as NavItemLink,
-            { key: 'team', label: m['navigation.about.team'], href: '/about-us/team' } as NavItemLink,
-            { key: 'customers', label: m['navigation.about.customers'], href: '/about-us/customers' } as NavItemLink,
-            { key: 'partner', label: m['navigation.about.partner'], href: '/about-us/partner' } as NavItemLink,
-            { key: 'career', label: m['navigation.about.career'], href: '/about-us/career' } as NavItemLink
+            { key: 'management', label: m['navigation.aboutUs.management'], href: '/about-us/management' } as NavItemLink,
+            { key: 'team', label: m['navigation.aboutUs.team'], href: '/about-us/team' } as NavItemLink,
+            { key: 'customers', label: m['navigation.aboutUs.customers'], href: '/about-us/customers' } as NavItemLink,
+            { key: 'partner', label: m['navigation.aboutUs.partner'], href: '/about-us/partner' } as NavItemLink,
+            { key: 'career', label: m['navigation.aboutUs.career'], href: '/about-us/career' } as NavItemLink
           ]
         }
       ]
@@ -354,13 +354,13 @@
 
           <li
             class="nav-item-with-submenu"
-            class:full-width={navigation.about.layout === 'full'}
-            class:compact={navigation.about.layout === 'compact'}
+            class:full-width={navigation.aboutUs.layout === 'full'}
+            class:compact={navigation.aboutUs.layout === 'compact'}
             onmouseenter={() => handleMouseEnter('about')}
             onmouseleave={handleMouseLeave}
           >
             <a href={localizeHref('/about-us')} class="solid nav-link-wrapper" class:active={page.url.pathname == localizeHref('/about-us')}>
-              <span>{m['navigation.about.self']()}</span>
+              <span>{m['navigation.aboutUs.self']()}</span>
               <svg
                 class="nav-arrow"
                 class:rotated={activeMenu === 'about'}
@@ -377,7 +377,7 @@
             {#if activeMenu === 'about'}
               <div
                 class="mega-menu"
-                class:compact={navigation.about.layout === 'compact'}
+                class:compact={navigation.aboutUs.layout === 'compact'}
                 role="menu"
                 tabindex="-1"
                 onmouseenter={cancelClose}
@@ -385,7 +385,7 @@
               >
                 <div class="mega-menu-content">
                   <div class="mega-menu-sections">
-                    {#each navigation.about.sections as section}
+                    {#each navigation.aboutUs.sections as section}
                       <div class="mega-menu-section">
                         {#if section.heading}
                           <h3 class="section-heading">{section.heading}</h3>

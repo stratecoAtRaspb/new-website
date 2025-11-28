@@ -8,12 +8,12 @@
 </script>
 
 <Stage>
-  <IntroBox title={m['navigation.about.customers']()} description={m['about.description']()}></IntroBox>
+  <IntroBox title={m['navigation.aboutUs.customers']()} description={m['aboutUs.introDescription']()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h1>{m['navigation.about.customers']()}</h1>
+    <h1>{m['navigation.aboutUs.customers']()}</h1>
 
     <p>
       STRATECO bietet ambitionierten Talenten vielfältige Karrieremöglichkeiten in einem dynamischen Umfeld. Bei uns können Sie an spannenden Projekten

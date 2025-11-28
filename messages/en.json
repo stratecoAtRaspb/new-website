@@ -27,6 +27,7 @@
       "ras": "Risk Advisory Services (RAS)",
       "cea": "Customer Experience Analytics (CEA)",
       "marketing": "Marketing",
+	  "digitalTransformation": "Digital Transformation",
       "managementCoaching": "Management Coaching",
       "aosOverview": "Übersicht",
       "changeManagement": "Change Management",
@@ -72,7 +73,7 @@
     "blog": {
       "self": "Blog"
     },
-    "about": {
+    "aboutUs": {
       "self": "About us",
       "management": "Management",
       "team": "Team",
@@ -90,39 +91,124 @@
       "self": "Privacy"
     }
   },
+  "home": {
+	"title": "About STRATECO",
+	"text": "<p>Established over 20 years ago STRATECO is a consultancy which has a proven track record of supporting market leaders in their efforts to meet the challenges of their business environment by helping to design and execute successful strategies. From the strategy to the processes and implementation, we have demonstrated outstanding capabilities to meet special needs our clients in a timely, reliable and cost effective way.</p><p>In more than 400 projects in the fields of Marketing and Sales, Finance and Controlling, we have committed ourselves to the same goal for over 80 firms engaged in many different branches of business activity: achieve excellent results. Your objectives are always our objectives; your success is what we strive for.</p><p>How do we achieve this? With the teams of exceptional people which deliver what STRATECO aspires to achieve. With a unique combination of passion and technical competence. With experience and proven methodologies. From these capabilities we form customized solutions for our clients!</p><p>For this reason we have made the performance promise of STRATECO our company motto: Our competence is your competitive advantage!</p>",
+	"quote": {
+		"text": "The extraordinary does not happen along the usual and familiar paths.",
+		"author": "Johann Wolfgang von Goethe",
+		"role": "poet, politician, and natural scientist"
+	},
+	"sideBarCard": {
+		"title": "Blueprint for success",
+		"text": "STRATECO promotes and supports Start-ups.  We welcome your inquiries and requests",
+		"ctaText": "come and talk to us!"
+	}
+  },
+  "aboutUs": {
+    "introTitle": "About us",
+    "introDescription": "Over the years, the right combination of competence and passion that is what has enabled STRATECO to succeed. Just give us a try. See for yourself!",
+    "title": "You are at the right place if you are doing business with us!",
+	"text": "<p>When we started STRATECO 17 years ago, we were inspired by a powerful mission: Our competence is your competitive advantage. We have always acted in this spirit. In the mean time, we have successfully completed over 400 projects for customers who are globally present in diverse branches. We have established a proven track record of delivering on promised results, so that we have established long-standing ties with many clients who value our support to achieve sustainably successful performance.</p><p>We make your goals our goals. Ensuring your success is our aspiration. We constantly deliver highest performance for you – from the strategy to the processes and finally to implementation. We deliver, and we practice what we preach. Our concepts are complete only when the successful results are achieved.</p><p>Our recipe for success consists of the highly talented, special people who stand behind STRATECO. They represent a unique combination of passion and competency. They have relevant experience, and they have expert command of proven methodologies. From these basics we design and implement tailor made solutions for our customers!</p>",
+	"management": {
+		"introTitle": "Management",
+		"introDescription": "When we developed the Business Plan for STRATECO more than 17 years ago, we were guided by a central vision: We empower our customers to achieve highest performance. That vision has lead to the successful strategy to which we have been committed to this day.",
+		"title": "Your success matters to us"
+	}
+  },
   "expertise": {
     "megaMenuTitle": "Our expertise",
     "introTitle": "Expertise",
     "introDescription": "STRATECO's resources consist of a wide range of competencies.  So that you can learn what you may expect of us, we provide a summarization of the most important capabilities.",
-    "title": "Our competencies for your competitive advantage"
+    "title": "Our competencies for your competitive advantage",
+	"text": "<p>Our competencies focus on the key managerial responsibilities of our clients. Our engagement is always results-oriented, and it always takes a holistic approach to every line of business and functional area. We deploy state-of-the-art methods and technologies, which we adapt and enchance according to the scope of work of our mandates. You profit from a team of specialists in various disciplines, whose strengths are derived from their proven ability to deliver consistently practical results based on powerful theoretical insights which have been tested by hands-on experience.</p><p><strong>That is what is meant by our established reputation for “lived competency”.</strong></p>",
+	"sectionHeadline1": "Expertise by capability",
+	"sectionHeadline2": "Expertise by client segment",
+	"strategy": {
+		"introTitle": "Strategy",
+		"introDescription": "A strategy that fits the business environment is a necessary condition for success.",
+		"title": "We support your efforts to design the right strategy to meet the challenges, opportunities and threats of your dynamic business environment",
+		"text": "<p>Over the past 10 years we have designed and implemented strategies that not only promised success but also delivered measurable results for our clients in the telecommunications industry, the financial services industry, consumer goods industry and travel and lodging industry.</p><p>Our consultants act in the entrepreneurial spirit and understand the big picture. With our clients, we define the goals that help coordinate our efforts to meet our promise to exceed them.</p>"
+	}
   },
   "topics": {
     "megaMenuTitle": "Our topics",
     "introTitle": "Topics",
     "introDescription": "Our solutions portfolio and our current themes are constantly in motion for you. You can learn more about our firm by looking at our current Topics-Setting. We would be pleased to discuss how these topics relate to your challenges!",
     "title": "Our topics are diverse",
+	"digitalTransformation": {
+		"introTitle": "Digital Transformation",
+		"introDescription": "The digital revolution is in full swing worldwide, but according to experts, the German economy is lagging behind. We make sure your company becomes a pioneer!",
+		"title": "Digitalization – more than just a technological hype"
+	},
+	"changeManagement": {
+		"introTitle": "Change Management",
+		"introDescription": "Change management helps organizations deliberately plan necessary changes, engage employees, and integrate new structures sustainably into everyday work.",
+		"title": "Change Management in Practice: Empowering People, Shaping the Future"
+	},
     "aos": {
-      "title": "Competency",
-      "description": "Just as good strategy is adapted to the environment, good organizational design aligns people, architecture, routines and culture to the strategy",
-      "managementCoaching": {
-        "title": "Weil Menschen Entscheidungen treffen...",
-        "introTitle": "Management Coaching",
-        "introDescription": "Die einzigartige Kombination aus fachlicher Branchenexpertise und langjähriger Coaching Erfahrung begründet den Erfolg unserer Coaching Methodik. Wir verwandeln Ihre Herausforderungen in operationale Arbeitspakete!"
+		"introTitle": "Alignment of Organization to Strategy (AOS)",
+		"introDescription": "Just as good strategy is adapted to the environment, good organizational design aligns people, architecture, routines and culture to the strategy",
+		"title": "Competency",
+		"managementCoaching": {      
+			"introTitle": "Management Coaching",
+			"introDescription": "The unique combination of specialized branch expertise and many years of coaching experience form the basis of our Coaching Methodology. We convert your challenges into operational task modules!",
+			"title": "Because people make decisions..."
       }
     }
   },
-  "about": {
-    "introTitle": "About us",
-    "introDescription": "Over the years, the right combination of competence and passion that is what has enabled STRATECO to succeed. Just give us a try. See for yourself!",
-    "title": "You are at the right place if you are doing business with us!"
-  },
   "contact": {
-    "title": "Contact"
+	"introTitle": "Contact",
+    "introDescription": "Do you have questions or comments? Please do not hesitate to contact us. With a simple formula you can give us quick feedback. We will answer without delay.",
+    "title": "We are pleased by your interest in us!"
   },
   "legal": {
-    "title": "Legal Notice"
+	"introTitle": "Legal Notice",
+    "introDescription": "STRATECO GmbH & CO. KG - Company for strategic consulting"
   },
   "privacy": {
-    "title": "Privacy"
+	"introTitle": "Privacy Policy",
+    "introDescription": "We protect your data!"
+  },
+  "footer": {
+	  "email": "Email",
+	  "phone": "Phone",
+	  "or": "or"
+  },
+  "featureBox": {
+	"feature1": {
+		"headline":"Managed Services",
+		"text": "We help you to solve regulatory challenges with our many years of expertise and innovative technologies. Case-by-case up to implementation - from a single source."
+	}, 
+	"feature2": {
+		"headline":"Smart Data Management",
+		"text": "Data is the key success factor in the digitalised world. We consolidate your data silos and turn „big data“ into „smart actionable intelligence“!"
+	}, 
+	"feature3": {
+		"headline":"Risk Management",
+		"text": "Never before has risk management been so important for business organizations as it is today. STRATECO designs concepts and implements integrated risk management solutions for banks and other financial services providers."
+	}
+  },
+  "slider": {
+	"slide1": {
+	  "headline": "Looking to reach new heights?",
+	  "text": "Our expertise and solutions create a solid foundation for your growth."
+	},
+	"slide2": {
+	  "headline": "Our results stand out",
+	  "text": "We are that bit more inventive while remaining highly professional in execution."
+	},
+	"slide3": {
+	  "headline": "Step by step, we reach the next level",
+	  "text": "We are your reliable partner when it comes to mastering your challenges!"
+	},
+	"slide4": {
+	  "headline": "To infinity and beyond...",
+	  "text": "Are you striving for the unattainable? We help you get very close to your goal."
+	},
+	"slide5": {
+	  "headline": "Our expertise is your competitive edge",
+	  "text": "For more than 20 years, we have passionately (re)invented the most successful strategies and solutions for our clients."
+	}
   }
 }

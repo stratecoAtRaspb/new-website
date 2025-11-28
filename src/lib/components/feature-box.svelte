@@ -1,44 +1,39 @@
 <script>
   import { goto } from '$app/navigation';
-  import { localizeHref } from '$lib/paraglide/runtime';
+  import { m } from '$lib/paraglide/messages';
+  import { getLocale, localizeHref } from '$lib/paraglide/runtime';
 </script>
 
 <div class="feature-box">
   <button
     class="feature"
+    class:order-1= {getLocale() == 'en'}
     onclick={() => {
       goto(localizeHref('/expertise/financial-institution'));
     }}
   >
-    <h3 class="managed-services">Managed Services</h3>
-    <p>
-      Wir helfen Ihnen, mit langjähriger Expertise und innovativen Technologien regulatorische Herausforderungen zu meistern. Fallabschließend bis zur Umsetzung
-      - alles aus einer Hand.
-    </p>
+    <h3 class="managed-services">{m['featureBox.feature1.headline']()}</h3>
+    <p>{m['featureBox.feature1.text']()}</p>
   </button>
   <button
     class="feature"
+    class:order-3= {getLocale() == 'en'}
     onclick={() => {
       goto(localizeHref('/topics/finance-controlling'));
     }}
   >
-    <h3 class="smart-data-management">Smart Data Management</h3>
-    <p>
-      Daten sind DER zentrale Erfolgsfaktor in der digitalisierten Welt. Wir konsolidieren Ihre Datensilos und machen „Big Data“ zu „smart, actionable
-      intelligence“!
-    </p>
+    <h3 class="smart-data-management">{m['featureBox.feature2.headline']()}</h3>
+    <p>{m['featureBox.feature2.text']()}</p>
   </button>
   <button
     class="feature"
+    class:order-2= {getLocale() == 'en'}
     onclick={() => {
       goto(localizeHref('/topics/ras'));
     }}
   >
-    <h3 class="risk-management">Risk Management</h3>
-    <p>
-      Nie war Risikomanagement für Unternehmen wichtiger als heute. STRATECO konzipiert und implementiert integrierte Risikomanagementlösungen für Banken und
-      Finanzdienstleister.
-    </p>
+    <h3 class="risk-management">{m['featureBox.feature3.headline']()}</h3>
+    <p>{m['featureBox.feature3.text']()}</p>
   </button>
 </div>
 

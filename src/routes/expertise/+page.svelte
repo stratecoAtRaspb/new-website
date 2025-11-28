@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { page } from '$app/state';
   import Breadcrumb from '$lib/components/breadcrumb.svelte';
   import IntroBox from '$lib/components/intro-box.svelte';
   import Section from '$lib/components/section.svelte';
@@ -8,28 +9,47 @@
 </script>
 
 <Stage>
-  <IntroBox title={m['expertise.title']()} description={m['about.description']()}></IntroBox>
+  <IntroBox title={m['expertise.introTitle']()} description={m['expertise.introDescription']()}></IntroBox>
 </Stage>
 
 <Section>
   <div class="prose">
     <Breadcrumb />
-    <h1>{m['expertise.title']()}</h1>
-
-    <p>
-      STRATECO ist eine Unternehmensberatung, die seit mehr als 20 Jahren führende Unternehmen dabei unterstützt, anstehende Herausforderungen zu meistern. Von
-      der Strategie über Prozesse bis hin zur Umsetzung erzielen wir Höchstleistungen für unsere Kunden.
-    </p>
-    <p>
-      In mehr als 500 Projekten aus den Bereichen Marketing und Sales, Finance und Controlling haben wir für über 80 Unternehmen aus verschiedensten Branchen
-      immer nur ein Ziel gehabt: Exzellente Ergebnisse zu erreichen. Ihre Ziele werden stets zu unseren Zielen, Ihr Erfolg wird zu unserem Ansporn.
-    </p>
-    <p>
-      Wie wir das schaffen? Mit den besonderen Menschen, die hinter STRATECO stehen. Mit einer einzigartigen Mischung aus Leidenschaft und Fachkompetenz. Mit
-      Erfahrung und erprobter Methodik. Daraus formen wir maßgeschneiderte Lösungen für unsere Kunden!
-    </p>
-    <p>Deswegen haben wir auch das Leistungsversprechen von STRATECO zum Leitsatz gemacht: Unsere Kompetenz ist Ihr Wettbewerbsvorteil!</p>
+    <h2>{m['expertise.title']()}</h2>
+    <div class="prose">
+      {@html m['expertise.text']()}
+    </div>
   </div>
 
-  <a href={localizeHref('/')}>Zurück</a>
+  <div class="divider"></div>
+
+  <div class="flex flex-row gap-10 md:gap-20 pt-4">
+    <div class="basis-sm prose">
+      <h3>{m['expertise.sectionHeadline1']()}</h3>
+      <ul class="linklist">
+        <li><a href={localizeHref('/expertise/strategy')}>{m['navigation.expertise.strategy']()}</a></li>
+        <li><a href={localizeHref('/expertise/processes')}>{m['navigation.expertise.processes']()}</a></li>
+        <li><a href={localizeHref('/expertise/implementation')}>{m['navigation.expertise.implementation']()}</a></li>
+        <li><a href={localizeHref('/expertise/people')}>{m['navigation.expertise.people']()}</a></li>
+        <li><a href={localizeHref('/expertise/technology')}>{m['navigation.expertise.technology']()}</a></li>
+      </ul>
+    </div>
+    <div class="basis-sm prose">
+      <h3>{m['expertise.sectionHeadline2']()}</h3>
+      <ul class="linklist">
+        <li><a href={localizeHref('/expertise/financial-institution')}>{m['navigation.expertise.financialInstitution']()}</a></li>
+        <li><a href={localizeHref('/expertise/pharma-and-healthcare')}>{m['navigation.expertise.pharmaAndHealthcare']()}</a></li>
+        <li><a href={localizeHref('/expertise/telecoms-media-hightech')}>{m['navigation.expertise.telecomsMediaAndHighTech']()}</a></li>
+        <li><a href={localizeHref('/expertise/travel-transport-logistics')}>{m['navigation.expertise.travelTransportAndLogistics']()}</a></li>
+        <li><a href={localizeHref('/expertise/other')}>{m['navigation.expertise.other']()}</a></li>
+      </ul>
+    </div>
+  </div>
 </Section>
+
+<style lang="postcss">
+  @reference '../../app.css';
+  .divider {
+    @apply mb-6 h-0.5 w-full bg-black/5;
+  }
+</style>

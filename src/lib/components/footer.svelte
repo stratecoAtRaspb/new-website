@@ -71,9 +71,9 @@
             <p>Kaiser-Friedrich-Promenade 45</p>
             <p>61348 Bad Homburg v.d.H.</p>
 
-            <p class="mt-4">Telefon: +49 (0) 6172 - 99 59 500 | Fax: +49 (0) 6172 99 59 599</p>
+            <p class="mt-4">{ m['footer.phone']() }: +49 (0) 6172 - 99 59 500<span class="px-2"> | </span>Fax: +49 (0) 6172 99 59 599</p>
             <p>
-              E-Mail: <a href="mailto:info@strateco.de">info@strateco.de</a> <span class="px-2">oder</span>
+              { m['footer.email']() }: <a href="mailto:info@strateco.de">info@strateco.de</a> <span class="px-2">{ m['footer.or']() }</span>
               <a href="mailto:kontakt@strateco.de">kontakt@strateco.de</a>
             </p>
           </div>
@@ -163,10 +163,6 @@
 
         .info-col {
           @apply flex flex-col items-start gap-6;
-
-          .footer-logo {
-            @apply -ml-2 h-[30px] w-auto opacity-95 brightness-0 invert;
-          }
 
           .address-details {
             p {
