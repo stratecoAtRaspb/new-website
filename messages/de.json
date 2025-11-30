@@ -183,7 +183,24 @@
   "contact": {
     "introTitle": "Kontakt",
     "introDescription": "Haben Sie Fragen oder Anmerkungen? Scheuen Sie nicht, uns zu kontaktieren. Mit dem einfachen Formular können Sie uns schnell Feedback geben. Wir antworten umgehend.",
-    "title": "Wir freuen uns auf Sie!"
+    "title": "Wir freuen uns auf Sie!",
+    "text": "Haben Sie Fragen und Wünsche, Anregungen oder Feedback? Oder möchten Sie uns einfach persönlich kennenlernen und mehr über unsere Beratungsansätze und Lösungen erfahren? In jedem Fall: wir freuen uns auf einen interessanten Austausch mit Ihnen!",
+    "secondHeadline": "Herzlich Willkommen bei STRATECO",
+    "form": {
+      "firstNameLabel": "Vorname",
+      "firstNamePlaceholder": "Max",
+      "lastNameLabel": "Nachname",
+      "lastNamePlaceholder": "Mustermann",
+      "emailLabel": "E-Mail-Adresse",
+      "emailPlaceholder": "max.musterman@beispiel.de",
+      "phoneLabel": "Telefonnummer",
+      "phonePlaceholder": "0123-456789",
+      "subjectLabel": "Betreff",
+      "subjectPlaceholder": "Anfrage, Rückmeldung, Feedback...",
+      "messageLabel": "Ihre Nachricht an uns",
+      "dsgvoLabel": "Ich stimme der Speicherung und Verarbeitung meiner Daten durch diese Website zu",
+      "submitButton": "Abschicken"
+    }
   },
   "legal": {
     "introTitle": "Impressum",
@@ -192,7 +209,8 @@
   },
   "privacy": {
     "introTitle": "Datenschutz",
-    "introDescription": "Ihre Daten sind bei uns sicher!"
+    "introDescription": "Ihre Daten sind bei uns sicher!",
+    "title": "Datenschutz"
   },
   "footer": {
     "email": "E-Mail",

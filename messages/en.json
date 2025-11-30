@@ -351,7 +351,24 @@
   "contact": {
     "introTitle": "Contact",
     "introDescription": "Do you have questions or comments? Please do not hesitate to contact us. With a simple formula you can give us quick feedback. We will answer without delay.",
-    "title": "We are pleased by your interest in us!"
+    "title": "We are pleased by your interest in us!",
+    "text": "Do you have questions, requests, suggestions or feedback? Or would you like to learn more about us in a personal meeting to discuss advisory approaches and solutions? In any case, we would be pleased to carry out an interesting exchange with you!",
+    "secondHeadline": "A warm welcome to STRATECO",
+    "form": {
+      "firstNameLabel": "First Name",
+      "firstNamePlaceholder": "Max",
+      "lastNameLabel": "Last Name",
+      "lastNamePlaceholder": "Mustermann",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "max.musterman@example.com",
+      "phoneLabel": "Phone Number",
+      "phonePlaceholder": "0123-456789",
+      "subjectLabel": "Subject",
+      "subjectPlaceholder": "Iquiry, Response, Feedback...",
+      "messageLabel": "Your Message to us",
+      "dsgvoLabel": "I agree to the storage and processing of my data by this website",
+      "submitButton": "Submit"
+    }
   },
   "legal": {
     "introTitle": "Legal Notice",

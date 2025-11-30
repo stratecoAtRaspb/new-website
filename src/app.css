@@ -52,6 +52,8 @@
   default: true;
   prefersdark: false;
   color-scheme: 'light';
+  --color-primary: var(--deep-green);
+    --color-secondary: var(--pale-blue);
   --color-base-50: oklch(100% 0 0);
   --color-base-100: oklch(98% 0 0);
 }

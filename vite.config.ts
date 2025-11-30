@@ -97,6 +97,13 @@ export default defineConfig({
           ]
         },
         {
+          pattern: '/thank-you',
+          localized: [
+            ['de', '/de/danke'],
+            ['en', '/en/thank-you']
+          ]
+        },
+        {
           pattern: '/:path(.*)?',
           localized: [
             // Wichtig: spezifische Pfade (mit /de/) zuerst, generische zuletzt :contentReference[oaicite:1]{index=1}

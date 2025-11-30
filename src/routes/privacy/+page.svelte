@@ -13,7 +13,7 @@
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['privacy.introTitle']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m['privacy.introTitle']()} description={m['privacy.introDescription']()}></IntroBox>
 </Stage>
 
 <Section>
