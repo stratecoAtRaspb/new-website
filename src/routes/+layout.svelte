@@ -24,20 +24,10 @@
 </svelte:head>
 
 <div class="wrapper">
-
-    <HEADER />
-    <main>
-      {@render children?.()}
-    </main>
-    <FOOTER />
-
-    <CookieConsentComponent></CookieConsentComponent>
-</div>
-
-<!-- unsichtbare Links für SSG -->
-<div style="display: none">
-  {#each locales as locale}
-    <a href={localizeHref('/contact', { locale })} aria-label="dummy-link"></a>
-    <a href={localizeHref('/thank-you', { locale })} aria-label="dummy-link"></a>
-  {/each}
+  <HEADER />
+  <main>
+    {@render children?.()}
+  </main>
+  <FOOTER />
+  <CookieConsentComponent></CookieConsentComponent>
 </div>

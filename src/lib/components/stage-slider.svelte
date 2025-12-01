@@ -132,7 +132,7 @@
   }
 
   .stage-slider-navigation {
-    @apply pointer-events-none absolute top-1/2 z-20 flex w-full -translate-y-1/2 justify-between px-4;
+    @apply pointer-events-none absolute top-1/2 left-1/2 z-20 flex w-full max-w-wqhd -translate-y-1/2 -translate-x-1/2 justify-between px-4 fhd:px-20;
   }
 
   .stage-slider-nav-btn {

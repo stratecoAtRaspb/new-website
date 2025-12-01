@@ -29,6 +29,7 @@
 }
 
 @plugin 'daisyui' {
+  exclude: radial-progress;
   themes:
     light --default,
     dark --prefersdark;
@@ -38,6 +39,8 @@
   --font-lato: 'Lato', sans-serif;
   --spacing-fhd: 120rem;
   --spacing-wqhd: 160rem;
+  --breakpoint-fhd: 120rem;
+  --breakpoint-wqhd: 160rem;
   --breakpoint-wqhd: 160rem;
   --color-darkGrey: var(--dark-grey);
   --color-mediumGrey: var(--medium-grey);
@@ -53,7 +56,7 @@
   prefersdark: false;
   color-scheme: 'light';
   --color-primary: var(--deep-green);
-    --color-secondary: var(--pale-blue);
+  --color-secondary: var(--pale-blue);
   --color-base-50: oklch(100% 0 0);
   --color-base-100: oklch(98% 0 0);
 }
