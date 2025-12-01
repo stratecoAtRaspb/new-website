@@ -7,6 +7,7 @@
   import { onMount } from 'svelte';
   import mapboxgl from 'mapbox-gl';
   import 'mapbox-gl/dist/mapbox-gl.css';
+  import { browser } from '$app/environment';
 
   mapboxgl.accessToken = 'pk.eyJ1IjoicmFzcGIiLCJhIjoiY21pbHY3a3h4MW9yNTNkcXgxY3Y3dm5zNSJ9.nhcu1xJvHDqpJ8-5tQy0jA';
 
@@ -35,6 +36,69 @@
 <Stage>
   <IntroBox title={m['contact.introTitle']()} description={m['aboutUs.introDescription']()}></IntroBox>
 </Stage>
+
+{#if !browser}
+  <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you">
+    <input type="hidden" name="form-name" value="contact" />
+
+    <p class="hidden">
+      <label>
+        Nicht ausfüllen:
+        <input name="bot-field" />
+      </label>
+    </p>
+
+    <div class="form-field-container">
+      <div class="form-field-section">
+        <label for="first-name">{m['contact.form.firstNameLabel']()}</label>
+        <input type="text" id="first-name" name="first-name" placeholder={m['contact.form.firstNamePlaceholder']()} required />
+      </div>
+      <div class="form-field-section">
+        <label for="last-name">{m['contact.form.lastNameLabel']()}</label>
+        <input type="text" id="last-name" name="last-name" placeholder={m['contact.form.lastNamePlaceholder']()} required />
+      </div>
+    </div>
+
+    <div class="form-field-container">
+      <div class="form-field-section full-width">
+        <label for="email">{m['contact.form.emailLabel']()}</label>
+        <input type="email" id="email" name="email" placeholder={m['contact.form.emailPlaceholder']()} required />
+      </div>
+    </div>
+
+    <div class="form-field-container">
+      <div class="form-field-section full-width">
+        <label for="phone">{m['contact.form.phoneLabel']()}</label>
+        <input type="tel" id="phone" name="phone" placeholder={m['contact.form.phonePlaceholder']()} />
+      </div>
+    </div>
+
+    <div class="form-field-container">
+      <div class="form-field-section full-width">
+        <label for="subject">{m['contact.form.subjectLabel']()}</label>
+        <input type="text" id="subject" name="subject" placeholder={m['contact.form.subjectPlaceholder']()} />
+      </div>
+    </div>
+
+    <div class="form-field-container">
+      <div class="form-field-section full-width">
+        <label for="message">{m['contact.form.messageLabel']()}</label>
+        <span class="additional-information"></span>
+        <textarea id="message" name="message" rows="4" placeholder="" required></textarea>
+      </div>
+    </div>
+    <div class="form-field-container">
+      <div class="form-field-section full-width checkbox-dialog">
+        <input id="dsgvo" name="dsgvo" type="checkbox" value="dsgvo-confirmed" class="is-checkbox accent-secondary" required />
+        <label for="dsgvo">{m['contact.form.dsgvoLabel']()}</label>
+      </div>
+    </div>
+    <div class="medium-spacer"></div>
+    <div class="submit-row">
+      <button type="submit" class="btn btn-secondary ml-auto">{m['contact.form.submitButton']()}</button>
+    </div>
+  </form>
+{/if}
 
 {#snippet left()}
   <div class="prose">

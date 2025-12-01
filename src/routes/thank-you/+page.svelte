@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-  <title>{page.status} - Ein Fehler ist aufgetreten</title>
+  <title>Das Formular wurde erfolgreich übermittelt. Vielen Dank!</title>
 </svelte:head>
 
 <Section type={'master'}>
