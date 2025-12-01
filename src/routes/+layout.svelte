@@ -7,6 +7,7 @@
   import HEADER from '$lib/components/header.svelte';
   import FOOTER from '$lib/components/footer.svelte';
   import '../app.css';
+  import { locales, localizeHref } from '$lib/paraglide/runtime';
 
   let { children } = $props();
   let showInitialLoader = $state(true);
@@ -35,4 +36,12 @@
     <FOOTER />
   {/if}
   <CookieConsentComponent></CookieConsentComponent>
+</div>
+
+<!-- unsichtbare Links für SSG -->
+<div style="display: none">
+  {#each locales as locale}
+    <a href={localizeHref('/contact', { locale })} aria-label="dummy-link"></a>
+    <a href={localizeHref('/thank-you', { locale })} aria-label="dummy-link"></a>
+  {/each}
 </div>

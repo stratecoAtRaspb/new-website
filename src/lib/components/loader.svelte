@@ -14,7 +14,7 @@
       @apply absolute aspect-square rounded-full;
       content: '';
       inset: 0 auto auto 0;
-      box-shadow: 0 0 0 3px inset var(--pale-blue);
+      box-shadow: 0 0 0 3px inset var(--deep-green);
       animation: smallPulse 1s infinite linear alternate;
     }
     &:after {
