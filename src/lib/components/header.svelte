@@ -176,7 +176,7 @@
           items: [
             { key: 'marketing', label: m['navigation.topics.marketingOverview'], href: '/topics/marketing' } as NavItemLink,
             { key: 'marketingAsAService', label: m['navigation.topics.marketingAsAService'], href: '/topics/marketing/marketing-as-a-service' } as NavItemLink,
-            { key: 'leadgenerierung', label: m['navigation.topics.leadgenerierung'], href: '/topics/marketing/leadgenerierung' } as NavItemLink,
+            { key: 'leadGeneration', label: m['navigation.topics.leadGeneration'], href: '/topics/marketing/lead-generation' } as NavItemLink,
             { key: 'leadManagement', label: m['navigation.topics.leadManagement'], href: '/topics/marketing/lead-management' } as NavItemLink,
             { key: 'marketingAutomation', label: m['navigation.topics.marketingAutomation'], href: '/topics/marketing/marketing-automation' } as NavItemLink,
             {

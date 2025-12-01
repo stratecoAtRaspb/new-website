@@ -24,18 +24,14 @@
 </svelte:head>
 
 <div class="wrapper">
-  {#if navigating.to || showInitialLoader}
-    <div class="global-loading">
-      <Loader size={'large'}></Loader>
-    </div>
-  {:else}
+
     <HEADER />
     <main>
       {@render children?.()}
     </main>
     <FOOTER />
-  {/if}
-  <CookieConsentComponent></CookieConsentComponent>
+
+    <CookieConsentComponent></CookieConsentComponent>
 </div>
 
 <!-- unsichtbare Links für SSG -->

@@ -43,7 +43,7 @@
       <h3>{m['expertise.sectionHeadline2']()}</h3>
       <ul class="linklist">
         <li><a href={localizeHref('/expertise/financial-institution')}>{m['navigation.expertise.financialInstitution']()}</a></li>
-        <li><a href={localizeHref('/expertise/pharma-and-healthcare')}>{m['navigation.expertise.pharmaAndHealthcare']()}</a></li>
+        <li><a href={localizeHref('/expertise/pharma-healthcare')}>{m['navigation.expertise.pharmaAndHealthcare']()}</a></li>
         <li><a href={localizeHref('/expertise/telecoms-media-hightech')}>{m['navigation.expertise.telecomsMediaAndHighTech']()}</a></li>
         <li><a href={localizeHref('/expertise/travel-transport-logistics')}>{m['navigation.expertise.travelTransportAndLogistics']()}</a></li>
         <li><a href={localizeHref('/expertise/other')}>{m['navigation.expertise.other']()}</a></li>

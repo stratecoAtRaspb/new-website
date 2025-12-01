@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['topics.marketing.leadgenerierung.title']()}</title>
-  <meta name="description" content={m['topics.marketing.leadgenerierung.title']()} />
+  <title>{m['topics.marketing.leadGeneration.title']()}</title>
+  <meta name="description" content={m['topics.marketing.leadGeneration.title']()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.topics.leadgenerierung']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m['topics.marketing.leadGeneration.introTitle']()} description={m['topics.marketing.leadGeneration.introDescription']()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['navigation.topics.leadgenerierung']()}</h2>
+    <h2>{m['topics.marketing.leadGeneration.title']()}</h2>
     <p>
       Die Generierung von Leads zählt im Marketing zu den wichtigsten, aber zugleich auch zu den schwierigsten Aufgaben. Profitieren Sie von STRATECO, wenn es
       darum geht, Ihr Budget dabei bestmöglich einzusetzen!<br />
@@ -37,7 +37,7 @@
     <p>
       Dabei haben wir stets den gesamten Prozess im Fokus - denn auch die Balance zwischen Quantität und Qualität muss sichergestellt werden. Viele
       unqualifizierte Leads sind vielleicht auf den ersten Blick ein gutes Ergebniss - aber spätestens beim Versuch diese zu konvertieren, holt einen die
-      Realität ein. Daher versuchen wir stets, einen effizienten <a title="Lead Management" href="/Themen/Marketing/Lead-Management">Lead Management</a> Prozess
+      Realität ein. Daher versuchen wir stets, einen effizienten <a title="Lead Management" href="/de/topics/marketing/lead-management">Lead Management</a> Prozess
       aufzubauen, der am Ende auch die gewünschte Leadqualität liefert. Dies erleichtert die Arbeit für ihr Sales-Team und spart zugleich Kosten.<br />
     </p>
     <p>
@@ -46,13 +46,13 @@
     </p>
     <h3>Themen</h3>
     <ul>
-      <li><a title="Marketing as a Service" href="/Themen/Marketing/Marketing-as-a-Service">Marketing as a Service</a></li>
-      <li><a title="Leadgenerierung" href="/Themen/Marketing/Leadgenerierung">Leadgenerierung</a></li>
-      <li><a title="Lead Management" href="/Themen/Marketing/Lead-Management">Lead Management</a></li>
-      <li><a title="Marketing Automation" href="/Themen/Marketing/Marketing-Automation">Marketing Automation</a></li>
-      <li><a title="Behavioural Marketing" href="/Themen/Marketing/Behavioural-Marketing">Behavioural Marketing</a></li>
-      <li><a title="Customer Relationship Management" href="/Themen/Marketing/Customer-Relationship-Management">Customer Relationship Management</a></li>
-      <li><a title="Instant Magazine" href="/page(8fa6873a-6656-4444-b287-7416f4aaa68a)">Instant Magazine</a></li>
+      <li><a title="Marketing as a Service" href="/de/topics/marketing/marketing-as-a-service">Marketing as a Service</a></li>
+      <li><a title="Leadgenerierung" href="/de/topics/marketing/lead-generation">Leadgenerierung</a></li>
+      <li><a title="Lead Management" href="/de/topics/marketing/lead-management">Lead Management</a></li>
+      <li><a title="Marketing Automation" href="/de/topics/marketing/marketing-automation">Marketing Automation</a></li>
+      <li><a title="Behavioural Marketing" href="/de/topics/marketing/behavioural-marketing">Behavioural Marketing</a></li>
+      <li><a title="Customer Relationship Management" href="/de/topics/marketing/customer-relationship-management">Customer Relationship Management</a></li>
+      <li><a title="Instant Magazine" href="/">Instant Magazine</a></li>
     </ul>
     <h3>Expertengespräch</h3>
     <p>Vereinbaren Sie hier ganz unkompliziert einen Termin zu Ihrem persönlichen Expertengespräch.</p>

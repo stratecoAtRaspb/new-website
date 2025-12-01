@@ -65,7 +65,7 @@
         { key: 'sellSideBuySide', label: m['navigation.topics.sellSideBuySide'], href: '/topics/tas/sell-side-buy-side' },
         { key: 'reportingAndAnalyses', label: m['navigation.topics.reportingAndAnalysis'], href: '/topics/tas/reporting-and-analysis' },
         { key: 'businessIntelligence', label: m['navigation.topics.businessIntelligence'], href: '/topics/tas/business-intelligence' },
-        { key: 'dataManagment', label: m['navigation.topics.dataManagment'], href: '/topics/tas/data-managment' }
+        { key: 'dataManagment', label: m['navigation.topics.dataManagment'], href: '/topics/tas/data-management' }
       ]
     },
     {
@@ -90,7 +90,7 @@
       items: [
         { key: 'marketing', label: m['navigation.topics.marketingOverview'], href: '/topics/marketing' },
         { key: 'marketingAsAService', label: m['navigation.topics.marketingAsAService'], href: '/topics/marketing/marketing-as-a-service' },
-        { key: 'leadgenerierung', label: m['navigation.topics.leadgenerierung'], href: '/topics/marketing/leadgenerierung' },
+        { key: 'leadGeneration', label: m['navigation.topics.leadGeneration'], href: '/topics/marketing/lead-generation' },
         { key: 'leadManagement', label: m['navigation.topics.leadManagement'], href: '/topics/marketing/lead-management' },
         { key: 'marketingAutomation', label: m['navigation.topics.marketingAutomation'], href: '/topics/marketing/marketing-automation' },
         { key: 'behaviouralMarketing', label: m['navigation.topics.behaviouralMarketing'], href: '/topics/marketing/behavioural-marketing' },

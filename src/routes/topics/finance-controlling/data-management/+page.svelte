@@ -40,11 +40,11 @@
     </ul>
     <h3>Branchen</h3>
     <ul>
-      <li><a title="Financial Institutions " href="/Kompetenzen/Financial-Institutions">Financial Institutions</a></li>
-      <li><a title="Healthcare" href="/Kompetenzen/Pharma-Healthcare">Healthcare</a></li>
-      <li><a title="Telecoms, Media, High Tech" href="/Kompetenzen/Telecoms-Media-High-Tech">Telecoms, Media, High Tech</a></li>
-      <li><a title="Travel, Transport &amp; Logistics" href="/Kompetenzen/Travel-Transport-Logistics">Travel, Transport &amp; Logistics</a><br /></li>
-      <li><a title="Sonstige" href="/Kompetenzen/Sonstige">Sonstige</a></li>
+      <li><a title="Financial Institutions " href="/de/kompetenzen/financial-institution">Financial Institutions</a></li>
+      <li><a title="Healthcare" href="/de/kompetenzen/pharma-healthcare">Healthcare</a></li>
+      <li><a title="Telecoms, Media, High Tech" href="/de/kompetenzen/telecoms-media-hightech">Telecoms, Media, High Tech</a></li>
+      <li><a title="Travel, Transport &amp; Logistics" href="/de/kompetenzen/travel-transport-logistics">Travel, Transport &amp; Logistics</a><br /></li>
+      <li><a title="Sonstige" href="/de/kompetenzen/other">Sonstige</a></li>
     </ul>
   </div>
 

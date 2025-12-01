@@ -68,7 +68,8 @@
       "leadManagement": "Lead Management",
       "marketingAutomation": "Marketing Automation",
       "behaviouralMarketing": "Behavioural Marketing",
-      "customerRelationshipManagement": "Customer Relationship Management"
+      "customerRelationshipManagement": "Customer Relationship Management",
+      "leadGeneration": "Leadgenerierung"
     },
     "blog": {
       "self": "Blog"
@@ -177,6 +178,130 @@
         "introTitle": "Management Coaching",
         "introDescription": "Die einzigartige Kombination aus fachlicher Branchenexpertise und langjähriger Coaching Erfahrung begründet den Erfolg unserer Coaching Methodik. Wir verwandeln Ihre Herausforderungen in operationale Arbeitspakete!",
         "title": "Weil Menschen Entscheidungen treffen..."
+      }
+    },
+    "cea": {
+      "title": "Customer Experience Analytics (CEA)",
+      "brandAndLoyalityManagement": {
+        "title": "Brand & Loyalty Management"
+      },
+      "businessIntelligence": {
+        "title": "Business Intelligence"
+      },
+      "changeManagement": {
+        "title": "Change Management"
+      },
+      "customerFeedback": {
+        "title": "Customer Feedback"
+      },
+      "customerInteraction": {
+        "title": "Customer Interaction"
+      },
+      "dataManagement": {
+        "title": "Data Management"
+      },
+      "socialMediaMonitoring": {
+        "title": "Social Media Monitoring"
+      },
+      "speechAnalytics": {
+        "title": "Speech Analytics"
+      },
+      "textAnalytics": {
+        "title": "Text Analytics"
+      }
+    },
+    "financeAndControlling": {
+      "title": "Finance & Controlling",
+      "analysis": {
+        "title": "Analysis"
+      },
+      "architecture": {
+        "title": "Architecture"
+      },
+      "businessIntelligence": {
+        "title": "Business Intelligence"
+      },
+      "dataManagement": {
+        "title": "Data Management"
+      },
+      "documentManagement": {
+        "title": "Document Management"
+      },
+      "intranet": {
+        "title": "Intranet"
+      },
+      "processes": {
+        "title": "Processes"
+      },
+      "reporting": {
+        "title": "Reporting"
+      },
+      "sharepoint": {
+        "title": "Sharepoint"
+      },
+      "strategy": {
+        "title": "Strategy"
+      },
+      "workflows": {
+        "title": "Workflows"
+      }
+    },
+    "marketing": {
+      "introTitle": "Marketing",
+      "introDescription": "Das Marketing in Unternehmen befindet sich vollständig im Wandel. Die neue Marketingwelt ist digital. Konsumenten haben die Macht. Wir helfen Ihnen, damit richtig umzugehen.",
+      "title": "Alles wird anders. Sind Sie bereit?",
+      "behaviouralMarketing": {
+        "title": "Behavioural Marketing"
+      },
+      "customerRelationshipManagement": {
+        "title": "Customer Relationship Management"
+      },
+      "leadManagement": {
+        "title": "Lead Management"
+      },
+      "leadgenerierung": {
+        "title": "Lead Generation"
+      },
+      "marketingAsAService": {
+        "title": "Marketing as a Service"
+      },
+      "marketingAutomation": {
+        "title": "Marketing Automation"
+      },
+      "leadGeneration": {
+        "introTitle": "Leadgenerierung",
+        "introDescription": "Die Generierung von Leads zählt im Marketing zu den wichtigsten, aber zugleich auch zu den schwierigsten Aufgaben. Profitieren Sie von STRATECO, wenn es darum geht, Ihr Budget dabei bestmöglich einzusetzen!",
+        "title": "Marketing liefert zu wenig Leads!"
+      }
+    },
+    "ras": {
+      "title": "Risk Advisory Services (RAS)",
+      "businessIntelligence": {
+        "title": "Business Intelligence"
+      },
+      "dataManagement": {
+        "title": "Data Management"
+      },
+      "kamakuraIntegratedRisk": {
+        "title": "Kamakura integrated risk management software (KRM)"
+      },
+      "partnershipWithKamakuraCorp": {
+        "title": "Partnership with Kamakura Corp."
+      }
+    },
+    "tas": {
+      "title": "Transactions Advisory Services (TAS)",
+      "businessIntelligence": {
+        "title": "Business Intelligence"
+      },
+      "dataManagement": {
+        "title": "Data Management"
+      },
+      "reportingAndAnalysis": {
+        "title": "Reporting, analysis and planning for servicing and valuation"
+      },
+      "sellSideBuySide": {
+        "title": "Sellside / Buyside Due Diligence"
       }
     }
   },

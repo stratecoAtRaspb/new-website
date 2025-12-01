@@ -51,13 +51,13 @@
     </p>
     <h3>Themen</h3>
     <ul>
-      <li><a title="Marketing as a Service" href="/Themen/Marketing/Marketing-as-a-Service">Marketing as a Service</a></li>
-      <li><a title="Leadgenerierung" href="/Themen/Marketing/Leadgenerierung">Leadgenerierung</a></li>
-      <li><a title="Lead Management" href="/Themen/Marketing/Lead-Management">Lead Management</a></li>
-      <li><a title="Marketing Automation" href="/Themen/Marketing/Marketing-Automation">Marketing Automation</a></li>
-      <li><a title="Behavioural Marketing" href="/Themen/Marketing/Behavioural-Marketing">Behavioural Marketing</a></li>
-      <li><a title="Customer Relationship Management" href="/Themen/Marketing/Customer-Relationship-Management">Customer Relationship Management</a></li>
-      <li><a title="Instant Magazine" href="/page(8fa6873a-6656-4444-b287-7416f4aaa68a)">Instant Magazine</a></li>
+      <li><a title="Marketing as a Service" href="/de/topics/marketing/marketing-as-a-service">Marketing as a Service</a></li>
+      <li><a title="Leadgenerierung" href="/de/topics/marketing/lead-generation">Leadgenerierung</a></li>
+      <li><a title="Lead Management" href="/de/topics/marketing/lead-management">Lead Management</a></li>
+      <li><a title="Marketing Automation" href="/de/topics/marketing/marketing-automation">Marketing Automation</a></li>
+      <li><a title="Behavioural Marketing" href="/de/topics/marketing/behavioural-marketing">Behavioural Marketing</a></li>
+      <li><a title="Customer Relationship Management" href="/de/topics/marketing/customer-relationship-management">Customer Relationship Management</a></li>
+      <li><a title="Instant Magazine" href="/">Instant Magazine</a></li>
     </ul>
     <h3>Expertengespräch</h3>
     <p>Vereinbaren Sie hier ganz unkompliziert einen Termin zu Ihrem persönlichen Expertengespräch.</p>
@@ -85,7 +85,7 @@
           href="https://www.computerwoche.de/a/das-business-kommt-in-bewegung,2514583"
           target="_blank">siehe Computerwoche 12/2012</a
         >) Genau hier setzt STRATECO an, und hilft, vorhandene Systeme richtig zu nutzen und mit neuen Informationen wie
-        <a href="/Themen/Customer-Experience-Analytics">Customer Experience Analytics (CEA)</a>
+        <a href="/de/topics/cea/">Customer Experience Analytics (CEA)</a>
         anzureichern. So schaffen wir Wettbewerbsvorteile für Ihr Unternehmen.<br />
       </p>
     </blockquote>

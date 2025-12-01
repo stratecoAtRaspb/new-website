@@ -55,11 +55,11 @@
     </p>
     <h3>Themen</h3>
     <ul>
-      <li><a title="Speech Analytics" href="/Themen/Customer-Experience-Analytics/speech-analytics">Speech Analytics</a></li>
-      <li><a title="Text Analytics" href="/Themen/Customer-Experience-Analytics/text-analytics">Text Analytics</a></li>
-      <li><a title="Social Media Monitoring" href="/Themen/Customer-Experience-Analytics/social-media-monitoring">Social Media Monitoring</a></li>
-      <li><a title="Customer Feedback" href="/Themen/Customer-Experience-Analytics/Customer-Feedback">Customer Feedback</a></li>
-      <li><a title="Customer Interaction" href="/Themen/Customer-Experience-Analytics/customer-interaction">Customer Interaction</a><br /></li>
+      <li><a title="Speech Analytics" href="/de/topics/cea/speech-analytics">Speech Analytics</a></li>
+      <li><a title="Text Analytics" href="/de/topics/cea/text-analytics">Text Analytics</a></li>
+      <li><a title="Social Media Monitoring" href="/de/topics/cea/social-media-monitoring">Social Media Monitoring</a></li>
+      <li><a title="Customer Feedback" href="/de/topics/cea/customer-feedback">Customer Feedback</a></li>
+      <li><a title="Customer Interaction" href="/de/topics/cea/customer-interaction">Customer Interaction</a><br /></li>
     </ul>
     <h3>Expertengespräch</h3>
     <p>Vereinbaren Sie hier ganz unkompliziert einen Termin zu Ihrem persönlichen Expertengespräch.</p>

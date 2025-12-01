@@ -76,7 +76,7 @@
     'behavioural-marketing': m['navigation.topics.behaviouralMarketing'](),
     'customer-relationship-management': m['navigation.topics.customerRelationshipManagement'](),
     'lead-management': m['navigation.topics.leadManagement'](),
-    leadgenerierung: m['navigation.topics.leadgenerierung'](),
+    'lead-generation': m['navigation.topics.leadGeneration'](),
     'marketing-as-a-service': m['navigation.topics.marketingAsAService'](),
     'marketing-automation': m['navigation.topics.marketingAutomation'](),
 

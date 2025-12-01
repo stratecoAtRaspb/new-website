@@ -68,7 +68,8 @@
       "leadManagement": "Lead Management",
       "marketingAutomation": "Marketing Automation",
       "behaviouralMarketing": "Behavioural Marketing",
-      "customerRelationshipManagement": "Customer Relationship Management"
+      "customerRelationshipManagement": "Customer Relationship Management",
+      "leadGeneration": "Lead Generation"
     },
     "blog": {
       "self": "Blog"
@@ -297,7 +298,9 @@
       }
     },
     "marketing": {
-      "title": "Marketing",
+      "introTitle": "Marketing",
+      "introDescription": "Marketing in business organizations is currently experiencing a fundamental transformation. The new world of marketing is digital. Consumers have more power than ever before. We help you to deal with this new environment.",
+      "title": "Everything is changing. Are you ready?",
       "behaviouralMarketing": {
         "title": "Behavioural Marketing"
       },
@@ -315,6 +318,11 @@
       },
       "marketingAutomation": {
         "title": "Marketing Automation"
+      },
+      "leadGeneration": {
+        "introTitle": "Lead generation",
+        "introDescription": "In marketing, the generation of leads belongs to the most important but also to the most difficult tasks. You can create value by making use of STRATECO’s know-how and experience in optimizing the resource allocation process for lead generation.",
+        "title": "Marketing doesn’t provide enough leads!"
       }
     },
     "ras": {
