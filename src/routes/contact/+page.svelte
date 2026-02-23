@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { env } from '$env/dynamic/private';
+  import { env } from '$env/dynamic/public';
   import BasicContentHalf from '$lib/components/basic-content-half.svelte';
   import IntroBox from '$lib/components/intro-box.svelte';
   import Section from '$lib/components/section.svelte';
@@ -9,7 +9,7 @@
   import mapboxgl from 'mapbox-gl';
   import 'mapbox-gl/dist/mapbox-gl.css';
 
-  mapboxgl.accessToken = env.MAPBOX_ACCESS_TOKEN;
+  mapboxgl.accessToken = env.PUBLIC_MAPBOX_ACCESS_TOKEN;
 
   onMount(async () => {
     const el = document.createElement('div');
