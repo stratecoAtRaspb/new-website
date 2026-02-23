@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['topics.marketing.customerRelationshipManagement.title']()}</title>
-  <meta name="description" content={m['topics.marketing.customerRelationshipManagement.title']()} />
+  <title>{m.topics_marketing_customerRelationshipManagement_title()}</title>
+  <meta name="description" content={m.topics_marketing_customerRelationshipManagement_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.topics.customerRelationshipManagement']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m.navigation_topics_customerRelationshipManagement()} description={m.aboutUs_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['navigation.topics.customerRelationshipManagement']()}</h2>
+    <h2>{m.navigation_topics_customerRelationshipManagement()}</h2>
     <p>
       Erfolgreiches Customer Relationship Management (CRM) ist kein Zufallsprodukt - sondern bedarf einer konsequenten Strategie, die mit den richtigen
       Werkzeugen umgesetzt wird. Wie genau, das entwickeln wir gerne gemeinsam mit Ihnen!

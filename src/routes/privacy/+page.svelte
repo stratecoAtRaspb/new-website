@@ -8,18 +8,18 @@
 </script>
 
 <svelte:head>
-  <title>{m['privacy.title']()}</title>
-  <meta name="description" content={m['privacy.title']()} />
+  <title>{m.privacy_title()}</title>
+  <meta name="description" content={m.privacy_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['privacy.introTitle']()} description={m['privacy.introDescription']()}></IntroBox>
+  <IntroBox title={m.privacy_introTitle()} description={m.privacy_introDescription()}></IntroBox>
 </Stage>
 
 <Section>
   <Breadcrumb />
   <div class="prose mt-4">
-    <h2>{m['privacy.title']()}</h2>
+    <h2>{m.privacy_title()}</h2>
 
     <p>
       STRATECO ist eine Unternehmensberatung, die seit mehr als 20 Jahren führende Unternehmen dabei unterstützt, anstehende Herausforderungen zu meistern. Von

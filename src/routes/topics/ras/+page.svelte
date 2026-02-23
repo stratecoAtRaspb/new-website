@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['topics.ras.title']()}</title>
-  <meta name="description" content={m['topics.ras.title']()} />
+  <title>{m.topics_ras_title()}</title>
+  <meta name="description" content={m.topics_ras_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.topics.ras']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m.navigation_topics_ras()} description={m.aboutUs_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['navigation.topics.ras']()}</h2>
+    <h2>{m.navigation_topics_ras()}</h2>
     <h3>Competency</h3>
     <ul>
       <li>Planning and implementing Kamakura Risk Manager (KRM) integrated risk management software applications</li>

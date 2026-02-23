@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['topics.aos.managementCoaching.title']()}</title>
-  <meta name="description" content={m['topics.aos.managementCoaching.title']()} />
+  <title>{m.topics_aos_managementCoaching_title()}</title>
+  <meta name="description" content={m.topics_aos_managementCoaching_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['topics.aos.managementCoaching.introTitle']()} description={m['topics.aos.managementCoaching.introDescription']()}></IntroBox>
+  <IntroBox title={m.topics_aos_managementCoaching_introTitle()} description={m.topics_aos_managementCoaching_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['topics.aos.managementCoaching.title']()}</h2>
+    <h2>{m.topics_aos_managementCoaching_title()}</h2>
     <p>
       Die einzigartige Kombination aus fachlicher Branchenexpertise und langjähriger Coaching Erfahrung begründet den Erfolg unserer Coaching Methodik.<br /> Wir
       verwandeln Ihre Herausforderungen in operationale Arbeitspakete!

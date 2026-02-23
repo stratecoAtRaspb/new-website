@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['aboutUs.career.title']()}</title>
-  <meta name="description" content={m['aboutUs.career.title']()} />
+  <title>{m.aboutUs_career_title()}</title>
+  <meta name="description" content={m.aboutUs_career_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.aboutUs.career']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m.navigation_aboutUs_career()} description={m.aboutUs_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['navigation.aboutUs.career']()}</h2>
+    <h2>{m.navigation_aboutUs_career()}</h2>
 
     <p>
       STRATECO bietet ambitionierten Talenten vielfältige Karrieremöglichkeiten in einem dynamischen Umfeld. Bei uns können Sie an spannenden Projekten

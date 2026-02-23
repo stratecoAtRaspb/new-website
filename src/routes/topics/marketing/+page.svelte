@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['topics.marketing.title']()}</title>
-  <meta name="description" content={m['topics.marketing.title']()} />
+  <title>{m.topics_marketing_title()}</title>
+  <meta name="description" content={m.topics_marketing_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.topics.marketing']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m.navigation_topics_marketing()} description={m.aboutUs_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['navigation.topics.marketing']()}</h2>
+    <h2>{m.navigation_topics_marketing()}</h2>
     <p>
       Das Marketing in Unternehmen befindet sich vollständig im Wandel.<br /> Die neue Marketingwelt ist digital. Konsumenten haben die Macht.<br /> Wir helfen Ihnen,
       damit richtig umzugehen.

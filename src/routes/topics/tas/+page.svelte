@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['topics.tas.title']()}</title>
-  <meta name="description" content={m['topics.tas.title']()} />
+  <title>{m.topics_tas_title()}</title>
+  <meta name="description" content={m.topics_tas_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.topics.tas']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m.navigation_topics_tas()} description={m.aboutUs_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['navigation.topics.tas']()}</h2>
+    <h2>{m.navigation_topics_tas()}</h2>
     <h3>Competency</h3>
     <ul>
       <li>

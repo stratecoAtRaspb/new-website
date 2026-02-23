@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['topics.marketing.leadGeneration.title']()}</title>
-  <meta name="description" content={m['topics.marketing.leadGeneration.title']()} />
+  <title>{m.topics_marketing_leadGeneration_title()}</title>
+  <meta name="description" content={m.topics_marketing_leadGeneration_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['topics.marketing.leadGeneration.introTitle']()} description={m['topics.marketing.leadGeneration.introDescription']()}></IntroBox>
+  <IntroBox title={m.topics_marketing_leadGeneration_introTitle()} description={m.topics_marketing_leadGeneration_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['topics.marketing.leadGeneration.title']()}</h2>
+    <h2>{m.topics_marketing_leadGeneration_title()}</h2>
     <p>
       Die Generierung von Leads zählt im Marketing zu den wichtigsten, aber zugleich auch zu den schwierigsten Aufgaben. Profitieren Sie von STRATECO, wenn es
       darum geht, Ihr Budget dabei bestmöglich einzusetzen!<br />

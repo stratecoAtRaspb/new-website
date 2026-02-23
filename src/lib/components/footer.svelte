@@ -71,9 +71,9 @@
             <p>Kaiser-Friedrich-Promenade 45</p>
             <p>61348 Bad Homburg v.d.H.</p>
 
-            <p class="mt-4">{m['footer.phone']()}: +49 (0) 6172 - 99 59 500<span class="px-2"> | </span>Fax: +49 (0) 6172 99 59 599</p>
+            <p class="mt-4">{m.footer_phone()}: +49 (0) 6172 - 99 59 500<span class="px-2"> | </span>Fax: +49 (0) 6172 99 59 599</p>
             <p>
-              {m['footer.email']()}: <a href="mailto:info@strateco.de">info@strateco.de</a> <span class="px-2">{m['footer.or']()}</span>
+              {m.footer_email()}: <a href="mailto:info@strateco.de">info@strateco.de</a> <span class="px-2">{m.footer_or()}</span>
               <a href="mailto:kontakt@strateco.de">kontakt@strateco.de</a>
             </p>
           </div>
@@ -87,10 +87,10 @@
       <!-- Bottom Bar -->
       <div class="footer-bottom">
         <nav>
-          <a href={localizeHref('/')}>{m['navigation.home.self']()}</a>
-          <a href={localizeHref('/privacy')}>{m['navigation.privacy.self']()}</a>
-          <a href={localizeHref('/legal')}>{m['navigation.legal.self']()}</a>
-          <a href={localizeHref('/contact')}>{m['navigation.contact.self']()}</a>
+          <a href={localizeHref('/')}>{m.navigation_home_self()}</a>
+          <a href={localizeHref('/privacy')}>{m.navigation_privacy_self()}</a>
+          <a href={localizeHref('/legal')}>{m.navigation_legal_self()}</a>
+          <a href={localizeHref('/contact')}>{m.navigation_contact_self()}</a>
         </nav>
         <div class="copyright">
           <span>&copy; {currentYear} STRATECO GmbH</span>

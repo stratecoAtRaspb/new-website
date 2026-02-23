@@ -34,28 +34,28 @@
   let slides = [
     {
       image: '/images/slides/glass-building.jpg',
-      headline: m['slider.slide1.headline'](),
-      text: m['slider.slide1.text']()
+      headline: m.slider_slide1_headline(),
+      text: m.slider_slide1_text()
     },
     {
       image: '/images/slides/ideen.jpg',
-      headline: m['slider.slide2.headline'](),
-      text: m['slider.slide2.text']()
+      headline: m.slider_slide2_headline(),
+      text: m.slider_slide2_text()
     },
     {
       image: '/images/slides/hoch-hinaus-1.jpg',
-      headline: m['slider.slide3.headline'](),
-      text: m['slider.slide3.text']()
+      headline: m.slider_slide3_headline(),
+      text: m.slider_slide3_text()
     },
     {
       image: '/images/slides/sky.jpg',
-      headline: m['slider.slide4.headline'](),
-      text: m['slider.slide4.text']()
+      headline: m.slider_slide4_headline(),
+      text: m.slider_slide4_text()
     },
     {
       image: '/images/slides/escalator.jpg',
-      headline: m['slider.slide5.headline'](),
-      text: m['slider.slide5.text']()
+      headline: m.slider_slide5_headline(),
+      text: m.slider_slide5_text()
     }
   ];
 
@@ -101,7 +101,7 @@
   @reference '../../app.css';
 
   .stage-slider-container {
-    @apply bg-base-100 relative -mt-30 h-[948px] w-full overflow-hidden;
+    @apply bg-base-100 relative -mt-30 h-237 w-full overflow-hidden;
   }
 
   .stage-slider-swiper {
@@ -120,7 +120,7 @@
   .stage-slider-content {
     @apply z-30 m-auto w-full max-w-7xl pr-10 pb-36 pl-10;
     .stage-slider-text-area {
-      @apply bg-deepGreen/85 ml-auto w-80 rounded-md p-4 md:w-[490px];
+      @apply bg-deepGreen/85 ml-auto w-80 rounded-md p-4 md:w-122.5;
 
       .stage-slider-headline {
         @apply mb-3 text-xl leading-tight font-medium text-white;

@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['topics.aos.postMergeIntegration.title']()}</title>
-  <meta name="description" content={m['topics.aos.postMergeIntegration.title']()} />
+  <title>{m.topics_aos_postMergeIntegration_title()}</title>
+  <meta name="description" content={m.topics_aos_postMergeIntegration_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.topics.postMergeIntegration']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m.navigation_topics_postMergeIntegration()} description={m.aboutUs_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['navigation.topics.postMergeIntegration']()}</h2>
+    <h2>{m.navigation_topics_postMergeIntegration()}</h2>
 
     <p>
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam

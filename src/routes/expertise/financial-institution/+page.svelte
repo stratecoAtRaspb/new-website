@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['expertise.financialInstitution.title']()}</title>
-  <meta name="description" content={m['expertise.financialInstitution.title']()} />
+  <title>{m.expertise_financialInstitution_title()}</title>
+  <meta name="description" content={m.expertise_financialInstitution_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.expertise.financialInstitution']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m.navigation_expertise_financialInstitution()} description={m.aboutUs_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['navigation.expertise.financialInstitution']()}</h2>
+    <h2>{m.navigation_expertise_financialInstitution()}</h2>
 
     <p>
       STRATECO verfügt über tiefgreifende Expertise im Finanzsektor. Wir unterstützen Banken, Versicherungen und andere Finanzdienstleister bei der Bewältigung

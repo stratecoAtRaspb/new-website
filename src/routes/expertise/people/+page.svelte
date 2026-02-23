@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['expertise.people.title']()}</title>
-  <meta name="description" content={m['expertise.people.title']()} />
+  <title>{m.expertise_people_title()}</title>
+  <meta name="description" content={m.expertise_people_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.expertise.people']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m.navigation_expertise_people()} description={m.aboutUs_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['navigation.expertise.people']()}</h2>
+    <h2>{m.navigation_expertise_people()}</h2>
 
     <p>
       Menschen sind der Erfolgsfaktor jeder Organisation. STRATECO unterstützt Sie dabei, Ihre Mitarbeiter optimal zu entwickeln und die richtigen Talente für

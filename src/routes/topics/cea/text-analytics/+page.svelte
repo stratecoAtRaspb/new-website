@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['topics.cea.textAnalytics.title']()}</title>
-  <meta name="description" content={m['topics.cea.textAnalytics.title']()} />
+  <title>{m.topics_cea_textAnalytics_title()}</title>
+  <meta name="description" content={m.topics_cea_textAnalytics_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.topics.textAnalytics']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m.navigation_topics_textAnalytics()} description={m.aboutUs_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['navigation.topics.textAnalytics']()}</h2>
+    <h2>{m.navigation_topics_textAnalytics()}</h2>
     <p>
       Egal ob Social Media, aus Feedback-Prozessen oder internen Quellen - überall im Unternehmen stehen große Textmengen zur Verfügung. Wir helfen Ihnen,
       diesen unstrukturierten Text in strukturierte Informationen &amp; "Insights" zu verwandeln!<br />

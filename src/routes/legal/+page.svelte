@@ -8,18 +8,18 @@
 </script>
 
 <svelte:head>
-  <title>{m['legal.title']()}</title>
-  <meta name="description" content={m['legal.title']()} />
+  <title>{m.legal_title()}</title>
+  <meta name="description" content={m.legal_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['legal.introTitle']()} description={m['legal.introDescription']()}></IntroBox>
+  <IntroBox title={m.legal_introTitle()} description={m.legal_introDescription()}></IntroBox>
 </Stage>
 
 <Section>
   <Breadcrumb />
   <div class="prose mt-4">
-    <h2>{m['legal.title']()}</h2>
+    <h2>{m.legal_title()}</h2>
 
     <p>
       STRATECO ist eine Unternehmensberatung, die seit mehr als 20 Jahren führende Unternehmen dabei unterstützt, anstehende Herausforderungen zu meistern. Von

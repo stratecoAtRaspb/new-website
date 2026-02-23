@@ -8,28 +8,28 @@
 </script>
 
 <svelte:head>
-  <title>{m['home.title']()}</title>
-  <meta name="description" content={m['home.title']()} />
+  <title>{m.home_title()}</title>
+  <meta name="description" content={m.home_title()} />
 </svelte:head>
 
 <StageSlider></StageSlider>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['home.title']()}</h2>
+    <h2>{m.home_title()}</h2>
     <div class="prose">
-      {@html m['home.text']()}
+      {@html m.home_text()}
     </div>
   </div>
 {/snippet}
 
 {#snippet right()}
-  <QuoteCard quote={m['home.quote.text']()} author={m['home.quote.author']()} role={m['home.quote.role']()} image={'/images/goethe.jpg'} />
+  <QuoteCard quote={m.home_quote_text()} author={m.home_quote_author()} role={m.home_quote_role()} image={'/images/goethe.jpg'} />
   <SimpleCard
-    headline={m['home.sideBarCard.title']()}
-    text={m['home.sideBarCard.text']()}
+    headline={m.home_sideBarCard_title()}
+    text={m.home_sideBarCard_text()}
     image={'/images/sidebar-img.jpg'}
-    ctaText={m['home.sideBarCard.ctaText']()}
+    ctaText={m.home_sideBarCard_ctaText()}
     ctaTarget={'/contact'}
   />
 {/snippet}

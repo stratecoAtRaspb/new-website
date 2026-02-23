@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['topics.aos.title']()}</title>
-  <meta name="description" content={m['topics.aos.title']()} />
+  <title>{m.topics_aos_title()}</title>
+  <meta name="description" content={m.topics_aos_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.topics.aos']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m.navigation_topics_aos()} description={m.aboutUs_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['navigation.topics.aos']()}</h2>
+    <h2>{m.navigation_topics_aos()}</h2>
     <p>Just as good strategy is adapted to the environment, good organizational design aligns people, architecture, routines and culture to the strategy</p>
     <h3>Competency</h3>
     <ul>

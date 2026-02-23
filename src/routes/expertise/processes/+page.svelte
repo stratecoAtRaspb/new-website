@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['expertise.processes.title']()}</title>
-  <meta name="description" content={m['expertise.processes.title']()} />
+  <title>{m.expertise_processes_title()}</title>
+  <meta name="description" content={m.expertise_processes_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.expertise.processes']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m.navigation_expertise_processes()} description={m.aboutUs_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['navigation.expertise.processes']()}</h2>
+    <h2>{m.navigation_expertise_processes()}</h2>
 
     <p>
       Effiziente Prozesse sind der Schlüssel zum Erfolg. STRATECO analysiert Ihre bestehenden Abläufe und entwickelt optimierte Prozesslandschaften, die Ihre

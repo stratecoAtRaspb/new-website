@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['topics.cea.speechAnalytics.title']()}</title>
-  <meta name="description" content={m['topics.cea.speechAnalytics.title']()} />
+  <title>{m.topics_cea_speechAnalytics_title()}</title>
+  <meta name="description" content={m.topics_cea_speechAnalytics_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.topics.speechAnalytics']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m.navigation_topics_speechAnalytics()} description={m.aboutUs_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['navigation.topics.speechAnalytics']()}</h2>
+    <h2>{m.navigation_topics_speechAnalytics()}</h2>
     <p>
       Nichts liefert Ihnen ein ehrlicheres Feedback zu Ihrem Business als die Stimme Ihrer Kunden. Wir helfen Ihnen, die Informationen aus Kundengesprächen
       systematisch zu analysieren und zur Optimierung Ihres Busienss zu nutzen!<br />

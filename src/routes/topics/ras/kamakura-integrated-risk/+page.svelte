@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['topics.ras.kamakuraIntegratedRisk.title']()}</title>
-  <meta name="description" content={m['topics.ras.kamakuraIntegratedRisk.title']()} />
+  <title>{m.topics_ras_kamakuraIntegratedRisk_title()}</title>
+  <meta name="description" content={m.topics_ras_kamakuraIntegratedRisk_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.topics.kamakuraIntegratedRisk']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m.navigation_topics_kamakuraIntegratedRisk()} description={m.aboutUs_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['navigation.topics.kamakuraIntegratedRisk']()}</h2>
+    <h2>{m.navigation_topics_kamakuraIntegratedRisk()}</h2>
 
     <p>
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam

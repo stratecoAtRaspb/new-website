@@ -82,20 +82,20 @@
 </script>
 
 <svelte:head>
-  <title>{m['aboutUs.customers.title']()}</title>
-  <meta name="description" content={m['aboutUs.customers.title']()} />
+  <title>{m.aboutUs_customers_title()}</title>
+  <meta name="description" content={m.aboutUs_customers_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['aboutUs.customers.introTitle']()} description={m['aboutUs.customers.introDescription']()}></IntroBox>
+  <IntroBox title={m.aboutUs_customers_introTitle()} description={m.aboutUs_customers_introDescription()}></IntroBox>
 </Stage>
 
 <Section>
   <Breadcrumb/>
   <div class="prose mt-4">
-    <h2>{m['aboutUs.customers.title']()}</h2>
+    <h2>{m.aboutUs_customers_title()}</h2>
 
-    {@html m['aboutUs.customers.text']()}
+    {@html m.aboutUs_customers_text()}
 
     <h2 class="mt-8 text-2xl font-bold">Auszug unserer Kunden</h2>
     <div class="customer-list">
@@ -107,7 +107,7 @@
       {/each}
     </div>
 
-    {@html m['aboutUs.customers.footer']()}
+    {@html m.aboutUs_customers_footer()}
   </div>
 </Section>
 

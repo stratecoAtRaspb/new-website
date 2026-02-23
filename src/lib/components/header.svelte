@@ -22,31 +22,31 @@
       layout: 'full',
       sections: [
         {
-          heading: m['navigation.expertise.capabilities'](),
+          heading: m.navigation_expertise_capabilities(),
           items: [
-            { key: 'strategy', label: m['navigation.expertise.strategy'], href: '/expertise/strategy' } as NavItemLink,
-            { key: 'processes', label: m['navigation.expertise.processes'], href: '/expertise/processes' } as NavItemLink,
-            { key: 'implementation', label: m['navigation.expertise.implementation'], href: '/expertise/implementation' } as NavItemLink,
-            { key: 'people', label: m['navigation.expertise.people'], href: '/expertise/people' } as NavItemLink,
-            { key: 'technology', label: m['navigation.expertise.technology'], href: '/expertise/technology' } as NavItemLink
+            { key: 'strategy', label: m.navigation_expertise_strategy, href: '/expertise/strategy' } as NavItemLink,
+            { key: 'processes', label: m.navigation_expertise_processes, href: '/expertise/processes' } as NavItemLink,
+            { key: 'implementation', label: m.navigation_expertise_implementation, href: '/expertise/implementation' } as NavItemLink,
+            { key: 'people', label: m.navigation_expertise_people, href: '/expertise/people' } as NavItemLink,
+            { key: 'technology', label: m.navigation_expertise_technology, href: '/expertise/technology' } as NavItemLink
           ]
         },
         {
-          heading: m['navigation.expertise.clientSegments'](),
+          heading: m.navigation_expertise_clientSegments(),
           items: [
-            { key: 'financialInstitution', label: m['navigation.expertise.financialInstitution'], href: '/expertise/financial-institution' } as NavItemLink,
-            { key: 'pharmaAndHealthcare', label: m['navigation.expertise.pharmaAndHealthcare'], href: '/expertise/pharma-healthcare' } as NavItemLink,
+            { key: 'financialInstitution', label: m.navigation_expertise_financialInstitution, href: '/expertise/financial-institution' } as NavItemLink,
+            { key: 'pharmaAndHealthcare', label: m.navigation_expertise_pharmaAndHealthcare, href: '/expertise/pharma-healthcare' } as NavItemLink,
             {
               key: 'telecomsMediaAndHighTech',
-              label: m['navigation.expertise.telecomsMediaAndHighTech'],
+              label: m.navigation_expertise_telecomsMediaAndHighTech,
               href: '/expertise/telecoms-media-hightech'
             } as NavItemLink,
             {
               key: 'travelTransportAndLogistics',
-              label: m['navigation.expertise.travelTransportAndLogistics'],
+              label: m.navigation_expertise_travelTransportAndLogistics,
               href: '/expertise/travel-transport-logistics'
             } as NavItemLink,
-            { key: 'other', label: m['navigation.expertise.other'], href: '/expertise/other' } as NavItemLink
+            { key: 'other', label: m.navigation_expertise_other, href: '/expertise/other' } as NavItemLink
           ]
         }
       ]
@@ -55,138 +55,138 @@
       layout: 'full',
       sections: [
         {
-          heading: m['navigation.topics.aos'](),
+          heading: m.navigation_topics_aos(),
           color: 'blue',
           items: [
-            { key: 'aos', label: m['navigation.topics.aosOverview'], href: '/topics/aos' } as NavItemLink,
-            { key: 'digitalTransformation', label: m['navigation.topics.digitalTransformation'], href: '/topics/aos/digital-transformation' } as NavItemLink,
-            { key: 'managementCoaching', label: m['navigation.topics.managementCoaching'], href: '/topics/aos/management-coaching' } as NavItemLink,
-            { key: 'changeManagement', label: m['navigation.topics.changeManagement'], href: '/topics/aos/change-management' } as NavItemLink,
-            { key: 'postMergeIntegration', label: m['navigation.topics.postMergeIntegration'], href: '/topics/aos/post-merge-integration' } as NavItemLink,
+            { key: 'aos', label: m.navigation_topics_aosOverview, href: '/topics/aos' } as NavItemLink,
+            { key: 'digitalTransformation', label: m.navigation_topics_digitalTransformation, href: '/topics/aos/digital-transformation' } as NavItemLink,
+            { key: 'managementCoaching', label: m.navigation_topics_managementCoaching, href: '/topics/aos/management-coaching' } as NavItemLink,
+            { key: 'changeManagement', label: m.navigation_topics_changeManagement, href: '/topics/aos/change-management' } as NavItemLink,
+            { key: 'postMergeIntegration', label: m.navigation_topics_postMergeIntegration, href: '/topics/aos/post-merge-integration' } as NavItemLink,
             {
               key: 'culturalChangeFacilliation',
-              label: m['navigation.topics.culturalChangeFacilliation'],
+              label: m.navigation_topics_culturalChangeFacilliation,
               href: '/topics/aos/cultural-change-facilliation'
             } as NavItemLink,
             {
               key: 'strategyOptimizationAndImplementation',
-              label: m['navigation.topics.strategyOptimizationAndImplementation'],
+              label: m.navigation_topics_strategyOptimizationAndImplementation,
               href: '/topics/aos/strategy-optimization-and-implementation'
             } as NavItemLink,
             {
               key: 'workflowAndBusinessProcessAlignment',
-              label: m['navigation.topics.workflowAndBusinessProcessAlignment'],
+              label: m.navigation_topics_workflowAndBusinessProcessAlignment,
               href: '/topics/aos/workflow-and-business-process-alignment'
             } as NavItemLink,
-            { key: 'collaborationPlatform', label: m['navigation.topics.collaborationPlatform'], href: '/topics/aos/collaboration-platform' } as NavItemLink
+            { key: 'collaborationPlatform', label: m.navigation_topics_collaborationPlatform, href: '/topics/aos/collaboration-platform' } as NavItemLink
           ]
         },
         {
-          heading: m['navigation.topics.financeAndControlling'](),
+          heading: m.navigation_topics_financeAndControlling(),
           color: 'blue',
           items: [
             {
               key: 'financeAndControllingOverview',
-              label: m['navigation.topics.financeAndControllingOverview'],
+              label: m.navigation_topics_financeAndControllingOverview,
               href: '/topics/finance-controlling'
             } as NavItemLink,
 
-            { key: 'strategy', label: m['navigation.topics.strategy'], href: '/topics/finance-controlling/strategy' } as NavItemLink,
-            { key: 'processes', label: m['navigation.topics.processes'], href: '/topics/finance-controlling/processes' } as NavItemLink,
-            { key: 'architecture', label: m['navigation.topics.architecture'], href: '/topics/finance-controlling/architecture' } as NavItemLink,
-            { key: 'reporting', label: m['navigation.topics.reporting'], href: '/topics/finance-controlling/reporting' } as NavItemLink,
-            { key: 'analysis', label: m['navigation.topics.analysis'], href: '/topics/finance-controlling/analysis' } as NavItemLink,
+            { key: 'strategy', label: m.navigation_topics_strategy, href: '/topics/finance-controlling/strategy' } as NavItemLink,
+            { key: 'processes', label: m.navigation_topics_processes, href: '/topics/finance-controlling/processes' } as NavItemLink,
+            { key: 'architecture', label: m.navigation_topics_architecture, href: '/topics/finance-controlling/architecture' } as NavItemLink,
+            { key: 'reporting', label: m.navigation_topics_reporting, href: '/topics/finance-controlling/reporting' } as NavItemLink,
+            { key: 'analysis', label: m.navigation_topics_analysis, href: '/topics/finance-controlling/analysis' } as NavItemLink,
             {
               key: 'workflows',
-              label: m['navigation.topics.workflows'],
+              label: m.navigation_topics_workflows,
               href: '/topics/finance-controlling/workflows'
             } as NavItemLink,
             {
               key: 'documentManagement',
-              label: m['navigation.topics.documentManagement'],
+              label: m.navigation_topics_documentManagement,
               href: '/topics/finance-controlling/document-management'
             } as NavItemLink,
-            { key: 'intranet', label: m['navigation.topics.intranet'], href: '/topics/finance-controlling/intranet' } as NavItemLink,
+            { key: 'intranet', label: m.navigation_topics_intranet, href: '/topics/finance-controlling/intranet' } as NavItemLink,
             {
               key: 'businessIntelligence',
-              label: m['navigation.topics.businessIntelligence'],
+              label: m.navigation_topics_businessIntelligence,
               href: '/topics/finance-controlling/business-intelligence'
             } as NavItemLink,
-            { key: 'dataManagement', label: m['navigation.topics.dataManagement'], href: '/topics/finance-controlling/data-management' } as NavItemLink,
-            { key: 'sharepoint', label: m['navigation.topics.sharepoint'], href: '/topics/finance-controlling/sharepoint' } as NavItemLink
+            { key: 'dataManagement', label: m.navigation_topics_dataManagement, href: '/topics/finance-controlling/data-management' } as NavItemLink,
+            { key: 'sharepoint', label: m.navigation_topics_sharepoint, href: '/topics/finance-controlling/sharepoint' } as NavItemLink
           ]
         },
 
         {
-          heading: m['navigation.topics.ras'](),
+          heading: m.navigation_topics_ras(),
           items: [
-            { key: 'ras', label: m['navigation.topics.rasOverview'], href: '/topics/ras' } as NavItemLink,
+            { key: 'ras', label: m.navigation_topics_rasOverview, href: '/topics/ras' } as NavItemLink,
             {
               key: 'kamakuraIntegratedRisk',
-              label: m['navigation.topics.kamakuraIntegratedRisk'],
+              label: m.navigation_topics_kamakuraIntegratedRisk,
               href: '/topics/ras/kamakura-integrated-risk'
             } as NavItemLink,
             {
               key: 'partnershipWithKamakuraCorp',
-              label: m['navigation.topics.partnershipWithKamakuraCorp'],
+              label: m.navigation_topics_partnershipWithKamakuraCorp,
               href: '/topics/ras/partnership-with-kamakura-corp'
             } as NavItemLink,
-            { key: 'businessIntelligence', label: m['navigation.topics.businessIntelligence'], href: '/topics/ras/business-intelligence' } as NavItemLink,
-            { key: 'dataManagement', label: m['navigation.topics.dataManagement'], href: '/topics/ras/data-management' } as NavItemLink
+            { key: 'businessIntelligence', label: m.navigation_topics_businessIntelligence, href: '/topics/ras/business-intelligence' } as NavItemLink,
+            { key: 'dataManagement', label: m.navigation_topics_dataManagement, href: '/topics/ras/data-management' } as NavItemLink
           ]
         },
         {
-          heading: m['navigation.topics.tas'](),
+          heading: m.navigation_topics_tas(),
           items: [
-            { key: 'tas', label: m['navigation.topics.tasOverview'], href: '/topics/tas' } as NavItemLink,
-            { key: 'sellSideBuySide', label: m['navigation.topics.sellSideBuySide'], href: '/topics/tas/sell-side-buy-side' } as NavItemLink,
-            { key: 'reportingAndAnalyses', label: m['navigation.topics.reportingAndAnalysis'], href: '/topics/tas/reporting-and-analysis' } as NavItemLink,
-            { key: 'businessIntelligence', label: m['navigation.topics.businessIntelligence'], href: '/topics/tas/business-intelligence' } as NavItemLink,
-            { key: 'dataManagment', label: m['navigation.topics.dataManagment'], href: '/topics/tas/data-management' } as NavItemLink
+            { key: 'tas', label: m.navigation_topics_tasOverview, href: '/topics/tas' } as NavItemLink,
+            { key: 'sellSideBuySide', label: m.navigation_topics_sellSideBuySide, href: '/topics/tas/sell-side-buy-side' } as NavItemLink,
+            { key: 'reportingAndAnalyses', label: m.navigation_topics_reportingAndAnalysis, href: '/topics/tas/reporting-and-analysis' } as NavItemLink,
+            { key: 'businessIntelligence', label: m.navigation_topics_businessIntelligence, href: '/topics/tas/business-intelligence' } as NavItemLink,
+            { key: 'dataManagment', label: m.navigation_topics_dataManagment, href: '/topics/tas/data-management' } as NavItemLink
           ]
         },
 
         {
-          heading: m['navigation.topics.cea'](),
+          heading: m.navigation_topics_cea(),
           color: 'orange',
           items: [
-            { key: 'cea', label: m['navigation.topics.ceaOverview'], href: '/topics/cea' } as NavItemLink,
-            { key: 'speechAnalytics', label: m['navigation.topics.speechAnalytics'], href: '/topics/cea/speech-analytics' } as NavItemLink,
-            { key: 'textAnalytics', label: m['navigation.topics.textAnalytics'], href: '/topics/cea/text-analytics' } as NavItemLink,
-            { key: 'socialMediaMonitoring', label: m['navigation.topics.socialMediaMonitoring'], href: '/topics/cea/social-media-monitoring' } as NavItemLink,
-            { key: 'customerFeedback', label: m['navigation.topics.customerFeedback'], href: '/topics/cea/customer-feedback' } as NavItemLink,
+            { key: 'cea', label: m.navigation_topics_ceaOverview, href: '/topics/cea' } as NavItemLink,
+            { key: 'speechAnalytics', label: m.navigation_topics_speechAnalytics, href: '/topics/cea/speech-analytics' } as NavItemLink,
+            { key: 'textAnalytics', label: m.navigation_topics_textAnalytics, href: '/topics/cea/text-analytics' } as NavItemLink,
+            { key: 'socialMediaMonitoring', label: m.navigation_topics_socialMediaMonitoring, href: '/topics/cea/social-media-monitoring' } as NavItemLink,
+            { key: 'customerFeedback', label: m.navigation_topics_customerFeedback, href: '/topics/cea/customer-feedback' } as NavItemLink,
             {
               key: 'customerInteraction',
-              label: m['navigation.topics.customerInteraction'],
+              label: m.navigation_topics_customerInteraction,
               href: '/topics/cea/customer-interaction'
             } as NavItemLink,
             {
               key: 'brandAndLoyalityManagement',
-              label: m['navigation.topics.brandAndLoyalityManagement'],
+              label: m.navigation_topics_brandAndLoyalityManagement,
               href: '/topics/cea/brand-and-loyality-management'
             } as NavItemLink,
-            { key: 'changeManagement', label: m['navigation.topics.changeManagement'], href: '/topics/cea/change-management' } as NavItemLink,
-            { key: 'businessIntelligence', label: m['navigation.topics.businessIntelligence'], href: '/topics/cea/business-intelligence' } as NavItemLink,
-            { key: 'dataManagement', label: m['navigation.topics.dataManagement'], href: '/topics/cea/data-management' } as NavItemLink
+            { key: 'changeManagement', label: m.navigation_topics_changeManagement, href: '/topics/cea/change-management' } as NavItemLink,
+            { key: 'businessIntelligence', label: m.navigation_topics_businessIntelligence, href: '/topics/cea/business-intelligence' } as NavItemLink,
+            { key: 'dataManagement', label: m.navigation_topics_dataManagement, href: '/topics/cea/data-management' } as NavItemLink
           ]
         },
         {
-          heading: m['navigation.topics.marketing'](),
+          heading: m.navigation_topics_marketing(),
           color: 'orange',
           items: [
-            { key: 'marketing', label: m['navigation.topics.marketingOverview'], href: '/topics/marketing' } as NavItemLink,
-            { key: 'marketingAsAService', label: m['navigation.topics.marketingAsAService'], href: '/topics/marketing/marketing-as-a-service' } as NavItemLink,
-            { key: 'leadGeneration', label: m['navigation.topics.leadGeneration'], href: '/topics/marketing/lead-generation' } as NavItemLink,
-            { key: 'leadManagement', label: m['navigation.topics.leadManagement'], href: '/topics/marketing/lead-management' } as NavItemLink,
-            { key: 'marketingAutomation', label: m['navigation.topics.marketingAutomation'], href: '/topics/marketing/marketing-automation' } as NavItemLink,
+            { key: 'marketing', label: m.navigation_topics_marketingOverview, href: '/topics/marketing' } as NavItemLink,
+            { key: 'marketingAsAService', label: m.navigation_topics_marketingAsAService, href: '/topics/marketing/marketing-as-a-service' } as NavItemLink,
+            { key: 'leadGeneration', label: m.navigation_topics_leadGeneration, href: '/topics/marketing/lead-generation' } as NavItemLink,
+            { key: 'leadManagement', label: m.navigation_topics_leadManagement, href: '/topics/marketing/lead-management' } as NavItemLink,
+            { key: 'marketingAutomation', label: m.navigation_topics_marketingAutomation, href: '/topics/marketing/marketing-automation' } as NavItemLink,
             {
               key: 'behaviouralMarketing',
-              label: m['navigation.topics.behaviouralMarketing'],
+              label: m.navigation_topics_behaviouralMarketing,
               href: '/topics/marketing/behavioural-marketing'
             } as NavItemLink,
             {
               key: 'customerRelationshipManagement',
-              label: m['navigation.topics.customerRelationshipManagement'],
+              label: m.navigation_topics_customerRelationshipManagement,
               href: '/topics/marketing/customer-relationship-management'
             } as NavItemLink
           ]
@@ -198,11 +198,11 @@
       sections: [
         {
           items: [
-            { key: 'management', label: m['navigation.aboutUs.management'], href: '/about-us/management' } as NavItemLink,
-            { key: 'team', label: m['navigation.aboutUs.team'], href: '/about-us/team' } as NavItemLink,
-            { key: 'customers', label: m['navigation.aboutUs.customers'], href: '/about-us/customers' } as NavItemLink,
-            { key: 'partner', label: m['navigation.aboutUs.partner'], href: '/about-us/partner' } as NavItemLink
-            // { key: 'career', label: m['navigation.aboutUs.career'], href: '/about-us/career' } as NavItemLink
+            { key: 'management', label: m.navigation_aboutUs_management, href: '/about-us/management' } as NavItemLink,
+            { key: 'team', label: m.navigation_aboutUs_team, href: '/about-us/team' } as NavItemLink,
+            { key: 'customers', label: m.navigation_aboutUs_customers, href: '/about-us/customers' } as NavItemLink,
+            { key: 'partner', label: m.navigation_aboutUs_partner, href: '/about-us/partner' } as NavItemLink
+            // { key: 'career', label: m.navigation_aboutUs_career, href: '/about-us/career' } as NavItemLink
           ]
         }
       ]
@@ -272,7 +272,7 @@
             onmouseleave={handleMouseLeave}
           >
             <a href={localizeHref('/expertise')} class="solid nav-link-wrapper" class:active={page.url.pathname == localizeHref('expertise')}>
-              <span>{m['navigation.expertise.self']()}</span>
+              <span>{m.navigation_expertise_self()}</span>
               <svg
                 class="nav-arrow"
                 class:rotated={activeMenu === 'expertise'}
@@ -297,7 +297,7 @@
               >
                 <div class="mega-menu-content">
                   <div class="mega-menu-sections">
-                    <h3 class="w-full">{m['expertise.megaMenuTitle']()}</h3>
+                    <h3 class="w-full">{m.expertise_megaMenuTitle()}</h3>
                     {#each navigation.expertise.sections as section}
                       <div class="mega-menu-section">
                         {#if section.heading}
@@ -328,7 +328,7 @@
             onmouseleave={handleMouseLeave}
           >
             <a href={localizeHref('/topics')} class="solid nav-link-wrapper" class:active={page.url.pathname == localizeHref('topics')}>
-              <span>{m['navigation.topics.self']()}</span>
+              <span>{m.navigation_topics_self()}</span>
               <svg
                 class="nav-arrow"
                 class:rotated={activeMenu === 'topics'}
@@ -353,7 +353,7 @@
               >
                 <div class="mega-menu-content">
                   <div class="mega-menu-sections">
-                    <h3 class="w-full">{m['topics.megaMenuTitle']()}</h3>
+                    <h3 class="w-full">{m.topics_megaMenuTitle()}</h3>
                     {#each navigation.topics.sections as section}
                       <div class="mega-menu-section">
                         {#if section.heading}
@@ -384,7 +384,7 @@
             onmouseleave={handleMouseLeave}
           >
             <a href={localizeHref('/about-us')} class="solid nav-link-wrapper" class:active={page.url.pathname == localizeHref('/about-us')}>
-              <span>{m['navigation.aboutUs.self']()}</span>
+              <span>{m.navigation_aboutUs_self()}</span>
               <svg
                 class="nav-arrow"
                 class:rotated={activeMenu === 'about'}
@@ -424,7 +424,7 @@
                           {/each}
                           <li>
                             <a href="https://www.strateco.group/karriere" target="_blank" class="menu-link">
-                              {m['navigation.aboutUs.career']()}
+                              {m.navigation_aboutUs_career()}
                             </a>
                           </li>
                         </ul>
@@ -437,12 +437,12 @@
           </li>
           <li>
             <a href="https://blog.strateco.de/" target="_blank" class="solid">
-              {m['navigation.blog.self']()}
+              {m.navigation_blog_self()}
             </a>
           </li>
           <li>
             <a href={localizeHref('/contact')} class="solid" class:active={page.url.pathname == localizeHref('/contact')}>
-              {m['navigation.contact.self']()}
+              {m.navigation_contact_self()}
             </a>
           </li>
         </ul>
@@ -474,7 +474,7 @@
           <!-- Expertise -->
           <li class="mobile-nav-item">
             <button class="mobile-nav-link has-submenu" onclick={() => toggleMobileSection('expertise')}>
-              {m['navigation.expertise.self']()}
+              {m.navigation_expertise_self()}
               <svg
                 class="chevron"
                 class:rotated={mobileExpandedSections['expertise']}
@@ -507,7 +507,7 @@
           <!-- Topics -->
           <li class="mobile-nav-item">
             <button class="mobile-nav-link has-submenu" onclick={() => toggleMobileSection('topics')}>
-              {m['navigation.topics.self']()}
+              {m.navigation_topics_self()}
               <svg
                 class="chevron"
                 class:rotated={mobileExpandedSections['topics']}
@@ -540,7 +540,7 @@
           <!-- About Us -->
           <li class="mobile-nav-item">
             <button class="mobile-nav-link has-submenu" onclick={() => toggleMobileSection('about')}>
-              {m['navigation.aboutUs.self']()}
+              {m.navigation_aboutUs_self()}
               <svg
                 class="chevron"
                 class:rotated={mobileExpandedSections['about']}
@@ -570,20 +570,20 @@
           <!-- Career -->
           <li class="mobile-nav-item">
             <a href="https://www.strateco.group/karriere" target="_blank" class="mobile-nav-link">
-              {m['navigation.aboutUs.career']()}
+              {m.navigation_aboutUs_career()}
             </a>
           </li>
           <!-- Blog -->
           <li class="mobile-nav-item">
             <a href="https://blog.strateco.de/" target="_blank" class="mobile-nav-link">
-              {m['navigation.blog.self']()}
+              {m.navigation_blog_self()}
             </a>
           </li>
 
           <!-- Contact -->
           <li class="mobile-nav-item">
             <a href={localizeHref('/contact')} class="mobile-nav-link" onclick={toggleMobileNav}>
-              {m['navigation.contact.self']()}
+              {m.navigation_contact_self()}
             </a>
           </li>
         </ul>

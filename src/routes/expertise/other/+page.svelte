@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['expertise.other.title']()}</title>
-  <meta name="description" content={m['expertise.other.title']()} />
+  <title>{m.expertise_other_title()}</title>
+  <meta name="description" content={m.expertise_other_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.expertise.other']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m.navigation_expertise_other()} description={m.aboutUs_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['navigation.expertise.other']()}</h2>
+    <h2>{m.navigation_expertise_other()}</h2>
 
     <p>
       STRATECO verfügt über umfassende Branchenerfahrung in vielen weiteren Sektoren. Unsere Berater bringen vielseitige Expertise und Best Practices aus

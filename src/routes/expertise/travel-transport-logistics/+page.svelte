@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['expertise.travelTransportAndLogistics.title']()}</title>
-  <meta name="description" content={m['expertise.travelTransportAndLogistics.title']()} />
+  <title>{m.expertise_travelTransportAndLogistics_title()}</title>
+  <meta name="description" content={m.expertise_travelTransportAndLogistics_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.expertise.travelTransportAndLogistics']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m.navigation_expertise_travelTransportAndLogistics()} description={m.aboutUs_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['navigation.expertise.travelTransportAndLogistics']()}</h2>
+    <h2>{m.navigation_expertise_travelTransportAndLogistics()}</h2>
 
     <p>
       Die Branchen Travel, Transport und Logistics stehen vor großen Herausforderungen durch Digitalisierung und veränderte Kundenbedürfnisse. STRATECO

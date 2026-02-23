@@ -9,23 +9,23 @@
 </script>
 
 <svelte:head>
-  <title>{m['aboutUs.team.title']()}</title>
-  <meta name="description" content={m['aboutUs.team.title']()} />
+  <title>{m.aboutUs_team_title()}</title>
+  <meta name="description" content={m.aboutUs_team_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['aboutUs.team.introTitle']()} description={m['aboutUs.team.introDescription']()}></IntroBox>
+  <IntroBox title={m.aboutUs_team_introTitle()} description={m.aboutUs_team_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['aboutUs.team.title']()}</h2>
-    {@html m['aboutUs.team.text']()}
+    <h2>{m.aboutUs_team_title()}</h2>
+    {@html m.aboutUs_team_text()}
   </div>
 {/snippet}
 
 {#snippet right()}
-  <QuoteCard quote={m['aboutUs.team.quote.text']()} author={m['aboutUs.team.quote.author']()} />
+  <QuoteCard quote={m.aboutUs_team_quote_text()} author={m.aboutUs_team_quote_author()} />
 {/snippet}
 
 <Section>

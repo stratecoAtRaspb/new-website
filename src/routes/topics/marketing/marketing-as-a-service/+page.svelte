@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['topics.marketing.marketingAsAService.title']()}</title>
-  <meta name="description" content={m['topics.marketing.marketingAsAService.title']()} />
+  <title>{m.topics_marketing_marketingAsAService_title()}</title>
+  <meta name="description" content={m.topics_marketing_marketingAsAService_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.topics.marketingAsAService']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m.navigation_topics_marketingAsAService()} description={m.aboutUs_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['navigation.topics.marketingAsAService']()}</h2>
+    <h2>{m.navigation_topics_marketingAsAService()}</h2>
     <p>
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus vel quasi dolores, aliquid impedit a. Possimus, optio adipisci, cupiditate explicabo
       nisi rerum, amet itaque vel ab qui iste asperiores nesciunt.

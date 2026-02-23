@@ -9,18 +9,18 @@
 </script>
 
 <svelte:head>
-  <title>{m['aboutUs.partner.title']()}</title>
-  <meta name="description" content={m['aboutUs.partner.title']()} />
+  <title>{m.aboutUs_partner_title()}</title>
+  <meta name="description" content={m.aboutUs_partner_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['aboutUs.partner.title']()} description={m['aboutUs.partner.introDescription']()}></IntroBox>
+  <IntroBox title={m.aboutUs_partner_title()} description={m.aboutUs_partner_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['aboutUs.partner.title']()}</h2>
-    {@html m['aboutUs.partner.text']()}
+    <h2>{m.aboutUs_partner_title()}</h2>
+    {@html m.aboutUs_partner_text()}
   </div>
 {/snippet}
 {#snippet right()}{/snippet}

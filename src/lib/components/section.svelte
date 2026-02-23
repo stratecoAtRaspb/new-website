@@ -45,7 +45,7 @@
   }
 
   section.extended-base-section {
-    @apply relative z-20 m-auto -mt-72 w-full max-w-7xl px-4 md:-mt-[450px] md:px-6 xl:px-10;
+    @apply relative z-20 m-auto -mt-72 w-full max-w-7xl px-4 md:-mt-112.5 md:px-6 xl:px-10;
 
     .inner-container {
       @apply mt-8 rounded-tl-md rounded-tr-md bg-white px-6 pt-8 pb-16 shadow-2xl md:px-12;

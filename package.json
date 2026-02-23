@@ -5,7 +5,11 @@
   "type": "module",
   "packageManager": "yarn@4.12.0",
   "scripts": {
-    "dev": "vite dev",
+    "dev": "node scripts/sync-from-hygraph.mjs --no-fail && vite dev",
+    "sync:hygraph": "node scripts/sync-from-hygraph.mjs",
+    "import:hygraph": "node scripts/import-to-hygraph.mjs",
+    "repair:de": "node scripts/repair-de-localizations.mjs",
+    "prebuild": "node scripts/sync-from-hygraph.mjs",
     "build": "vite build",
     "preview": "vite preview",
     "prepare": "svelte-kit sync || echo ''",
@@ -43,6 +47,8 @@
     "vite": "^7.3.1"
   },
   "dependencies": {
+    "graphql": "^16.12.0",
+    "graphql-request": "^7.4.0",
     "mapbox-gl": "^3.18.1",
     "swiper": "^12.1.2",
     "vanilla-cookieconsent": "^3.1.0"

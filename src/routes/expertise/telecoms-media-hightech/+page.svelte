@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['expertise.telecomsMediaAndHighTech.title']()}</title>
-  <meta name="description" content={m['expertise.telecomsMediaAndHighTech.title']()} />
+  <title>{m.expertise_telecomsMediaAndHighTech_title()}</title>
+  <meta name="description" content={m.expertise_telecomsMediaAndHighTech_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.expertise.telecomsMediaAndHighTech']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m.navigation_expertise_telecomsMediaAndHighTech()} description={m.aboutUs_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['navigation.expertise.telecomsMediaAndHighTech']()}</h2>
+    <h2>{m.navigation_expertise_telecomsMediaAndHighTech()}</h2>
 
     <p>
       In den schnelllebigen Branchen Telekommunikation, Medien und High-Tech unterstützt STRATECO Unternehmen dabei, mit dem rasanten Wandel Schritt zu halten

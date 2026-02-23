@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['topics.financeAndControlling.documentManagement.title']()}</title>
-  <meta name="description" content={m['topics.financeAndControlling.documentManagement.title']()} />
+  <title>{m.topics_financeAndControlling_documentManagement_title()}</title>
+  <meta name="description" content={m.topics_financeAndControlling_documentManagement_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.topics.documentManagement']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m.navigation_topics_documentManagement()} description={m.aboutUs_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['navigation.topics.documentManagement']()}</h2>
+    <h2>{m.navigation_topics_documentManagement()}</h2>
     <p>Hier kommt ein kurzer Introtext/Beschreibungstext hin...</p>
     <h3>Headline</h3>
     <p>Hier kommen noch Inhalte hin...</p>

@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['topics.marketing.leadManagement.title']()}</title>
-  <meta name="description" content={m['topics.marketing.leadManagement.title']()} />
+  <title>{m.topics_marketing_leadManagement_title()}</title>
+  <meta name="description" content={m.topics_marketing_leadManagement_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.topics.leadManagement']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m.navigation_topics_leadManagement()} description={m.aboutUs_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['navigation.topics.leadManagement']()}</h2>
+    <h2>{m.navigation_topics_leadManagement()}</h2>
     <p>
       Leads generieren ist nicht kompliziert, den Prozess zum erfolgreichen Abschluss zu bringen hingegen schon. Effizientes Leadmanagement verringern die Zahl
       notwendiger Kontaktversuche und reduziert die Zahl verlorerer Leads!<br />

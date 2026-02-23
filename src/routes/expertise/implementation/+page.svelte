@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['expertise.implementation.title']()}</title>
-  <meta name="description" content={m['expertise.implementation.title']()} />
+  <title>{m.expertise_implementation_title()}</title>
+  <meta name="description" content={m.expertise_implementation_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.expertise.implementation']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m.navigation_expertise_implementation()} description={m.aboutUs_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['navigation.expertise.implementation']()}</h2>
+    <h2>{m.navigation_expertise_implementation()}</h2>
 
     <p>
       Von der Konzeption zur erfolgreichen Umsetzung – STRATECO begleitet Sie bei der Implementierung Ihrer Projekte. Wir sorgen dafür, dass Strategien und

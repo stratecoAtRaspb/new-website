@@ -8,19 +8,19 @@
 </script>
 
 <svelte:head>
-  <title>{m['expertise.strategy.title']()}</title>
-  <meta name="description" content={m['expertise.strategy.title']()} />
+  <title>{m.expertise_strategy_title()}</title>
+  <meta name="description" content={m.expertise_strategy_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['expertise.strategy.introTitle']()} description={m['expertise.strategy.introDescription']()}></IntroBox>
+  <IntroBox title={m.expertise_strategy_introTitle()} description={m.expertise_strategy_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['expertise.strategy.title']()}</h2>
+    <h2>{m.expertise_strategy_title()}</h2>
     <div class="prose">
-      {@html m['expertise.strategy.text']()}
+      {@html m.expertise_strategy_text()}
     </div>
   </div>
 {/snippet}

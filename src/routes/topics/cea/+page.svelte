@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['topics.cea.title']()}</title>
-  <meta name="description" content={m['topics.cea.title']()} />
+  <title>{m.topics_cea_title()}</title>
+  <meta name="description" content={m.topics_cea_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.topics.cea']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m.navigation_topics_cea()} description={m.aboutUs_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['navigation.topics.cea']()}</h2>
+    <h2>{m.navigation_topics_cea()}</h2>
     <p>
       Produkte und Dienstleistungen werden immer austauschbarer. Deswegen wird eine gute "Customer Experience" zum wichtigsten Unterscheidungsmerkmal für
       Unternehmen!

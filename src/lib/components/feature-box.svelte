@@ -12,8 +12,8 @@
       goto(localizeHref('/expertise/financial-institution'));
     }}
   >
-    <h3 class="managed-services">{m['featureBox.feature1.headline']()}</h3>
-    <p>{m['featureBox.feature1.text']()}</p>
+    <h3 class="managed-services">{m.featureBox_feature1_headline()}</h3>
+    <p>{m.featureBox_feature1_text()}</p>
   </button>
   <button
     class="feature"
@@ -22,8 +22,8 @@
       goto(localizeHref('/topics/finance-controlling'));
     }}
   >
-    <h3 class="smart-data-management">{m['featureBox.feature2.headline']()}</h3>
-    <p>{m['featureBox.feature2.text']()}</p>
+    <h3 class="smart-data-management">{m.featureBox_feature2_headline()}</h3>
+    <p>{m.featureBox_feature2_text()}</p>
   </button>
   <button
     class="feature"
@@ -32,8 +32,8 @@
       goto(localizeHref('/topics/ras'));
     }}
   >
-    <h3 class="risk-management">{m['featureBox.feature3.headline']()}</h3>
-    <p>{m['featureBox.feature3.text']()}</p>
+    <h3 class="risk-management">{m.featureBox_feature3_headline()}</h3>
+    <p>{m.featureBox_feature3_text()}</p>
   </button>
 </div>
 
@@ -62,7 +62,7 @@
         }
       }
       p {
-        @apply w-full text-base md:max-w-[300px];
+        @apply w-full text-base md:max-w-75;
       }
     }
   }

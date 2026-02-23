@@ -1,432 +1,238 @@
 {
   "$schema": "https://inlang.com/schema/inlang-message-format",
-  "navigation": {
-    "home": {
-      "self": "Home"
-    },
-    "expertise": {
-      "self": "Expertise",
-      "capabilities": "Capabilities",
-      "clientSegments": "Client Segments",
-      "strategy": "Strategy",
-      "processes": "Processes",
-      "implementation": "Implementation",
-      "people": "People",
-      "technology": "Technology",
-      "financialInstitution": "Financial Institution",
-      "pharmaAndHealthcare": "Pharma & Healthcare",
-      "telecomsMediaAndHighTech": "Telecoms, Media & High-Tech",
-      "travelTransportAndLogistics": "Travel, Transport & Logistics",
-      "other": "Other"
-    },
-    "topics": {
-      "self": "Topics",
-      "aos": "Alignment of Organization to Strategy (AOS)",
-      "financeAndControlling": "Finance & Controlling",
-      "tas": "Transactions Advisory Services (TAS)",
-      "ras": "Risk Advisory Services (RAS)",
-      "cea": "Customer Experience Analytics (CEA)",
-      "marketing": "Marketing",
-      "digitalTransformation": "Digital Transformation",
-      "managementCoaching": "Management Coaching",
-      "aosOverview": "Übersicht",
-      "changeManagement": "Change Management",
-      "postMergeIntegration": "Post-Merger Integration",
-      "culturalChangeFacilliation": "Cultural Change Facilitation",
-      "strategyOptimizationAndImplementation": "Strategy optimization and implementation",
-      "workflowAndBusinessProcessAlignment": "Workflow and business process alignment",
-      "collaborationPlatform": "Collaboration Platform",
-      "financeAndControllingOverview": "Finance and Controlling",
-      "strategy": "Strategy",
-      "processes": "Processes",
-      "architecture": "Architecture",
-      "reporting": "Reporting",
-      "analysis": "Analysis",
-      "workflows": "Workflows",
-      "documentManagement": "Document Management",
-      "intranet": "Intranet",
-      "businessIntelligence": "Business Intelligence",
-      "dataManagement": "Data Management",
-      "sharepoint": "Sharepoint",
-      "tasOverview": "Overview",
-      "sellSideBuySide": "Sellside / Buyside Due Diligence",
-      "reportingAndAnalysis": "Reporting, analysis and planning for servicing and valuation",
-      "dataManagment": "Data Management",
-      "rasOverview": "Overview",
-      "kamakuraIntegratedRisk": "Kamakura integrated risk management software (KRM)",
-      "partnershipWithKamakuraCorp": "Partnership with Kamakura Corp.",
-      "ceaOverview": "Overview",
-      "speechAnalytics": "Speech Analytics",
-      "textAnalytics": "Text Analytics",
-      "socialMediaMonitoring": "Social Media Monitoring",
-      "customerFeedback": "Customer Feedback",
-      "customerInteraction": "Customer Interaction",
-      "brandAndLoyalityManagement": "Brand & Loyalty Management",
-      "marketingOverview": "Overview",
-      "marketingAsAService": "Marketing as a Service",
-      "leadgenerierung": "Lead Generation",
-      "leadManagement": "Lead Management",
-      "marketingAutomation": "Marketing Automation",
-      "behaviouralMarketing": "Behavioural Marketing",
-      "customerRelationshipManagement": "Customer Relationship Management",
-      "leadGeneration": "Lead Generation"
-    },
-    "blog": {
-      "self": "Blog"
-    },
-    "aboutUs": {
-      "self": "About us",
-      "management": "Management",
-      "team": "Team",
-      "customers": "Customers",
-      "partner": "Partners",
-      "career": "Career"
-    },
-    "contact": {
-      "self": "Contact"
-    },
-    "legal": {
-      "self": "Legal Notice"
-    },
-    "privacy": {
-      "self": "Privacy"
-    }
-  },
-  "home": {
-    "title": "About STRATECO",
-    "text": "<p>Established over 20 years ago STRATECO is a consultancy which has a proven track record of supporting market leaders in their efforts to meet the challenges of their business environment by helping to design and execute successful strategies. From the strategy to the processes and implementation, we have demonstrated outstanding capabilities to meet the special needs of our clients in a timely, reliable and cost effective way.</p><p>In more than 400 projects in the fields of Marketing and Sales, Finance and Controlling, we have committed ourselves to the same goal for over 80 firms engaged in many different branches of business activity: achieve excellent results. Your objectives are always our objectives; your success is what we strive for.</p><p>How do we achieve this? With the teams of exceptional people which deliver what STRATECO aspires to achieve. With a unique combination of passion and technical competence. With experience and proven methodologies. From these capabilities we form customized solutions for our clients!</p><p>For this reason we have made the performance promise of STRATECO our company motto: Our competence is your competitive advantage!</p>",
-    "quote": {
-      "text": "The extraordinary does not happen along the usual and familiar paths.",
-      "author": "Johann Wolfgang von Goethe",
-      "role": "poet, politician, and natural scientist"
-    },
-    "sideBarCard": {
-      "title": "Blueprint for success",
-      "text": "STRATECO promotes and supports Start-ups.  We welcome your inquiries and requests.",
-      "ctaText": "Come and talk to us!"
-    }
-  },
-  "aboutUs": {
-    "introTitle": "About us",
-    "introDescription": "Over the years, the right combination of competence and passion is what has enabled STRATECO to succeed. Just give us a try. See for yourself!",
-    "title": "You are at the right place if you are doing business with us!",
-    "text": "<p>When we started STRATECO 17 years ago, we were inspired by a powerful mission: Our competence is your competitive advantage. We have always acted in this spirit. In the meantime, we have successfully completed over 400 projects for customers who are globally present in diverse branches. We have established a proven track record of delivering on promised results, so that we have established long-standing ties with many clients who value our support to achieve sustainably successful performance.</p><p>We make your goals our goals. Ensuring your success is our aspiration. We constantly deliver highest performance for you – from the strategy to the processes and finally to implementation. We deliver, and we practice what we preach. Our concepts are complete only when the successful results are achieved.</p><p>Our recipe for success consists of the highly talented, special people who stand behind STRATECO. They represent a unique combination of passion and competency. They have relevant experience, and they have expert command of proven methodologies. From these basics we design and implement tailor made solutions for our customers!</p>",
-    "management": {
-      "introTitle": "Management",
-      "introDescription": "When we developed the Business Plan for STRATECO more than 17 years ago, we were guided by a central vision: We empower our customers to achieve highest performance. That vision has led to the successful strategy to which we have been committed to this day.",
-      "title": "Your success matters to us"
-    },
-    "career": {
-      "title": "Career"
-    },
-    "customers": {
-      "title": "Become part of our success story!",
-      "introTitle": "Customers",
-      "introDescription": "Excellent results stem from competence and passion. True passion can only develop when there is a good fit. Are we a good match?",
-      "text": "<p>You are in good hands with STRATECO. We share with you the experience gained from over 500 projects, with just one goal in mind: your complete satisfaction. Everyone at STRATECO is committed to this – with professional expertise, methodology, passion, and creativity.</p><p>We would be happy to show you examples of our work in a personal meeting and provide you with significant references upon request. Please contact us.</p><p>Here you will find a selection of our clients for whom we have successfully accepted projects over the past 22 years:</p>",
-      "footer": "<p class='font-bold mt-4'>To be continued!</p><p>If you cannot find your company on the list above, please contact STRATECO – we would be happy to change that together.</p>"
-    },
-    "partner": {
-      "title": "Our Partners",
-      "introTitle": "Partners",
-      "introDescription": "Nothing is as constant as change, especially in technology. That's why STRATECO maintains a broad network of technology partners.",
-      "text": "<h3>Success has many fathers</h3><p>Strong partnerships have been a key pillar of STRATECO's success since its founding, enabling better services for our clients. STRATECO works with many well-known technology suppliers to always offer suitable solutions. Some of these partners are presented here as examples.</p><p>STRATECO maintains partnerships with the following technology partners, among others:</p><ul><li>Microsoft – STRATECO is a Microsoft Partner.</li><li>Verint.</li><li>Silverpop.</li><li>Kamakura.</li></ul>"
-    },
-    "team": {
-      "title": "Together we are strong!",
-      "introTitle": "Team",
-      "introDescription": "Our recipe for success? The people behind STRATECO! Our employees combine professional competence, methodology and experience – and are thus the key to success.",
-      "text": "<p>Only special people are capable of achieving special results. That's why STRATECO is not satisfied with the standard, but relies on exceptional personalities.</p><p>Just like a rough diamond, this specialness must first be recognized and then targetedly promoted. The strengths of employees are supported by targeted personnel development.</p><p>Professional skills are just as important as personality and entrepreneurial action. Thus, client projects are led to success cooperatively and creatively – with a clear performance promise.</p><p>STRATECO has a unique corporate culture and lived values that have a positive effect on employees and clients. This makes the company a special employer and makes a significant contribution to the success story.</p>",
-      "quote": {
-        "text": "The key to success is not information. It's people.",
-        "author": "Lee Iacocca"
-      }
-    }
-  },
-  "expertise": {
-    "megaMenuTitle": "Our expertise",
-    "introTitle": "Expertise",
-    "introDescription": "STRATECO's resources consist of a wide range of competencies.  So that you can learn what you may expect of us, we provide a summarization of the most important capabilities.",
-    "title": "Our competencies for your competitive advantage",
-    "text": "<p>Our competencies focus on the key managerial responsibilities of our clients. Our engagement is always results-oriented, and it always takes a holistic approach to every line of business and functional area. We deploy state-of-the-art methods and technologies, which we adapt and enhance according to the scope of work of our mandates. You profit from a team of specialists in various disciplines, whose strengths are derived from their proven ability to deliver consistently practical results based on powerful theoretical insights which have been tested by hands-on experience.</p><p><strong>That is what is meant by our established reputation for “lived competency”.</strong></p>",
-    "sectionHeadline1": "Expertise by capability",
-    "sectionHeadline2": "Expertise by client segment",
-    "strategy": {
-      "introTitle": "Strategy",
-      "introDescription": "A strategy that fits the business environment is a necessary condition for success.",
-      "title": "We support your efforts to design the right strategy to meet the challenges, opportunities and threats of your dynamic business environment",
-      "text": "<p>Over the past 10 years we have designed and implemented strategies that not only promised success but also delivered measurable results for our clients in the telecommunications industry, the financial services industry, consumer goods industry and travel and lodging industry.</p><p>Our consultants act in the entrepreneurial spirit and understand the big picture. With our clients, we define the goals that help coordinate our efforts to meet our promise to exceed them.</p>"
-    },
-    "financialInstitution": {
-      "title": "Financial Institution"
-    },
-    "implementation": {
-      "title": "Implementation"
-    },
-    "other": {
-      "title": "Other"
-    },
-    "people": {
-      "title": "People"
-    },
-    "pharmaAndHealthcare": {
-      "title": "Pharma & Healthcare"
-    },
-    "processes": {
-      "title": "Processes"
-    },
-    "technology": {
-      "title": "Technology"
-    },
-    "telecomsMediaAndHighTech": {
-      "title": "Telecoms, Media & High-Tech"
-    },
-    "travelTransportAndLogistics": {
-      "title": "Travel, Transport & Logistics"
-    }
-  },
-  "topics": {
-    "megaMenuTitle": "Our topics",
-    "introTitle": "Topics",
-    "introDescription": "Our solutions portfolio and our current themes are constantly in motion for you. You can learn more about our firm by looking at our current Topics-Setting. We would be pleased to discuss how these topics relate to your challenges!",
-    "title": "Our topics are diverse",
-    "digitalTransformation": {
-      "introTitle": "Digital Transformation",
-      "introDescription": "The digital revolution is in full swing worldwide, but according to experts, the German economy is lagging behind. We make sure your company becomes a pioneer!",
-      "title": "Digitalization – more than just a technological hype"
-    },
-    "changeManagement": {
-      "introTitle": "Change Management",
-      "introDescription": "Change management helps organizations deliberately plan necessary changes, engage employees, and integrate new structures sustainably into everyday work.",
-      "title": "Change Management in Practice: Empowering People, Shaping the Future"
-    },
-    "aos": {
-      "introTitle": "Alignment of Organization to Strategy (AOS)",
-      "introDescription": "Just as good strategy is adapted to the environment, good organizational design aligns people, architecture, routines and culture to the strategy",
-      "title": "Competency",
-      "managementCoaching": {
-        "introTitle": "Management Coaching",
-        "introDescription": "The unique combination of specialized branch expertise and many years of coaching experience form the basis of our Coaching Methodology. We convert your challenges into operational task modules!",
-        "title": "Because people make decisions..."
-      },
-      "changeManagement": {
-        "title": "Change Management"
-      },
-      "collaborationPlatform": {
-        "title": "Collaboration Platform"
-      },
-      "culturalChangeFacilliation": {
-        "title": "Cultural Change Facilitation"
-      },
-      "digitalTransformation": {
-        "title": "Digital Transformation"
-      },
-      "postMergeIntegration": {
-        "title": "Post-Merger Integration"
-      },
-      "strategyOptimizationAndImplementation": {
-        "title": "Strategy optimization and implementation"
-      },
-      "workflowAndBusinessProcessAlignment": {
-        "title": "Workflow and business process alignment"
-      }
-    },
-    "cea": {
-      "title": "Customer Experience Analytics (CEA)",
-      "brandAndLoyalityManagement": {
-        "title": "Brand & Loyalty Management"
-      },
-      "businessIntelligence": {
-        "title": "Business Intelligence"
-      },
-      "changeManagement": {
-        "title": "Change Management"
-      },
-      "customerFeedback": {
-        "title": "Customer Feedback"
-      },
-      "customerInteraction": {
-        "title": "Customer Interaction"
-      },
-      "dataManagement": {
-        "title": "Data Management"
-      },
-      "socialMediaMonitoring": {
-        "title": "Social Media Monitoring"
-      },
-      "speechAnalytics": {
-        "title": "Speech Analytics"
-      },
-      "textAnalytics": {
-        "title": "Text Analytics"
-      }
-    },
-    "financeAndControlling": {
-      "title": "Finance & Controlling",
-      "analysis": {
-        "title": "Analysis"
-      },
-      "architecture": {
-        "title": "Architecture"
-      },
-      "businessIntelligence": {
-        "title": "Business Intelligence"
-      },
-      "dataManagement": {
-        "title": "Data Management"
-      },
-      "documentManagement": {
-        "title": "Document Management"
-      },
-      "intranet": {
-        "title": "Intranet"
-      },
-      "processes": {
-        "title": "Processes"
-      },
-      "reporting": {
-        "title": "Reporting"
-      },
-      "sharepoint": {
-        "title": "Sharepoint"
-      },
-      "strategy": {
-        "title": "Strategy"
-      },
-      "workflows": {
-        "title": "Workflows"
-      }
-    },
-    "marketing": {
-      "introTitle": "Marketing",
-      "introDescription": "Marketing in business organizations is currently experiencing a fundamental transformation. The new world of marketing is digital. Consumers have more power than ever before. We help you to deal with this new environment.",
-      "title": "Everything is changing. Are you ready?",
-      "behaviouralMarketing": {
-        "title": "Behavioural Marketing"
-      },
-      "customerRelationshipManagement": {
-        "title": "Customer Relationship Management"
-      },
-      "leadManagement": {
-        "title": "Lead Management"
-      },
-      "leadgenerierung": {
-        "title": "Lead Generation"
-      },
-      "marketingAsAService": {
-        "title": "Marketing as a Service"
-      },
-      "marketingAutomation": {
-        "title": "Marketing Automation"
-      },
-      "leadGeneration": {
-        "introTitle": "Lead generation",
-        "introDescription": "In marketing, the generation of leads belongs to the most important but also to the most difficult tasks. You can create value by making use of STRATECO’s know-how and experience in optimizing the resource allocation process for lead generation.",
-        "title": "Marketing doesn’t provide enough leads!"
-      }
-    },
-    "ras": {
-      "title": "Risk Advisory Services (RAS)",
-      "businessIntelligence": {
-        "title": "Business Intelligence"
-      },
-      "dataManagement": {
-        "title": "Data Management"
-      },
-      "kamakuraIntegratedRisk": {
-        "title": "Kamakura integrated risk management software (KRM)"
-      },
-      "partnershipWithKamakuraCorp": {
-        "title": "Partnership with Kamakura Corp."
-      }
-    },
-    "tas": {
-      "title": "Transactions Advisory Services (TAS)",
-      "businessIntelligence": {
-        "title": "Business Intelligence"
-      },
-      "dataManagement": {
-        "title": "Data Management"
-      },
-      "reportingAndAnalysis": {
-        "title": "Reporting, analysis and planning for servicing and valuation"
-      },
-      "sellSideBuySide": {
-        "title": "Sellside / Buyside Due Diligence"
-      }
-    }
-  },
-  "contact": {
-    "introTitle": "Contact",
-    "introDescription": "Do you have questions or comments? Please do not hesitate to contact us. With a simple formula you can give us quick feedback. We will answer without delay.",
-    "title": "We are pleased by your interest in us!",
-    "text": "Do you have questions, requests, suggestions or feedback? Or would you like to learn more about us in a personal meeting to discuss advisory approaches and solutions? In any case, we would be pleased to carry out an interesting exchange with you!",
-    "secondHeadline": "A warm welcome to STRATECO",
-    "form": {
-      "firstNameLabel": "First Name",
-      "firstNamePlaceholder": "Max",
-      "lastNameLabel": "Last Name",
-      "lastNamePlaceholder": "Mustermann",
-      "emailLabel": "Email Address",
-      "emailPlaceholder": "max.musterman@example.com",
-      "phoneLabel": "Phone Number",
-      "phonePlaceholder": "0123-456789",
-      "subjectLabel": "Subject",
-      "subjectPlaceholder": "Iquiry, Response, Feedback...",
-      "messageLabel": "Your Message to us",
-      "dsgvoLabel": "I agree to the storage and processing of my data by this website",
-      "submitButton": "Submit"
-    }
-  },
-  "legal": {
-    "introTitle": "Legal Notice",
-    "introDescription": "STRATECO GmbH & CO. KG - Company for strategic consulting",
-    "title": "Imprint"
-  },
-  "privacy": {
-    "introTitle": "Privacy Policy",
-    "introDescription": "We protect your data!",
-    "title": "Our Privacy Policy"
-  },
-  "footer": {
-    "email": "Email",
-    "phone": "Phone",
-    "or": "or"
-  },
-  "featureBox": {
-    "feature1": {
-      "headline": "Managed Services",
-      "text": "We help you to solve regulatory challenges with our many years of expertise and innovative technologies. Case-by-case up to implementation - from a single source."
-    },
-    "feature2": {
-      "headline": "Smart Data Management",
-      "text": "Data is the key success factor in the digitalised world. We consolidate your data silos and turn \"Big Data\" into \"smart actionable intelligence\"!"
-    },
-    "feature3": {
-      "headline": "Risk Management",
-      "text": "Never before has risk management been so important for business organizations as it is today. STRATECO designs concepts and implements integrated risk management solutions for banks and other financial services providers."
-    }
-  },
-  "slider": {
-    "slide1": {
-      "headline": "Looking to reach new heights?",
-      "text": "Our expertise and solutions create a solid foundation for your growth."
-    },
-    "slide2": {
-      "headline": "Our results stand out",
-      "text": "We are that bit more inventive while remaining highly professional in execution."
-    },
-    "slide3": {
-      "headline": "Step by step, we reach the next level",
-      "text": "We are your reliable partner when it comes to mastering your challenges!"
-    },
-    "slide4": {
-      "headline": "To infinity and beyond...",
-      "text": "Are you striving for the unattainable? We help you get very close to your goal."
-    },
-    "slide5": {
-      "headline": "Our expertise is your competitive edge",
-      "text": "For more than 20 years, we have passionately (re)invented the most successful strategies and solutions for our clients."
-    }
-  }
+  "navigation_home_self": "Home",
+  "navigation_expertise_self": "Expertise",
+  "navigation_expertise_capabilities": "Capabilities",
+  "navigation_expertise_clientSegments": "Client Segments",
+  "navigation_expertise_strategy": "Strategy",
+  "navigation_expertise_processes": "Processes",
+  "navigation_expertise_implementation": "Implementation",
+  "navigation_expertise_people": "People",
+  "navigation_expertise_technology": "Technology",
+  "navigation_expertise_financialInstitution": "Financial Institution",
+  "navigation_expertise_pharmaAndHealthcare": "Pharma & Healthcare",
+  "navigation_expertise_telecomsMediaAndHighTech": "Telecoms, Media & High-Tech",
+  "navigation_expertise_travelTransportAndLogistics": "Travel, Transport & Logistics",
+  "navigation_expertise_other": "Other",
+  "navigation_topics_self": "Topics",
+  "navigation_topics_aos": "Alignment of Organization to Strategy (AOS)",
+  "navigation_topics_financeAndControlling": "Finance & Controlling",
+  "navigation_topics_tas": "Transactions Advisory Services (TAS)",
+  "navigation_topics_ras": "Risk Advisory Services (RAS)",
+  "navigation_topics_cea": "Customer Experience Analytics (CEA)",
+  "navigation_topics_marketing": "Marketing",
+  "navigation_topics_digitalTransformation": "Digital Transformation",
+  "navigation_topics_managementCoaching": "Management Coaching",
+  "navigation_topics_aosOverview": "Übersicht",
+  "navigation_topics_changeManagement": "Change Management",
+  "navigation_topics_postMergeIntegration": "Post-Merger Integration",
+  "navigation_topics_culturalChangeFacilliation": "Cultural Change Facilitation",
+  "navigation_topics_strategyOptimizationAndImplementation": "Strategy optimization and implementation",
+  "navigation_topics_workflowAndBusinessProcessAlignment": "Workflow and business process alignment",
+  "navigation_topics_collaborationPlatform": "Collaboration Platform",
+  "navigation_topics_financeAndControllingOverview": "Finance and Controlling",
+  "navigation_topics_strategy": "Strategy",
+  "navigation_topics_processes": "Processes",
+  "navigation_topics_architecture": "Architecture",
+  "navigation_topics_reporting": "Reporting",
+  "navigation_topics_analysis": "Analysis",
+  "navigation_topics_workflows": "Workflows",
+  "navigation_topics_documentManagement": "Document Management",
+  "navigation_topics_intranet": "Intranet",
+  "navigation_topics_businessIntelligence": "Business Intelligence",
+  "navigation_topics_dataManagement": "Data Management",
+  "navigation_topics_sharepoint": "Sharepoint",
+  "navigation_topics_tasOverview": "Overview",
+  "navigation_topics_sellSideBuySide": "Sellside / Buyside Due Diligence",
+  "navigation_topics_reportingAndAnalysis": "Reporting, analysis and planning for servicing and valuation",
+  "navigation_topics_dataManagment": "Data Management",
+  "navigation_topics_rasOverview": "Overview",
+  "navigation_topics_kamakuraIntegratedRisk": "Kamakura integrated risk management software (KRM)",
+  "navigation_topics_partnershipWithKamakuraCorp": "Partnership with Kamakura Corp.",
+  "navigation_topics_ceaOverview": "Overview",
+  "navigation_topics_speechAnalytics": "Speech Analytics",
+  "navigation_topics_textAnalytics": "Text Analytics",
+  "navigation_topics_socialMediaMonitoring": "Social Media Monitoring",
+  "navigation_topics_customerFeedback": "Customer Feedback",
+  "navigation_topics_customerInteraction": "Customer Interaction",
+  "navigation_topics_brandAndLoyalityManagement": "Brand & Loyalty Management",
+  "navigation_topics_marketingOverview": "Overview",
+  "navigation_topics_marketingAsAService": "Marketing as a Service",
+  "navigation_topics_leadgenerierung": "Lead Generation",
+  "navigation_topics_leadManagement": "Lead Management",
+  "navigation_topics_marketingAutomation": "Marketing Automation",
+  "navigation_topics_behaviouralMarketing": "Behavioural Marketing",
+  "navigation_topics_customerRelationshipManagement": "Customer Relationship Management",
+  "navigation_topics_leadGeneration": "Lead Generation",
+  "navigation_blog_self": "Blog",
+  "navigation_aboutUs_self": "About us",
+  "navigation_aboutUs_management": "Management",
+  "navigation_aboutUs_team": "Team",
+  "navigation_aboutUs_customers": "Customers",
+  "navigation_aboutUs_partner": "Partners",
+  "navigation_aboutUs_career": "Career",
+  "navigation_contact_self": "Contact",
+  "navigation_legal_self": "Legal Notice",
+  "navigation_privacy_self": "Privacy",
+  "home_title": "About STRATECO",
+  "home_text": "<p>Established over 20 years ago STRATECO is a consultancy which has a proven track record of supporting market leaders in their efforts to meet the challenges of their business environment by helping to design and execute successful strategies. From the strategy to the processes and implementation, we have demonstrated outstanding capabilities to meet the special needs of our clients in a timely, reliable and cost effective way.</p><p>In more than 400 projects in the fields of Marketing and Sales, Finance and Controlling, we have committed ourselves to the same goal for over 80 firms engaged in many different branches of business activity: achieve excellent results. Your objectives are always our objectives; your success is what we strive for.</p><p>How do we achieve this? With the teams of exceptional people which deliver what STRATECO aspires to achieve. With a unique combination of passion and technical competence. With experience and proven methodologies. From these capabilities we form customized solutions for our clients!</p><p>For this reason we have made the performance promise of STRATECO our company motto: Our competence is your competitive advantage!</p>",
+  "home_quote_text": "The extraordinary does not happen along the usual and familiar paths.",
+  "home_quote_author": "Johann Wolfgang von Goethe",
+  "home_quote_role": "poet, politician, and natural scientist",
+  "home_sideBarCard_title": "Blueprint for success",
+  "home_sideBarCard_text": "STRATECO promotes and supports Start-ups.  We welcome your inquiries and requests.",
+  "home_sideBarCard_ctaText": "Come and talk to us!",
+  "aboutUs_introTitle": "About us",
+  "aboutUs_introDescription": "Over the years, the right combination of competence and passion is what has enabled STRATECO to succeed. Just give us a try. See for yourself!",
+  "aboutUs_title": "You are at the right place if you are doing business with us!",
+  "aboutUs_text": "<p>When we started STRATECO 17 years ago, we were inspired by a powerful mission: Our competence is your competitive advantage. We have always acted in this spirit. In the meantime, we have successfully completed over 400 projects for customers who are globally present in diverse branches. We have established a proven track record of delivering on promised results, so that we have established long-standing ties with many clients who value our support to achieve sustainably successful performance.</p><p>We make your goals our goals. Ensuring your success is our aspiration. We constantly deliver highest performance for you – from the strategy to the processes and finally to implementation. We deliver, and we practice what we preach. Our concepts are complete only when the successful results are achieved.</p><p>Our recipe for success consists of the highly talented, special people who stand behind STRATECO. They represent a unique combination of passion and competency. They have relevant experience, and they have expert command of proven methodologies. From these basics we design and implement tailor made solutions for our customers!</p>",
+  "aboutUs_management_introTitle": "Management",
+  "aboutUs_management_introDescription": "When we developed the Business Plan for STRATECO more than 17 years ago, we were guided by a central vision: We empower our customers to achieve highest performance. That vision has led to the successful strategy to which we have been committed to this day.",
+  "aboutUs_management_title": "Your success matters to us",
+  "aboutUs_career_title": "Career",
+  "aboutUs_customers_title": "Become part of our success story!",
+  "aboutUs_customers_introTitle": "Customers",
+  "aboutUs_customers_introDescription": "Excellent results stem from competence and passion. True passion can only develop when there is a good fit. Are we a good match?",
+  "aboutUs_customers_text": "<p>You are in good hands with STRATECO. We share with you the experience gained from over 500 projects, with just one goal in mind: your complete satisfaction. Everyone at STRATECO is committed to this – with professional expertise, methodology, passion, and creativity.</p><p>We would be happy to show you examples of our work in a personal meeting and provide you with significant references upon request. Please contact us.</p><p>Here you will find a selection of our clients for whom we have successfully accepted projects over the past 22 years:</p>",
+  "aboutUs_customers_footer": "<p class='font-bold mt-4'>To be continued!</p><p>If you cannot find your company on the list above, please contact STRATECO – we would be happy to change that together.</p>",
+  "aboutUs_partner_title": "Our Partners",
+  "aboutUs_partner_introTitle": "Partners",
+  "aboutUs_partner_introDescription": "Nothing is as constant as change, especially in technology. That's why STRATECO maintains a broad network of technology partners.",
+  "aboutUs_partner_text": "<h3>Success has many fathers</h3><p>Strong partnerships have been a key pillar of STRATECO's success since its founding, enabling better services for our clients. STRATECO works with many well-known technology suppliers to always offer suitable solutions. Some of these partners are presented here as examples.</p><p>STRATECO maintains partnerships with the following technology partners, among others:</p><ul><li>Microsoft – STRATECO is a Microsoft Partner.</li><li>Verint.</li><li>Silverpop.</li><li>Kamakura.</li></ul>",
+  "aboutUs_team_title": "Together we are strong!",
+  "aboutUs_team_introTitle": "Team",
+  "aboutUs_team_introDescription": "Our recipe for success? The people behind STRATECO! Our employees combine professional competence, methodology and experience – and are thus the key to success.",
+  "aboutUs_team_text": "<p>Only special people are capable of achieving special results. That's why STRATECO is not satisfied with the standard, but relies on exceptional personalities.</p><p>Just like a rough diamond, this specialness must first be recognized and then targetedly promoted. The strengths of employees are supported by targeted personnel development.</p><p>Professional skills are just as important as personality and entrepreneurial action. Thus, client projects are led to success cooperatively and creatively – with a clear performance promise.</p><p>STRATECO has a unique corporate culture and lived values that have a positive effect on employees and clients. This makes the company a special employer and makes a significant contribution to the success story.</p>",
+  "aboutUs_team_quote_text": "The key to success is not information. It's people.",
+  "aboutUs_team_quote_author": "Lee Iacocca",
+  "expertise_megaMenuTitle": "Our expertise",
+  "expertise_introTitle": "Expertise",
+  "expertise_introDescription": "STRATECO's resources consist of a wide range of competencies.  So that you can learn what you may expect of us, we provide a summarization of the most important capabilities.",
+  "expertise_title": "Our competencies for your competitive advantage",
+  "expertise_text": "<p>Our competencies focus on the key managerial responsibilities of our clients. Our engagement is always results-oriented, and it always takes a holistic approach to every line of business and functional area. We deploy state-of-the-art methods and technologies, which we adapt and enhance according to the scope of work of our mandates. You profit from a team of specialists in various disciplines, whose strengths are derived from their proven ability to deliver consistently practical results based on powerful theoretical insights which have been tested by hands-on experience.</p><p><strong>That is what is meant by our established reputation for “lived competency”.</strong></p>",
+  "expertise_sectionHeadline1": "Expertise by capability",
+  "expertise_sectionHeadline2": "Expertise by client segment",
+  "expertise_strategy_introTitle": "Strategy",
+  "expertise_strategy_introDescription": "A strategy that fits the business environment is a necessary condition for success.",
+  "expertise_strategy_title": "We support your efforts to design the right strategy to meet the challenges, opportunities and threats of your dynamic business environment",
+  "expertise_strategy_text": "<p>Over the past 10 years we have designed and implemented strategies that not only promised success but also delivered measurable results for our clients in the telecommunications industry, the financial services industry, consumer goods industry and travel and lodging industry.</p><p>Our consultants act in the entrepreneurial spirit and understand the big picture. With our clients, we define the goals that help coordinate our efforts to meet our promise to exceed them.</p>",
+  "expertise_financialInstitution_title": "Financial Institution",
+  "expertise_implementation_title": "Implementation",
+  "expertise_other_title": "Other",
+  "expertise_people_title": "People",
+  "expertise_pharmaAndHealthcare_title": "Pharma & Healthcare",
+  "expertise_processes_title": "Processes",
+  "expertise_technology_title": "Technology",
+  "expertise_telecomsMediaAndHighTech_title": "Telecoms, Media & High-Tech",
+  "expertise_travelTransportAndLogistics_title": "Travel, Transport & Logistics",
+  "topics_megaMenuTitle": "Our topics",
+  "topics_introTitle": "Topics",
+  "topics_introDescription": "Our solutions portfolio and our current themes are constantly in motion for you. You can learn more about our firm by looking at our current Topics-Setting. We would be pleased to discuss how these topics relate to your challenges!",
+  "topics_title": "Our topics are diverse",
+  "topics_digitalTransformation_introTitle": "Digital Transformation",
+  "topics_digitalTransformation_introDescription": "The digital revolution is in full swing worldwide, but according to experts, the German economy is lagging behind. We make sure your company becomes a pioneer!",
+  "topics_digitalTransformation_title": "Digitalization – more than just a technological hype",
+  "topics_changeManagement_introTitle": "Change Management",
+  "topics_changeManagement_introDescription": "Change management helps organizations deliberately plan necessary changes, engage employees, and integrate new structures sustainably into everyday work.",
+  "topics_changeManagement_title": "Change Management in Practice: Empowering People, Shaping the Future",
+  "topics_aos_introTitle": "Alignment of Organization to Strategy (AOS)",
+  "topics_aos_introDescription": "Just as good strategy is adapted to the environment, good organizational design aligns people, architecture, routines and culture to the strategy",
+  "topics_aos_title": "Competency",
+  "topics_aos_managementCoaching_introTitle": "Management Coaching",
+  "topics_aos_managementCoaching_introDescription": "The unique combination of specialized branch expertise and many years of coaching experience form the basis of our Coaching Methodology. We convert your challenges into operational task modules!",
+  "topics_aos_managementCoaching_title": "Because people make decisions...",
+  "topics_aos_changeManagement_title": "Change Management",
+  "topics_aos_collaborationPlatform_title": "Collaboration Platform",
+  "topics_aos_culturalChangeFacilliation_title": "Cultural Change Facilitation",
+  "topics_aos_digitalTransformation_title": "Digital Transformation",
+  "topics_aos_postMergeIntegration_title": "Post-Merger Integration",
+  "topics_aos_strategyOptimizationAndImplementation_title": "Strategy optimization and implementation",
+  "topics_aos_workflowAndBusinessProcessAlignment_title": "Workflow and business process alignment",
+  "topics_cea_title": "Customer Experience Analytics (CEA)",
+  "topics_cea_brandAndLoyalityManagement_title": "Brand & Loyalty Management",
+  "topics_cea_businessIntelligence_title": "Business Intelligence",
+  "topics_cea_changeManagement_title": "Change Management",
+  "topics_cea_customerFeedback_title": "Customer Feedback",
+  "topics_cea_customerInteraction_title": "Customer Interaction",
+  "topics_cea_dataManagement_title": "Data Management",
+  "topics_cea_socialMediaMonitoring_title": "Social Media Monitoring",
+  "topics_cea_speechAnalytics_title": "Speech Analytics",
+  "topics_cea_textAnalytics_title": "Text Analytics",
+  "topics_financeAndControlling_title": "Finance & Controlling",
+  "topics_financeAndControlling_analysis_title": "Analysis",
+  "topics_financeAndControlling_architecture_title": "Architecture",
+  "topics_financeAndControlling_businessIntelligence_title": "Business Intelligence",
+  "topics_financeAndControlling_dataManagement_title": "Data Management",
+  "topics_financeAndControlling_documentManagement_title": "Document Management",
+  "topics_financeAndControlling_intranet_title": "Intranet",
+  "topics_financeAndControlling_processes_title": "Processes",
+  "topics_financeAndControlling_reporting_title": "Reporting",
+  "topics_financeAndControlling_sharepoint_title": "Sharepoint",
+  "topics_financeAndControlling_strategy_title": "Strategy",
+  "topics_financeAndControlling_workflows_title": "Workflows",
+  "topics_marketing_introTitle": "Marketing",
+  "topics_marketing_introDescription": "Marketing in business organizations is currently experiencing a fundamental transformation. The new world of marketing is digital. Consumers have more power than ever before. We help you to deal with this new environment.",
+  "topics_marketing_title": "Everything is changing. Are you ready?",
+  "topics_marketing_behaviouralMarketing_title": "Behavioural Marketing",
+  "topics_marketing_customerRelationshipManagement_title": "Customer Relationship Management",
+  "topics_marketing_leadManagement_title": "Lead Management",
+  "topics_marketing_leadgenerierung_title": "Lead Generation",
+  "topics_marketing_marketingAsAService_title": "Marketing as a Service",
+  "topics_marketing_marketingAutomation_title": "Marketing Automation",
+  "topics_marketing_leadGeneration_introTitle": "Lead generation",
+  "topics_marketing_leadGeneration_introDescription": "In marketing, the generation of leads belongs to the most important but also to the most difficult tasks. You can create value by making use of STRATECO’s know-how and experience in optimizing the resource allocation process for lead generation.",
+  "topics_marketing_leadGeneration_title": "Marketing doesn’t provide enough leads!",
+  "topics_ras_title": "Risk Advisory Services (RAS)",
+  "topics_ras_businessIntelligence_title": "Business Intelligence",
+  "topics_ras_dataManagement_title": "Data Management",
+  "topics_ras_kamakuraIntegratedRisk_title": "Kamakura integrated risk management software (KRM)",
+  "topics_ras_partnershipWithKamakuraCorp_title": "Partnership with Kamakura Corp.",
+  "topics_tas_title": "Transactions Advisory Services (TAS)",
+  "topics_tas_businessIntelligence_title": "Business Intelligence",
+  "topics_tas_dataManagement_title": "Data Management",
+  "topics_tas_reportingAndAnalysis_title": "Reporting, analysis and planning for servicing and valuation",
+  "topics_tas_sellSideBuySide_title": "Sellside / Buyside Due Diligence",
+  "contact_introTitle": "Contact",
+  "contact_introDescription": "Do you have questions or comments? Please do not hesitate to contact us. With a simple formula you can give us quick feedback. We will answer without delay.",
+  "contact_title": "We are pleased by your interest in us!",
+  "contact_text": "Do you have questions, requests, suggestions or feedback? Or would you like to learn more about us in a personal meeting to discuss advisory approaches and solutions? In any case, we would be pleased to carry out an interesting exchange with you!",
+  "contact_secondHeadline": "A warm welcome to STRATECO",
+  "contact_form_firstNameLabel": "First Name",
+  "contact_form_firstNamePlaceholder": "Max",
+  "contact_form_lastNameLabel": "Last Name",
+  "contact_form_lastNamePlaceholder": "Mustermann",
+  "contact_form_emailLabel": "Email Address",
+  "contact_form_emailPlaceholder": "max.musterman@example.com",
+  "contact_form_phoneLabel": "Phone Number",
+  "contact_form_phonePlaceholder": "0123-456789",
+  "contact_form_subjectLabel": "Subject",
+  "contact_form_subjectPlaceholder": "Iquiry, Response, Feedback...",
+  "contact_form_messageLabel": "Your Message to us",
+  "contact_form_dsgvoLabel": "I agree to the storage and processing of my data by this website",
+  "contact_form_submitButton": "Submit",
+  "legal_introTitle": "Legal Notice",
+  "legal_introDescription": "STRATECO GmbH & CO. KG - Company for strategic consulting",
+  "legal_title": "Imprint",
+  "privacy_introTitle": "Privacy Policy",
+  "privacy_introDescription": "We protect your data!",
+  "privacy_title": "Our Privacy Policy",
+  "footer_email": "Email",
+  "footer_phone": "Phone",
+  "footer_or": "or",
+  "featureBox_feature1_headline": "Managed Services",
+  "featureBox_feature1_text": "We help you to solve regulatory challenges with our many years of expertise and innovative technologies. Case-by-case up to implementation - from a single source.",
+  "featureBox_feature2_headline": "Smart Data Management",
+  "featureBox_feature2_text": "Data is the key success factor in the digitalised world. We consolidate your data silos and turn \"Big Data\" into \"smart actionable intelligence\"!",
+  "featureBox_feature3_headline": "Risk Management",
+  "featureBox_feature3_text": "Never before has risk management been so important for business organizations as it is today. STRATECO designs concepts and implements integrated risk management solutions for banks and other financial services providers.",
+  "slider_slide1_headline": "Looking to reach new heights?",
+  "slider_slide1_text": "Our expertise and solutions create a solid foundation for your growth.",
+  "slider_slide2_headline": "Our results stand out",
+  "slider_slide2_text": "We are that bit more inventive while remaining highly professional in execution.",
+  "slider_slide3_headline": "Step by step, we reach the next level",
+  "slider_slide3_text": "We are your reliable partner when it comes to mastering your challenges!",
+  "slider_slide4_headline": "To infinity and beyond...",
+  "slider_slide4_text": "Are you striving for the unattainable? We help you get very close to your goal.",
+  "slider_slide5_headline": "Our expertise is your competitive edge",
+  "slider_slide5_text": "For more than 20 years, we have passionately (re)invented the most successful strategies and solutions for our clients."
 }

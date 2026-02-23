@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['topics.financeAndControlling.title']()}</title>
-  <meta name="description" content={m['topics.financeAndControlling.title']()} />
+  <title>{m.topics_financeAndControlling_title()}</title>
+  <meta name="description" content={m.topics_financeAndControlling_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.topics.financeAndControlling']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m.navigation_topics_financeAndControlling()} description={m.aboutUs_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['navigation.topics.financeAndControlling']()}</h2>
+    <h2>{m.navigation_topics_financeAndControlling()}</h2>
     <h3>Competency</h3>
     <p>
       Strateco combines functional expertise with technical and practical experience. With our specialized methodologies and technical skills we help our

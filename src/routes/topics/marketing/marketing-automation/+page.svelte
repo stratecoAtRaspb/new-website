@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['topics.marketing.marketingAutomation.title']()}</title>
-  <meta name="description" content={m['topics.marketing.marketingAutomation.title']()} />
+  <title>{m.topics_marketing_marketingAutomation_title()}</title>
+  <meta name="description" content={m.topics_marketing_marketingAutomation_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.topics.marketingAutomation']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m.navigation_topics_marketingAutomation()} description={m.aboutUs_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['navigation.topics.marketingAutomation']()}</h2>
+    <h2>{m.navigation_topics_marketingAutomation()}</h2>
     <p>
       Ob Sie neue Leads generieren oder bestehende weiter qualifizieren möchten - hier liegt viel Potenzial für effiziente Prozesse.<br /> Wir zeigen Ihnen neue
       Möglichkeiten mit "Marketing Automation"!

@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['topics.cea.brandAndLoyalityManagement.title']()}</title>
-  <meta name="description" content={m['topics.cea.brandAndLoyalityManagement.title']()} />
+  <title>{m.topics_cea_brandAndLoyalityManagement_title()}</title>
+  <meta name="description" content={m.topics_cea_brandAndLoyalityManagement_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.topics.brandAndLoyalityManagement']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m.navigation_topics_brandAndLoyalityManagement()} description={m.aboutUs_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['navigation.topics.brandAndLoyalityManagement']()}</h2>
+    <h2>{m.navigation_topics_brandAndLoyalityManagement()}</h2>
 
     <p>
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam

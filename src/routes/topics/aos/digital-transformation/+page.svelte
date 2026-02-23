@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['topics.aos.digitalTransformation.title']()}</title>
-  <meta name="description" content={m['topics.aos.digitalTransformation.title']()} />
+  <title>{m.topics_aos_digitalTransformation_title()}</title>
+  <meta name="description" content={m.topics_aos_digitalTransformation_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['topics.digitalTransformation.introTitle']()} description={m['topics.digitalTransformation.introDescription']()}></IntroBox>
+  <IntroBox title={m.topics_digitalTransformation_introTitle()} description={m.topics_digitalTransformation_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['topics.digitalTransformation.title']()}</h2>
+    <h2>{m.topics_digitalTransformation_title()}</h2>
 
     <p>
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam

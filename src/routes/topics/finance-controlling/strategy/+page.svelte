@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['topics.financeAndControlling.strategy.title']()}</title>
-  <meta name="description" content={m['topics.financeAndControlling.strategy.title']()} />
+  <title>{m.topics_financeAndControlling_strategy_title()}</title>
+  <meta name="description" content={m.topics_financeAndControlling_strategy_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.topics.strategy']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m.navigation_topics_strategy()} description={m.aboutUs_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['navigation.topics.strategy']()}</h2>
+    <h2>{m.navigation_topics_strategy()}</h2>
     <h3>Kompetenz</h3>
     <p>
       STRATECO hilft dem Kunden, sich durch innovative Finanzprodukte im Markt erfolgreich zu positionieren und unterstützt Sie darüber hinaus auch bei der

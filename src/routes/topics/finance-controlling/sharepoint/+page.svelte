@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['topics.financeAndControlling.sharepoint.title']()}</title>
-  <meta name="description" content={m['topics.financeAndControlling.sharepoint.title']()} />
+  <title>{m.topics_financeAndControlling_sharepoint_title()}</title>
+  <meta name="description" content={m.topics_financeAndControlling_sharepoint_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.topics.sharepoint']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m.navigation_topics_sharepoint()} description={m.aboutUs_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['navigation.topics.sharepoint']()}</h2>
+    <h2>{m.navigation_topics_sharepoint()}</h2>
 
     <p>
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam

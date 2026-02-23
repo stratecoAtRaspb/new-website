@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['topics.cea.socialMediaMonitoring.title']()}</title>
-  <meta name="description" content={m['topics.cea.socialMediaMonitoring.title']()} />
+  <title>{m.topics_cea_socialMediaMonitoring_title()}</title>
+  <meta name="description" content={m.topics_cea_socialMediaMonitoring_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.topics.socialMediaMonitoring']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m.navigation_topics_socialMediaMonitoring()} description={m.aboutUs_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['navigation.topics.socialMediaMonitoring']()}</h2>
+    <h2>{m.navigation_topics_socialMediaMonitoring()}</h2>
     <p>
       Das "Social Web" eröffnet zahlreiche neue Chancen für Unternehmen, bringt aber auch neue Risiken mit sich. Wir helfen Ihnen dabei, einen Wissensvorsprung
       zu erzielen und Fehler zu vermeiden!<br />

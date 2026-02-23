@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['topics.financeAndControlling.processes.title']()}</title>
-  <meta name="description" content={m['topics.financeAndControlling.processes.title']()} />
+  <title>{m.topics_financeAndControlling_processes_title()}</title>
+  <meta name="description" content={m.topics_financeAndControlling_processes_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.topics.processes']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m.navigation_topics_processes()} description={m.aboutUs_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['navigation.topics.processes']()}</h2>
+    <h2>{m.navigation_topics_processes()}</h2>
     <h3>Kompetenz</h3>
     <p>
       STRATECO verbindet funktionale Expertise mit technischer und praktischer Erfahrung. Mit unseren<br /> spezialisierten Methoden und technischem Wissen helfen

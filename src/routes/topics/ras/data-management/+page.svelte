@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['topics.ras.dataManagement.title']()}</title>
-  <meta name="description" content={m['topics.ras.dataManagement.title']()} />
+  <title>{m.topics_ras_dataManagement_title()}</title>
+  <meta name="description" content={m.topics_ras_dataManagement_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.topics.dataManagement']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m.navigation_topics_dataManagement()} description={m.aboutUs_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['navigation.topics.dataManagement']()}</h2>
+    <h2>{m.navigation_topics_dataManagement()}</h2>
     <h3>Competency</h3>
     <p>
       Using standard-technology for business intelligence solutions STRATECO closes this gap by trans-forming Output data from various Kamakura Risk Manager

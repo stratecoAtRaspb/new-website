@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['topics.aos.culturalChangeFacilliation.title']()}</title>
-  <meta name="description" content={m['topics.aos.culturalChangeFacilliation.title']()} />
+  <title>{m.topics_aos_culturalChangeFacilliation_title()}</title>
+  <meta name="description" content={m.topics_aos_culturalChangeFacilliation_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.topics.culturalChangeFacilliation']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m.navigation_topics_culturalChangeFacilliation()} description={m.aboutUs_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['navigation.topics.culturalChangeFacilliation']()}</h2>
+    <h2>{m.navigation_topics_culturalChangeFacilliation()}</h2>
 
     <p>
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam

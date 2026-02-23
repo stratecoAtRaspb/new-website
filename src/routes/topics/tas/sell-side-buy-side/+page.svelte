@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-  <title>{m['topics.tas.sellSideBuySide.title']()}</title>
-  <meta name="description" content={m['topics.tas.sellSideBuySide.title']()} />
+  <title>{m.topics_tas_sellSideBuySide_title()}</title>
+  <meta name="description" content={m.topics_tas_sellSideBuySide_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['navigation.topics.sellSideBuySide']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m.navigation_topics_sellSideBuySide()} description={m.aboutUs_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['navigation.topics.sellSideBuySide']()}</h2>
+    <h2>{m.navigation_topics_sellSideBuySide()}</h2>
 
     <p>
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam

@@ -9,21 +9,21 @@
 </script>
 
 <svelte:head>
-  <title>{m['aboutUs.management.title']()}</title>
-  <meta name="description" content={m['aboutUs.management.title']()} />
+  <title>{m.aboutUs_management_title()}</title>
+  <meta name="description" content={m.aboutUs_management_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['aboutUs.management.introTitle']()} description={m['aboutUs.management.introDescription']()}></IntroBox>
+  <IntroBox title={m.aboutUs_management_introTitle()} description={m.aboutUs_management_introDescription()}></IntroBox>
 </Stage>
 
 <Section>
   <Breadcrumb/>
   <div class="prose mt-4">
-    <h2>{m['aboutUs.management.title']()}</h2>
+    <h2>{m.aboutUs_management_title()}</h2>
     <blockquote class="relative mt-2 mb-12 ml-4 max-w-4xl">
       <svg
-        class="absolute -start-6 -top-6 size-16 text-gray-100"
+        class="absolute -inset-s-6 -top-6 size-16 text-gray-100"
         width="16"
         height="16"
         viewBox="0 0 16 16"
@@ -106,7 +106,7 @@
 
     <blockquote class="relative mt-4 mb-12 ml-4 max-w-4xl">
       <svg
-        class="absolute -start-6 -top-6 size-16 text-gray-100"
+        class="absolute -inset-s-6 -top-6 size-16 text-gray-100"
         width="16"
         height="16"
         viewBox="0 0 16 16"

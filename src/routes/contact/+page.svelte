@@ -29,23 +29,23 @@
 </script>
 
 <svelte:head>
-  <title>{m['contact.title']()}</title>
-  <meta name="description" content={m['contact.title']()} />
+  <title>{m.contact_title()}</title>
+  <meta name="description" content={m.contact_title()} />
 </svelte:head>
 
 <Stage>
-  <IntroBox title={m['contact.introTitle']()} description={m['aboutUs.introDescription']()}></IntroBox>
+  <IntroBox title={m.contact_introTitle()} description={m.aboutUs_introDescription()}></IntroBox>
 </Stage>
 
 {#snippet left()}
   <div class="prose">
-    <h2>{m['contact.title']()}</h2>
+    <h2>{m.contact_title()}</h2>
     <div class="prose">
-      {@html m['contact.text']()}
+      {@html m.contact_text()}
     </div>
   </div>
 
-  <h3 class="pt-10 pb-5">{m['contact.secondHeadline']()}</h3>
+  <h3 class="pt-10 pb-5">{m.contact_secondHeadline()}</h3>
 
   <div id="map"></div>
 {/snippet}
@@ -62,39 +62,39 @@
 
     <div class="form-field-container">
       <div class="form-field-section">
-        <label for="first-name">{m['contact.form.firstNameLabel']()}</label>
-        <input type="text" id="first-name" name="first-name" placeholder={m['contact.form.firstNamePlaceholder']()} required />
+        <label for="first-name">{m.contact_form_firstNameLabel()}</label>
+        <input type="text" id="first-name" name="first-name" placeholder={m.contact_form_firstNamePlaceholder()} required />
       </div>
       <div class="form-field-section">
-        <label for="last-name">{m['contact.form.lastNameLabel']()}</label>
-        <input type="text" id="last-name" name="last-name" placeholder={m['contact.form.lastNamePlaceholder']()} required />
+        <label for="last-name">{m.contact_form_lastNameLabel()}</label>
+        <input type="text" id="last-name" name="last-name" placeholder={m.contact_form_lastNamePlaceholder()} required />
       </div>
     </div>
 
     <div class="form-field-container">
       <div class="form-field-section full-width">
-        <label for="email">{m['contact.form.emailLabel']()}</label>
-        <input type="email" id="email" name="email" placeholder={m['contact.form.emailPlaceholder']()} required />
+        <label for="email">{m.contact_form_emailLabel()}</label>
+        <input type="email" id="email" name="email" placeholder={m.contact_form_emailPlaceholder()} required />
       </div>
     </div>
 
     <div class="form-field-container">
       <div class="form-field-section full-width">
-        <label for="phone">{m['contact.form.phoneLabel']()}</label>
-        <input type="tel" id="phone" name="phone" placeholder={m['contact.form.phonePlaceholder']()} />
+        <label for="phone">{m.contact_form_phoneLabel()}</label>
+        <input type="tel" id="phone" name="phone" placeholder={m.contact_form_phonePlaceholder()} />
       </div>
     </div>
 
     <div class="form-field-container">
       <div class="form-field-section full-width">
-        <label for="subject">{m['contact.form.subjectLabel']()}</label>
-        <input type="text" id="subject" name="subject" placeholder={m['contact.form.subjectPlaceholder']()} />
+        <label for="subject">{m.contact_form_subjectLabel()}</label>
+        <input type="text" id="subject" name="subject" placeholder={m.contact_form_subjectPlaceholder()} />
       </div>
     </div>
 
     <div class="form-field-container no-margin">
       <div class="form-field-section full-width">
-        <label for="message">{m['contact.form.messageLabel']()}</label>
+        <label for="message">{m.contact_form_messageLabel()}</label>
         <span class="additional-information"></span>
         <textarea id="message" name="message" rows="4" placeholder="" required></textarea>
       </div>
@@ -102,11 +102,11 @@
     <div class="form-field-container">
       <div class="form-field-section full-width checkbox-dialog">
         <input id="dsgvo" name="dsgvo" type="checkbox" value="dsgvo-confirmed" class="is-checkbox accent-secondary" required />
-        <label for="dsgvo">{m['contact.form.dsgvoLabel']()}</label>
+        <label for="dsgvo">{m.contact_form_dsgvoLabel()}</label>
       </div>
     </div>
     <div class="submit-row">
-      <button type="submit" class="btn btn-secondary ml-auto">{m['contact.form.submitButton']()}</button>
+      <button type="submit" class="btn btn-secondary ml-auto">{m.contact_form_submitButton()}</button>
     </div>
   </form>
 {/snippet}
