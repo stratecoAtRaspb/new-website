@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { env } from '$env/dynamic/private';
   import BasicContentHalf from '$lib/components/basic-content-half.svelte';
   import IntroBox from '$lib/components/intro-box.svelte';
   import Section from '$lib/components/section.svelte';
@@ -8,7 +9,7 @@
   import mapboxgl from 'mapbox-gl';
   import 'mapbox-gl/dist/mapbox-gl.css';
 
-  mapboxgl.accessToken = 'pk.eyJ1IjoicmFzcGIiLCJhIjoiY21pbHY3a3h4MW9yNTNkcXgxY3Y3dm5zNSJ9.nhcu1xJvHDqpJ8-5tQy0jA';
+  mapboxgl.accessToken = env.MAPBOX_ACCESS_TOKEN;
 
   onMount(async () => {
     const el = document.createElement('div');
@@ -116,7 +117,7 @@
 <style lang="postcss">
   @reference '../../app.css';
   #map {
-    @apply m-auto h-[360px] w-full max-w-7xl rounded-2xl shadow-lg;
+    @apply m-auto h-90 w-full max-w-7xl rounded-2xl shadow-lg;
   }
   :global(div.stratecoMapMarker) {
     background-image: url('/map-marker.png');
