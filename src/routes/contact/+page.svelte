@@ -49,7 +49,7 @@
   <div id="map"></div>
 {/snippet}
 {#snippet right()}
-  <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you">
+  <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/thank-you">
     <input type="hidden" name="form-name" value="contact" />
 
     <p class="hidden">
@@ -143,7 +143,7 @@
         &.checkbox-dialog {
           @apply flex items-center pt-4 pb-2; 
           label {
-            @apply !mb-0 !ml-3 cursor-pointer;
+            @apply mb-0! ml-3! cursor-pointer;
             &:hover {
               @apply text-mediumGrey;
             }

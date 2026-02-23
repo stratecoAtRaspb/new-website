@@ -106,7 +106,6 @@ export default defineConfig({
         {
           pattern: '/:path(.*)?',
           localized: [
-            // Wichtig: spezifische Pfade (mit /de/) zuerst, generische zuletzt :contentReference[oaicite:1]{index=1}
             ['de', '/de/:path(.*)?'],
             ['en', '/en/:path(.*)?']
           ]
