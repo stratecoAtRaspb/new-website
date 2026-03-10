@@ -11,11 +11,9 @@
  */
 
 import { GraphQLClient } from 'graphql-request';
-import {
-	GRAPHQL_TOKEN,
-	GRAPHQL_CONTENT_API,
-	GRAPHQL_MANAGEMENT_API
-} from '$env/static/private';
+import { env } from '$env/dynamic/private';
+
+const { GRAPHQL_TOKEN, GRAPHQL_CONTENT_API, GRAPHQL_MANAGEMENT_API } = env;
 
 function buildClient(endpoint: string, token: string): GraphQLClient {
 	if (!endpoint || !token) {
