@@ -5,6 +5,7 @@
   import Stage from '$lib/components/stage.svelte';
   import { m } from '$lib/paraglide/messages';
   import { localizeHref } from '$lib/paraglide/runtime';
+  import { resolve } from '$app/paths';
 </script>
 
 <svelte:head>
@@ -89,7 +90,8 @@
     <p>Marketing Automation erlaubt es Ihnen mit weniger Resourcen im Marketing mehr zu bewegen.</p>
   </div>
 
-  <a href={localizeHref('/topics/marketing')}>Zurück zu Übersicht</a>
+  <!-- eslint-disable-next-line @typescript-eslint/no-explicit-any -->
+  <a href={ resolve(localizeHref('/topics/marketing') as any) }>Zurück zu Übersicht</a>
 {/snippet}
 {#snippet right()}{/snippet}
 <Section>

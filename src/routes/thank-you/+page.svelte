@@ -1,5 +1,4 @@
 <script>
-  import { page } from '$app/state';
   import { goto } from '$app/navigation';
   import { localizeHref } from '$lib/paraglide/runtime';
   import Section from '$lib/components/section.svelte';
@@ -9,7 +8,7 @@
   <title>Das Formular wurde erfolgreich übermittelt. Vielen Dank!</title>
 </svelte:head>
 
-<Section type={'master'}>
+<Section type="master">
   <div class="prose flex flex-col items-center justify-center">
     <h1>Vielen Dank!</h1>
     <p>Wir haben Ihre Nachricht erhalten und werden uns in Kürze bei Ihnen melden...</p>

@@ -5,6 +5,7 @@
   import Stage from '$lib/components/stage.svelte';
   import { m } from '$lib/paraglide/messages';
   import { localizeHref } from '$lib/paraglide/runtime';
+  import { resolve } from '$app/paths';
 </script>
 
 <svelte:head>
@@ -30,7 +31,8 @@
     </p>
   </div>
 
-  <a href={localizeHref('/expertise')}>Zurück zu Kompetenzen</a>
+  <!-- eslint-disable-next-line @typescript-eslint/no-explicit-any -->
+  <a href={ resolve(localizeHref('/expertise') as any) }>Zurück zu Kompetenzen</a>
 {/snippet}
 {#snippet right()}{/snippet}
 <Section>

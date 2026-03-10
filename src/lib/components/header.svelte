@@ -2,6 +2,7 @@
   import { page } from '$app/state';
   import { m } from '$lib/paraglide/messages';
   import { getLocale, localizeHref, setLocale } from '$lib/paraglide/runtime';
+  import { resolve } from '$app/paths';
 
   let mobileNavOpen = $state(false);
   let activeMenu = $state<string | null>(null);
@@ -250,7 +251,8 @@
   <div class="inner-box">
     <div class="inner-wrapper">
       <div class="logo-area">
-        <a class="company-logo solid" href={localizeHref('/')} aria-label="STRATECO - Logo"></a>
+        <!-- eslint-disable-next-line @typescript-eslint/no-explicit-any -->
+        <a class="company-logo solid" href={ resolve(localizeHref('/') as any) } aria-label="STRATECO - Logo"></a>
       </div>
 
       <!-- Burger Button -->
@@ -271,7 +273,8 @@
             onmouseenter={() => handleMouseEnter('expertise')}
             onmouseleave={handleMouseLeave}
           >
-            <a href={localizeHref('/expertise')} class="solid nav-link-wrapper" class:active={page.url.pathname == localizeHref('expertise')}>
+            <!-- eslint-disable-next-line @typescript-eslint/no-explicit-any -->
+            <a href={ resolve(localizeHref('/expertise') as any) } class="solid nav-link-wrapper" class:active={page.url.pathname == localizeHref('expertise')}>
               <span>{m.navigation_expertise_self()}</span>
               <svg
                 class="nav-arrow"
@@ -306,7 +309,8 @@
                         <ul class="section-links">
                           {#each section.items as item}
                             <li>
-                              <a href={localizeHref(item.href)} class="menu-link" class:active={page.url.pathname == localizeHref(item.href)}>
+                              <!-- eslint-disable-next-line @typescript-eslint/no-explicit-any -->
+                              <a href={ resolve(localizeHref(item.href) as any) } class="menu-link" class:active={page.url.pathname == localizeHref(item.href)}>
                                 {item.label()}
                               </a>
                             </li>
@@ -327,7 +331,8 @@
             onmouseenter={() => handleMouseEnter('topics')}
             onmouseleave={handleMouseLeave}
           >
-            <a href={localizeHref('/topics')} class="solid nav-link-wrapper" class:active={page.url.pathname == localizeHref('topics')}>
+            <!-- eslint-disable-next-line @typescript-eslint/no-explicit-any -->
+            <a href={ resolve(localizeHref('/topics') as any) } class="solid nav-link-wrapper" class:active={page.url.pathname == localizeHref('topics')}>
               <span>{m.navigation_topics_self()}</span>
               <svg
                 class="nav-arrow"
@@ -362,7 +367,8 @@
                         <ul class="section-links">
                           {#each section.items as item}
                             <li>
-                              <a href={localizeHref(item.href)} class="menu-link" class:active={page.url.pathname == localizeHref(item.href)}>
+                              <!-- eslint-disable-next-line @typescript-eslint/no-explicit-any -->
+                              <a href={ resolve(localizeHref(item.href) as any) } class="menu-link" class:active={page.url.pathname == localizeHref(item.href)}>
                                 {item.label()}
                               </a>
                             </li>
@@ -383,7 +389,8 @@
             onmouseenter={() => handleMouseEnter('about')}
             onmouseleave={handleMouseLeave}
           >
-            <a href={localizeHref('/about-us')} class="solid nav-link-wrapper" class:active={page.url.pathname == localizeHref('/about-us')}>
+            <!-- eslint-disable-next-line @typescript-eslint/no-explicit-any -->
+            <a href={ resolve(localizeHref('/about-us') as any) } class="solid nav-link-wrapper" class:active={page.url.pathname == localizeHref('/about-us')}>
               <span>{m.navigation_aboutUs_self()}</span>
               <svg
                 class="nav-arrow"
@@ -417,7 +424,8 @@
                         <ul class="section-links">
                           {#each section.items as item}
                             <li>
-                              <a href={localizeHref(item.href)} class="menu-link" class:active={page.url.pathname == localizeHref(item.href)}>
+                              <!-- eslint-disable-next-line @typescript-eslint/no-explicit-any -->
+                              <a href={ resolve(localizeHref(item.href) as any) } class="menu-link" class:active={page.url.pathname == localizeHref(item.href)}>
                                 {item.label()}
                               </a>
                             </li>
@@ -441,7 +449,8 @@
             </a>
           </li>
           <li>
-            <a href={localizeHref('/contact')} class="solid" class:active={page.url.pathname == localizeHref('/contact')}>
+            <!-- eslint-disable-next-line @typescript-eslint/no-explicit-any -->
+            <a href={ resolve(localizeHref('/contact') as any) } class="solid" class:active={page.url.pathname == localizeHref('/contact')}>
               {m.navigation_contact_self()}
             </a>
           </li>
@@ -459,7 +468,8 @@
 {#if mobileNavOpen}
   <div class="mobile-menu-overlay" role="dialog" aria-modal="true">
     <div class="mobile-menu-header">
-      <a class="company-logo solid" href={localizeHref('/')} onclick={toggleMobileNav} aria-label="STRATECO - Logo"></a>
+      <!-- eslint-disable-next-line @typescript-eslint/no-explicit-any -->
+      <a class="company-logo solid" href={ resolve(localizeHref('/') as any) } onclick={toggleMobileNav} aria-label="STRATECO - Logo"></a>
       <button class="close-btn" onclick={toggleMobileNav} aria-label="Close Menu">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <line x1="18" y1="6" x2="6" y2="18"></line>
@@ -495,7 +505,8 @@
                     <div class="mobile-section-heading">{section.heading}</div>
                   {/if}
                   {#each section.items as item}
-                    <a href={localizeHref(item.href)} class="mobile-sublink" onclick={toggleMobileNav}>
+                    <!-- eslint-disable-next-line @typescript-eslint/no-explicit-any -->
+                    <a href={ resolve(localizeHref(item.href) as any) } class="mobile-sublink" onclick={toggleMobileNav}>
                       {item.label()}
                     </a>
                   {/each}
@@ -528,7 +539,8 @@
                     <div class="mobile-section-heading {section.color || ''}">{section.heading}</div>
                   {/if}
                   {#each section.items as item}
-                    <a href={localizeHref(item.href)} class="mobile-sublink" onclick={toggleMobileNav}>
+                    <!-- eslint-disable-next-line @typescript-eslint/no-explicit-any -->
+                    <a href={ resolve(localizeHref(item.href) as any) } class="mobile-sublink" onclick={toggleMobileNav}>
                       {item.label()}
                     </a>
                   {/each}
@@ -558,7 +570,8 @@
               <div class="mobile-submenu">
                 {#each navigation.aboutUs.sections as section}
                   {#each section.items as item}
-                    <a href={localizeHref(item.href)} class="mobile-sublink" onclick={toggleMobileNav}>
+                    <!-- eslint-disable-next-line @typescript-eslint/no-explicit-any -->
+                    <a href={ resolve(localizeHref(item.href) as any) } class="mobile-sublink" onclick={toggleMobileNav}>
                       {item.label()}
                     </a>
                   {/each}
@@ -582,7 +595,8 @@
 
           <!-- Contact -->
           <li class="mobile-nav-item">
-            <a href={localizeHref('/contact')} class="mobile-nav-link" onclick={toggleMobileNav}>
+            <!-- eslint-disable-next-line @typescript-eslint/no-explicit-any -->
+            <a href={ resolve(localizeHref('/contact') as any) } class="mobile-nav-link" onclick={toggleMobileNav}>
               {m.navigation_contact_self()}
             </a>
           </li>

@@ -26,10 +26,10 @@
 {/snippet}
 {#snippet right()}
   <QuoteCard
-    quote={'In Dir muss brennen, was Du in anderen entzünden willst !'}
-    author={'Augustinus von Hippo'}
-    role={'Kirchenlehrer und Philosoph (354-430)'}
-    image={'/images/augustinus-von-hippo.jpg'}
+    quote="In Dir muss brennen, was Du in anderen entzünden willst !"
+    author="Augustinus von Hippo"
+    role="Kirchenlehrer und Philosoph (354-430)"
+    image="/images/augustinus-von-hippo.jpg"
   />
 {/snippet}
 <Section>

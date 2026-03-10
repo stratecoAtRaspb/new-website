@@ -6,6 +6,7 @@
   import Stage from '$lib/components/stage.svelte';
   import { m } from '$lib/paraglide/messages';
   import { localizeHref } from '$lib/paraglide/runtime';
+  import { resolve } from '$app/paths';
 </script>
 
 <svelte:head>
@@ -32,21 +33,31 @@
     <div class="prose basis-sm">
       <h3>{m.expertise_sectionHeadline1()}</h3>
       <ul class="linklist">
-        <li><a href={localizeHref('/expertise/strategy')}>{m.navigation_expertise_strategy()}</a></li>
-        <li><a href={localizeHref('/expertise/processes')}>{m.navigation_expertise_processes()}</a></li>
-        <li><a href={localizeHref('/expertise/implementation')}>{m.navigation_expertise_implementation()}</a></li>
-        <li><a href={localizeHref('/expertise/people')}>{m.navigation_expertise_people()}</a></li>
-        <li><a href={localizeHref('/expertise/technology')}>{m.navigation_expertise_technology()}</a></li>
+        <!-- eslint-disable-next-line @typescript-eslint/no-explicit-any -->
+        <li><a href={ resolve(localizeHref('/expertise/strategy') as any) }>{m.navigation_expertise_strategy()}</a></li>
+        <!-- eslint-disable-next-line @typescript-eslint/no-explicit-any -->
+        <li><a href={ resolve(localizeHref('/expertise/processes') as any) }>{m.navigation_expertise_processes()}</a></li>
+        <!-- eslint-disable-next-line @typescript-eslint/no-explicit-any -->
+        <li><a href={ resolve(localizeHref('/expertise/implementation') as any) }>{m.navigation_expertise_implementation()}</a></li>
+        <!-- eslint-disable-next-line @typescript-eslint/no-explicit-any -->
+        <li><a href={ resolve(localizeHref('/expertise/people') as any) }>{m.navigation_expertise_people()}</a></li>
+        <!-- eslint-disable-next-line @typescript-eslint/no-explicit-any -->
+        <li><a href={ resolve(localizeHref('/expertise/technology') as any) }>{m.navigation_expertise_technology()}</a></li>
       </ul>
     </div>
     <div class="prose basis-sm">
       <h3>{m.expertise_sectionHeadline2()}</h3>
       <ul class="linklist">
-        <li><a href={localizeHref('/expertise/financial-institution')}>{m.navigation_expertise_financialInstitution()}</a></li>
-        <li><a href={localizeHref('/expertise/pharma-healthcare')}>{m.navigation_expertise_pharmaAndHealthcare()}</a></li>
-        <li><a href={localizeHref('/expertise/telecoms-media-hightech')}>{m.navigation_expertise_telecomsMediaAndHighTech()}</a></li>
-        <li><a href={localizeHref('/expertise/travel-transport-logistics')}>{m.navigation_expertise_travelTransportAndLogistics()}</a></li>
-        <li><a href={localizeHref('/expertise/other')}>{m.navigation_expertise_other()}</a></li>
+        <!-- eslint-disable-next-line @typescript-eslint/no-explicit-any -->
+        <li><a href={ resolve(localizeHref('/expertise/financial-institution') as any) }>{m.navigation_expertise_financialInstitution()}</a></li>
+        <!-- eslint-disable-next-line @typescript-eslint/no-explicit-any -->
+        <li><a href={ resolve(localizeHref('/expertise/pharma-healthcare') as any) }>{m.navigation_expertise_pharmaAndHealthcare()}</a></li>
+        <!-- eslint-disable-next-line @typescript-eslint/no-explicit-any -->
+        <li><a href={ resolve(localizeHref('/expertise/telecoms-media-hightech') as any) }>{m.navigation_expertise_telecomsMediaAndHighTech()}</a></li>
+        <!-- eslint-disable-next-line @typescript-eslint/no-explicit-any -->
+        <li><a href={ resolve(localizeHref('/expertise/travel-transport-logistics') as any) }>{m.navigation_expertise_travelTransportAndLogistics()}</a></li>
+        <!-- eslint-disable-next-line @typescript-eslint/no-explicit-any -->
+        <li><a href={ resolve(localizeHref('/expertise/other') as any) }>{m.navigation_expertise_other()}</a></li>
       </ul>
     </div>
   </div>

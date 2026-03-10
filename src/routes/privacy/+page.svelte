@@ -4,7 +4,6 @@
   import Section from '$lib/components/section.svelte';
   import Stage from '$lib/components/stage.svelte';
   import { m } from '$lib/paraglide/messages';
-  import { localizeHref } from '$lib/paraglide/runtime';
 </script>
 
 <svelte:head>
@@ -36,5 +35,6 @@
     <p>Deswegen haben wir auch das Leistungsversprechen von STRATECO zum Leitsatz gemacht: Unsere Kompetenz ist Ihr Wettbewerbsvorteil!</p>
   </div>
 
-  <a href={localizeHref('/')}>Zurück</a>
+  <!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
+  <a href="/">Zurück</a>
 </Section>

@@ -2,6 +2,7 @@
   import { goto } from '$app/navigation';
   import { m } from '$lib/paraglide/messages';
   import { localizeHref } from '$lib/paraglide/runtime';
+  import { resolve } from '$app/paths';
 
   const currentYear = new Date().getFullYear();
 
@@ -87,10 +88,14 @@
       <!-- Bottom Bar -->
       <div class="footer-bottom">
         <nav>
-          <a href={localizeHref('/')}>{m.navigation_home_self()}</a>
-          <a href={localizeHref('/privacy')}>{m.navigation_privacy_self()}</a>
-          <a href={localizeHref('/legal')}>{m.navigation_legal_self()}</a>
-          <a href={localizeHref('/contact')}>{m.navigation_contact_self()}</a>
+          <!-- eslint-disable-next-line @typescript-eslint/no-explicit-any -->
+          <a href={ resolve(localizeHref('/') as any) }>{m.navigation_home_self()}</a>
+          <!-- eslint-disable-next-line @typescript-eslint/no-explicit-any -->
+          <a href={ resolve(localizeHref('/privacy') as any) }>{m.navigation_privacy_self()}</a>
+          <!-- eslint-disable-next-line @typescript-eslint/no-explicit-any -->
+          <a href={ resolve(localizeHref('/legal') as any) }>{m.navigation_legal_self()}</a>
+          <!-- eslint-disable-next-line @typescript-eslint/no-explicit-any -->
+          <a href={ resolve(localizeHref('/contact') as any) }>{m.navigation_contact_self()}</a>
         </nav>
         <div class="copyright">
           <span>&copy; {currentYear} STRATECO GmbH</span>

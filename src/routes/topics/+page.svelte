@@ -5,6 +5,7 @@
   import Stage from '$lib/components/stage.svelte';
   import { m } from '$lib/paraglide/messages';
   import { localizeHref } from '$lib/paraglide/runtime';
+  import { resolve } from '$app/paths';
 
   const topicsSections = [
     {
@@ -130,7 +131,8 @@
         <h3 class={section.color ?? 'grey'}>{section.heading}</h3>
         <ul class="linklist">
           {#each section.items as item}
-            <li><a href={localizeHref(item.href)}>{item.label()}</a></li>
+            <!-- eslint-disable-next-line @typescript-eslint/no-explicit-any -->
+            <li><a href={ resolve(localizeHref(item.href) as any) }>{item.label()}</a></li>
           {/each}
         </ul>
       </div>

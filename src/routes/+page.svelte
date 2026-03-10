@@ -18,22 +18,23 @@
   <div class="prose">
     <h2>{m.home_title()}</h2>
     <div class="prose">
+      <!-- eslint-disable-next-line svelte/no-at-html-tags -->
       {@html m.home_text()}
     </div>
   </div>
 {/snippet}
 
 {#snippet right()}
-  <QuoteCard quote={m.home_quote_text()} author={m.home_quote_author()} role={m.home_quote_role()} image={'/images/goethe.jpg'} />
+  <QuoteCard quote={m.home_quote_text()} author={m.home_quote_author()} role={m.home_quote_role()} image="/images/goethe.jpg" />
   <SimpleCard
     headline={m.home_sideBarCard_title()}
     text={m.home_sideBarCard_text()}
-    image={'/images/sidebar-img.jpg'}
+    image="/images/sidebar-img.jpg"
     ctaText={m.home_sideBarCard_ctaText()}
-    ctaTarget={'/contact'}
+    ctaTarget="/contact"
   />
 {/snippet}
 
-<Section type={'extended'}>
+<Section type="extended">
   <BasicContentArea {left} {right} hideBreadCrumb={true} />
 </Section>
