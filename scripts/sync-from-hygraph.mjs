@@ -23,13 +23,17 @@ import { GraphQLClient, gql } from 'graphql-request';
 const __dir = dirname(fileURLToPath(import.meta.url));
 const ROOT  = resolve(__dir, '..');
 
-// Load .env.local
+// Load .env.local (optional – on CI/Netlify variables are injected directly)
 function loadEnv() {
   const envPath = resolve(ROOT, '.env.local');
-  const lines = readFileSync(envPath, 'utf-8').split('\n');
-  for (const line of lines) {
-    const [key, ...rest] = line.split('=');
-    if (key && rest.length) process.env[key.trim()] = rest.join('=').trim();
+  try {
+    const lines = readFileSync(envPath, 'utf-8').split('\n');
+    for (const line of lines) {
+      const [key, ...rest] = line.split('=');
+      if (key && rest.length) process.env[key.trim()] = rest.join('=').trim();
+    }
+  } catch {
+    // .env.local not present – rely on environment variables already being set
   }
 }
 loadEnv();
